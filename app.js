@@ -163,26 +163,63 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ==========================================
-    // B. B2B CLIENT INQUIRY FORM SUBMISSION
+    // B. B2B CLIENT INQUIRY FORM SUBMISSION (Formspree)
     // ==========================================
     const projectForm = document.getElementById('project-form');
     const successMsg = document.getElementById('form-success-msg');
 
     if (projectForm && successMsg) {
-        projectForm.addEventListener('submit', (e) => {
+        projectForm.addEventListener('submit', async (e) => {
             e.preventDefault();
-            projectForm.style.transition = 'opacity 0.3s ease';
-            projectForm.style.opacity = '0';
             
-            setTimeout(() => {
-                projectForm.style.display = 'none';
-                successMsg.style.display = 'flex';
-                if (typeof feather !== 'undefined') {
-                    feather.replace();
+            const submitBtn = projectForm.querySelector('button[type="submit"]');
+            const originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = 'SENDING...';
+            submitBtn.disabled = true;
+
+            const formData = {
+                name: document.getElementById('client-name')?.value,
+                email: document.getElementById('client-email')?.value,
+                projectType: document.getElementById('project-type')?.value,
+                description: document.getElementById('project-desc')?.value,
+            };
+
+            try {
+                // Formspree endpoint — replace 'xpwzanpy' with your actual Formspree form ID
+                const response = await fetch('https://formspree.io/f/xpwzanpy', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                    body: JSON.stringify(formData)
+                });
+
+                if (response.ok) {
+                    projectForm.style.transition = 'opacity 0.3s ease';
+                    projectForm.style.opacity = '0';
+                    setTimeout(() => {
+                        projectForm.style.display = 'none';
+                        successMsg.style.display = 'flex';
+                        if (typeof feather !== 'undefined') feather.replace();
+                    }, 300);
+                } else {
+                    submitBtn.innerHTML = 'ERROR — TRY AGAIN';
+                    submitBtn.disabled = false;
+                    setTimeout(() => {
+                        submitBtn.innerHTML = originalText;
+                        if (typeof feather !== 'undefined') feather.replace();
+                    }, 2000);
                 }
-            }, 300);
+            } catch (err) {
+                // Fallback: open mailto if fetch fails
+                const subject = encodeURIComponent(`BBX Project Brief — ${formData.projectType}`);
+                const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.description}`);
+                window.location.href = `mailto:info@badbrothersx.com?subject=${subject}&body=${body}`;
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+                if (typeof feather !== 'undefined') feather.replace();
+            }
         });
     }
+
 
     // ==========================================
     // C. CONCEPT SHOP SHOPPING MODAL ACTIVATE
