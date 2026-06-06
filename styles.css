@@ -192,7 +192,7 @@ body {
    1. HERO SECTION
    ========================================================================== */
 .hero-section {
-    grid-template-columns: 1fr 1.1fr;
+    grid-template-columns: 1fr 1.65fr;
     padding-top: 40px;
 }
 
@@ -1224,20 +1224,22 @@ body {
     
     .hero-section .text-panel {
         padding: 20px;
+        order: 2;
     }
     
     .hero-section .media-panel {
-        padding: 0 20px 20px;
+        padding: 0 16px 20px;
+        order: 1;
     }
 
     .video-container {
         width: 100%;
+        aspect-ratio: 16/10;
     }
 
     .visual-poster {
         width: 100%;
-        height: auto;
-        max-height: 280px;
+        height: 100%;
         object-fit: cover;
     }
     
@@ -1347,6 +1349,17 @@ body {
     
     .main-title {
         font-size: 3rem;
+    }
+    
+    .hero-section .btn {
+        padding: 10px 20px;
+        font-size: 0.85rem;
+        font-weight: 700;
+        border-radius: 5px;
+    }
+    
+    .hero-section .button-group {
+        gap: 10px;
     }
     
     .site-footer {
