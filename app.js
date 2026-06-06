@@ -27,6 +27,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 navMenu.classList.remove('open');
             });
         });
+
+        // Close menu when clicking outside (on the dim overlay)
+        document.addEventListener('click', (e) => {
+            if (navMenu.classList.contains('open') &&
+                !navMenu.contains(e.target) &&
+                !hamburgerBtn.contains(e.target)) {
+                hamburgerBtn.classList.remove('active');
+                navMenu.classList.remove('open');
+            }
+        });
     }
 
     // ==========================================

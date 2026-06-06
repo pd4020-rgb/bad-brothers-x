@@ -1,0 +1,16 @@
+{
+  "name": "BAD BROTHERS X",
+  "short_name": "BBX",
+  "description": "An Original Vision. Realized Through AI.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "video_poster.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
