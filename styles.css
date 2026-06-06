@@ -1214,8 +1214,16 @@ body {
    RESPONSIVE LAYOUT MEDIA QUERIES (MOBILE OPTIMIZATIONS)
    ========================================================================== */
 @media (max-width: 992px) {
+    .site-content {
+        padding: 0 16px;
+    }
+
     .grid-section {
         padding: 40px 0;
+    }
+    
+    .section-header-row {
+        padding: 30px 0 15px 0;
     }
     
     .hero-section {
@@ -1223,12 +1231,12 @@ body {
     }
     
     .hero-section .text-panel {
-        padding: 20px;
+        padding: 20px 0;
         order: 2;
     }
     
     .hero-section .media-panel {
-        padding: 0 16px 20px;
+        padding: 0 0 20px;
         order: 1;
     }
 
@@ -1283,9 +1291,13 @@ body {
 
 @media (max-width: 768px) {
     .site-header {
-        padding: 16px 20px;
+        padding: 16px 16px;
         flex-direction: row;
         gap: 0;
+    }
+    
+    .site-content {
+        padding: 0 16px;
     }
 
     .hamburger-btn {
@@ -1349,6 +1361,29 @@ body {
     
     .main-title {
         font-size: 3rem;
+        margin-bottom: 16px;
+    }
+    
+    .tagline-badge {
+        margin-bottom: 16px;
+    }
+    
+    .hero-description {
+        font-size: 0.95rem;
+        margin-bottom: 24px;
+        line-height: 1.45;
+    }
+    
+    .section-subtitle {
+        font-size: 0.95rem;
+    }
+    
+    .artist-status {
+        font-size: 0.75rem;
+    }
+    
+    .artist-bio {
+        font-size: 0.95rem;
     }
     
     .hero-section .btn {
