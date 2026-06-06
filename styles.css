@@ -1097,7 +1097,7 @@ body {
    ========================================================================== */
 .store-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
 }
 
@@ -1109,13 +1109,42 @@ body {
 
 .product-image {
     width: 100%;
-    aspect-ratio: 1.2/1;
+    aspect-ratio: 1/1;
     background-color: var(--bg-card);
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
+    overflow: hidden;
+}
+
+.prod-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.product-card:hover .prod-img {
+    transform: scale(1.05);
+    filter: brightness(0.7);
+}
+
+.prod-status-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    color: var(--accent-green);
+    text-align: center;
+    border-top: 1px solid rgba(57, 255, 174, 0.2);
 }
 
 .prod-badge {
@@ -1123,24 +1152,112 @@ body {
     top: 12px;
     left: 12px;
     font-family: var(--font-mono);
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     color: var(--accent-green);
-    background-color: var(--accent-green-dim);
+    background-color: rgba(0, 0, 0, 0.7);
     border: 1px solid var(--accent-green);
     padding: 3px 8px;
     border-radius: 4px;
+    z-index: 2;
+    backdrop-filter: blur(4px);
 }
 
-.prod-icon {
-    width: 40px;
-    height: 40px;
-    color: var(--text-dark);
-    transition: var(--transition);
+/* Shop Notice */
+.shop-notice {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 24px;
+    background: rgba(57, 255, 174, 0.04);
+    border: 1px solid rgba(57, 255, 174, 0.12);
+    border-radius: 8px;
+    margin-bottom: 40px;
 }
 
-.product-card:hover .prod-icon {
-    color: var(--accent-green);
-    transform: scale(1.1) rotate(5deg);
+.notice-badge {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 2px;
+    color: #0a0a0a;
+    background: var(--accent-green);
+    padding: 4px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-weight: 700;
+}
+
+.shop-notice p {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+
+/* NOTIFY ME button */
+.shop-notify-btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.shop-notify-btn svg {
+    width: 14px;
+    height: 14px;
+}
+
+/* Waitlist CTA */
+.shop-waitlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 48px;
+    padding: 32px;
+    border: 1px dashed rgba(57, 255, 174, 0.2);
+    border-radius: 8px;
+    background: rgba(57, 255, 174, 0.02);
+}
+
+.waitlist-text {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    letter-spacing: 0.5px;
+}
+
+.waitlist-btn {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.waitlist-btn svg {
+    width: 16px;
+    height: 16px;
+}
+
+@media (max-width: 900px) {
+    .store-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .shop-waitlist {
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+    }
+    .shop-notice {
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .store-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .product-info {

@@ -222,31 +222,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // ==========================================
-    // C. CONCEPT SHOP SHOPPING MODAL ACTIVATE
+    // C. CONCEPT SHOP — NOTIFY ME BUTTONS
     // ==========================================
-    const shopModal = document.getElementById('shop-modal');
-    const buyButtons = document.querySelectorAll('.shop-buy-btn');
-    const closeModalBtn = document.getElementById('btn-close-modal');
+    const notifyButtons = document.querySelectorAll('.shop-notify-btn');
 
-    buyButtons.forEach(btn => {
+    notifyButtons.forEach(btn => {
         btn.addEventListener('click', () => {
-            if (shopModal) {
-                shopModal.style.display = 'flex';
-            }
+            const productName = btn.closest('.product-card').querySelector('h3').textContent;
+            const subject = encodeURIComponent('SHOP Notify — ' + productName);
+            const body = encodeURIComponent('I want to be notified when "' + productName + '" becomes available.\n\nMy Name:\nMy Country:');
+            window.location.href = 'mailto:badbrothersx.official@gmail.com?subject=' + subject + '&body=' + body;
         });
     });
 
+    // Keep close modal for backward compatibility
+    const shopModal = document.getElementById('shop-modal');
+    const closeModalBtn = document.getElementById('btn-close-modal');
     closeModalBtn?.addEventListener('click', () => {
-        if (shopModal) {
-            shopModal.style.display = 'none';
-        }
+        if (shopModal) shopModal.style.display = 'none';
     });
-
-    // Close modal on overlay click
     shopModal?.addEventListener('click', (e) => {
-        if (e.target === shopModal) {
-            shopModal.style.display = 'none';
-        }
+        if (e.target === shopModal) shopModal.style.display = 'none';
     });
 
     // ==========================================
