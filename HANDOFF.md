@@ -1,52 +1,51 @@
 # HANDOFF — 마지막 작업 인수인계
 
-> 마지막 업데이트: 2026-06-06 20:05 KST
-> 마지막 작업자: Gemini 3.5 Flash (Antigravity)
-> Git 커밋: v2.5 (a3fb667)
+> 마지막 업데이트: 2026-06-07 (현재 버전 v3.3)
+> 마지막 작업자: Gemini 3.1 Pro (Antigravity)
 
 ---
 
-## 직전에 완료한 것
+## 🚨 가장 중요한 컨텍스트 (다음 AI가 절대 잊으면 안 되는 것)
 
-1. **로스터 카드 실제 이미지 삽입** — jungking.com에서 갤러리 전시 사진 4장 다운로드 후 적용
-2. **히어로 문구 교체** → "AN ORIGINAL VISION // REALIZED THROUGH AI"
-3. **모바일 햄버거 메뉴** 구현 (HTML + CSS + JS)
-4. **SEO 메타태그 전체 추가** (og:image, og:description, twitter card)
-5. **푸터 SNS 아이콘** (YouTube, Instagram @xjungking, Email)
-6. **PROJECT_BIBLE.md** 생성
-7. **Git 초기화** + 첫 커밋
-8. **Vercel 배포 완료** — https://www.badbrothersx.com 라이브
-9. **PWA 홈화면 아이콘 추가** — 검은색 배경의 흰색 "B" 글자 PNG 아이콘 (180px, 192px, 512px) 제작 및 매니페스트 설정 적용
-10. **글로벌 번역 방지 설정** — 사이트명이 한글 "배드 브라더스 X" 등으로 원치 않게 번역되는 것을 막기 위한 meta 구글 notranslate 설정 추가
-11. **PC 레이아웃 비디오 확장** — PC 해상도에서 비디오 패널을 가로 약 62%로 늘리고 텍스트 패널을 38%로 조절하여 비주얼 강조
-12. **모바일 뷰 레이아웃 재배치 및 간소화** — 비디오 패널이 화면 최상단에 먼저 나오고 텍스트/버튼이 하단으로 내려오도록 CSS 순서 조정 및 모바일 뷰 전용 비디오 aspect-ratio(16:10) 설정. 또한 너무 비대했던 녹색 뷰로스터 버튼의 패딩과 글자 크기를 세련되게 모바일 전용으로 소형화.
-13. **모바일 양쪽 여백 16px 일치** — 모바일 헤더 패딩을 `16px`로 수정하고 본문 `.site-content` 및 패널들의 불필요한 좌우 내부 패딩을 0으로 걷어내어, 헤더 로고의 'B'자 시작점과 우측 햄버거 메뉴 끝선에 완벽히 정렬되도록 수정.
-14. **설명 세부내용 세로 간격 조정** — 모바일에서 메인 타이틀 밑의 비디오 설명 글의 줄간격(`line-height: 1.45`) 및 위아래 여백을 축소하여 한층 조밀하고 완성도 높은 레이아웃 구축.
-15. **모바일 세부 폰트 크기 통일** — 들쭉날쭉하던 메인 히어로 설명글, 로스터 카드 설명글, 섹션 부제목의 모바일 폰트 크기를 모두 `0.95rem`으로 일원화하여 통일감을 부여.
-16. **모바일 첫화면 요소 중앙 정렬** — 모바일 뷰에서 첫화면에 나타나는 그린 배지, 메인 타이틀, 비디오 상세 설명글, 액션 버튼 그룹 전체를 중앙 정렬(`text-align: center`, `align-items: center`, `justify-content: center`) 처리하여 세로 스크롤형 디자인 레이아웃에 최적화된 대칭 밸런스 확보.
+**이 프로젝트는 단순한 "개인 작가 포트폴리오 웹사이트"가 절대 아닙니다.**
+
+이곳은 **BAD BROTHERS X (BBX)** 라는 **글로벌 가상 AI 엔터테인먼트 레이블/에이전시**의 공식 사이트입니다.
+빅히트(HYBE)나 Gorillaz처럼, 소속된 가상 AI 아티스트(CHARACTER X, 88X 등)들이 실제 얼굴, 나이, 직업, 세계관, 음악 장르를 가지고 활동하는 곳입니다.
+정킹(JUNGKING) 작가 본인도 이 레이블의 창립자이자 소속 아티스트로 존재합니다.
+에이전트는 이 사이트를 "엔터테인먼트 레이블의 공식 포털"로 대해야 하며, 매 시즌(상반기/하반기) 새로운 AI 아티스트가 배출될 생태계임을 인지해야 합니다.
+
+---
+
+## 직전에 완료한 것 (v2.8 ~ v3.3 업데이트 내역)
+
+1. **로스터 이미지 전면 수정 (v3.3)**:
+   - JUNGKING: 선글라스를 낀 정킹 본인 사진 (`jungking_portrait.png`)
+   - CHARACTER X: 선인장 머리를 한 가상 아티스트 사진 (`character_x.png`)
+   - 88X: 원숭이 머리를 한 AI 뮤직 프로듀서 사진 (`88x_character.png`)
+2. **ORIGIN STORY 추가 (v3.1)**:
+   - 2004년부터 2026년까지 정킹의 실제 영어 공식 약력(마이애미 페어, 전주국제영화제, 갤러리위 개인전 등)과 영문 작가 노트(Artist Statement)를 타임라인으로 완벽히 반영.
+3. **MUSIC 섹션 연결**: YouTube 공식 뮤직비디오 임베드 완료.
+4. **문의 폼 이메일 연결**: `formsubmit`을 활용해 `badbrothersx.official@gmail.com`으로 실제 메일 전송 연동.
+5. **SEO 및 구글 검색 콘솔**: `sitemap.xml`, `robots.txt` 설정 및 Google Search Console 등록 완료.
+6. **디바이스 대응**: 모바일 가로 모드(Landscape) 헤더 및 여백 최적화 완벽 적용.
+7. Vercel 프로덕션 배포 완료 (`badbrothersx.com`)
 
 ---
 
 ## 다음 AI가 해야 할 작업 (우선순위 순)
 
-### 🔴 1순위 — 즉시
-- [ ] **YouTube MV 임베드**: MUSIC 섹션(#releases)에 https://youtu.be/42R7bbldoHo iframe 삽입
-- [ ] **갤러리 섹션 이미지**: DIGITAL ARCHIVE 섹션의 플레이스홀더를 실제 이미지로 교체 (jungking_work*.jpg 활용)
-- [ ] **sitemap.xml 생성**: Google Search Console 등록용
+### 🔴 1순위 — 즉시 (수익화 및 마케팅)
+- [ ] **SHOP 연동**: 현재 사이트 내 SHOP 섹션이 비어있거나 단순 링크만 있습니다. Etsy, Redbubble 등의 실제 판매 플랫폼 링크를 받고 UI에 연결해야 합니다. (판매 링크가 당장 없다면 이메일 문의로 유도하는 디자인으로 임시 처리)
+- [ ] **Instagram 첫 포스트/릴스 기획 작성**: `@xjungking` 계정에 사이트 오픈과 레이블 비전을 글로벌 타겟(영문 중심)으로 알리는 첫 콘텐츠(캡션 및 해시태그)를 작성하여 사용자에게 제안해야 합니다.
 
-### 🟡 2순위 — 이번 주
-- [ ] SHOP 섹션 → Etsy/Redbubble 외부 링크 연결 (스토어 개설 후)
-- [ ] 음악 플레이어에 실제 mp3 연결 또는 YouTube iframe으로 대체
-
-### 🟢 3순위 — 이번 달
-- [ ] "ORIGIN STORY" 섹션 추가 (원화→AI 변환 과정 시각화)
-- [ ] CHARACTER X 전용 AI 생성 비주얼
+### 🟡 2순위 — 확장 계획
+- [ ] **새 아티스트 티징**: 하반기에 추가될 새로운 AI 캐릭터 아티스트를 위한 "Trainee" 또는 "Coming Soon" 섹션을 ROSTER 하단에 추가.
 
 ---
 
 ## 주의사항
 
-- `PROJECT_BIBLE.md`를 먼저 읽을 것
-- 작업 완료 후 이 파일(HANDOFF.md)을 반드시 업데이트할 것
-- 배포 전 `git commit`으로 복구 지점을 만들 것
+- `PROJECT_BIBLE.md`를 먼저 반드시 읽을 것. (레이블 비전 숙지)
+- 작업 완료 후 이 파일(`HANDOFF.md`)을 반드시 업데이트할 것.
 - 배포 명령어: `export PATH="/Users/jk/Documents/ACA8/node-local/bin:$PATH" && npx vercel --prod --yes`
+
