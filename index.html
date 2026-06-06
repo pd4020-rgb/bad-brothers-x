@@ -460,8 +460,8 @@
             </div>
 
             <div class="shop-notice">
-                <span class="notice-badge">PRE-LAUNCH</span>
-                <p>Official merchandise drops are in production. Join the waitlist below to be first in line when items go live.</p>
+                <span class="notice-badge">PRE-ORDER OPEN</span>
+                <p>Pre-orders are now open. Place your order below — JungKing will confirm and fulfill each order personally.</p>
             </div>
             
             <div class="store-grid">
@@ -476,7 +476,7 @@
                         <h3>Life is Fun — Signed Canvas</h3>
                         <p class="prod-price">$120.00 USD</p>
                         <p class="prod-desc">Museum-grade giclée canvas print of the original debut pop art sketch. Personally numbered and signed by JungKing. Certificate of authenticity included.</p>
-                        <button class="btn btn-outline btn-block shop-notify-btn">NOTIFY ME <i data-feather="bell"></i></button>
+                        <button class="btn btn-outline btn-block shop-order-btn">ORDER NOW <i data-feather="shopping-cart"></i></button>
                     </div>
                 </div>
 
@@ -491,7 +491,7 @@
                         <h3>Crazy March — Vinyl LP</h3>
                         <p class="prod-price">$45.00 USD</p>
                         <p class="prod-desc">Heavyweight 180g black vinyl featuring the debut album <em>Crazy March</em> produced by 88X. Includes exclusive Character X artwork insert and digital download code.</p>
-                        <button class="btn btn-outline btn-block shop-notify-btn">NOTIFY ME <i data-feather="bell"></i></button>
+                        <button class="btn btn-outline btn-block shop-order-btn">ORDER NOW <i data-feather="shopping-cart"></i></button>
                     </div>
                 </div>
 
@@ -506,7 +506,7 @@
                         <h3>BBX Character Hoodie</h3>
                         <p class="prod-price">$85.00 USD</p>
                         <p class="prod-desc">Premium 450gsm heavy fleece hoodie featuring embroidered Character X and 88X designs. Limited first-edition colorway in BBX signature black and green.</p>
-                        <button class="btn btn-outline btn-block shop-notify-btn">NOTIFY ME <i data-feather="bell"></i></button>
+                        <button class="btn btn-outline btn-block shop-order-btn">ORDER NOW <i data-feather="shopping-cart"></i></button>
                     </div>
                 </div>
 
@@ -521,15 +521,15 @@
                         <h3>BBX Digital Art Pack</h3>
                         <p class="prod-price">$25.00 USD</p>
                         <p class="prod-desc">High-resolution digital art collection featuring JungKing's original sketches, Character X wallpapers, and exclusive behind-the-scenes concept artwork.</p>
-                        <button class="btn btn-outline btn-block shop-notify-btn">NOTIFY ME <i data-feather="bell"></i></button>
+                        <button class="btn btn-outline btn-block shop-order-btn">ORDER NOW <i data-feather="shopping-cart"></i></button>
                     </div>
                 </div>
             </div>
 
             <!-- Waitlist CTA -->
             <div class="shop-waitlist">
-                <p class="waitlist-text">Want early access to all drops?</p>
-                <a href="mailto:badbrothersx.official@gmail.com?subject=SHOP%20Waitlist%20—%20Early%20Access&body=I%20want%20to%20join%20the%20BBX%20early%20access%20list." class="btn btn-primary waitlist-btn">JOIN THE WAITLIST <i data-feather="arrow-right"></i></a>
+                <p class="waitlist-text">Already know what you want? Email us directly.</p>
+                <a href="mailto:badbrothersx.official@gmail.com?subject=Order%20Request&body=Hi%20JungKing,%20I'd%20like%20to%20place%20an%20order." class="btn btn-primary waitlist-btn">EMAIL US <i data-feather="mail"></i></a>
             </div>
         </section>
 
@@ -653,6 +653,46 @@
     <div id="share-notification" class="share-toast" style="display: none;">
         <i data-feather="copy" class="toast-icon"></i>
         <span>Link copied to clipboard!</span>
+    </div>
+
+    <!-- Order Modal -->
+    <div id="order-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <button id="close-modal" class="modal-close" aria-label="Close modal"><i data-feather="x"></i></button>
+            <h2 id="modal-product-name" class="modal-title">Order Product</h2>
+            <form id="order-form" action="https://formsubmit.co/badbrothersx.official@gmail.com" method="POST" class="order-form">
+                <input type="hidden" name="_subject" id="form-subject" value="Order Request">
+                <input type="hidden" name="_next" value="">
+                <input type="hidden" name="_captcha" value="false">
+                
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="john@example.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="country">Country</label>
+                    <input type="text" id="country" name="country" required placeholder="United States">
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone (Optional)</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+1 234 567 8900">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message / Special Requests</label>
+                    <textarea id="message" name="message" rows="3" placeholder="Any specific details?"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-block">SUBMIT ORDER <i data-feather="send"></i></button>
+            </form>
+        </div>
     </div>
 
     <!-- Circular Scroll-to-Top Progress Button -->

@@ -222,28 +222,50 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // ==========================================
-    // C. CONCEPT SHOP — NOTIFY ME BUTTONS
+    // C. ORDER MODAL LOGIC
     // ==========================================
-    const notifyButtons = document.querySelectorAll('.shop-notify-btn');
+    const orderButtons = document.querySelectorAll('.shop-order-btn');
+    const orderModal = document.getElementById('order-modal');
+    const closeOrderModalBtn = document.getElementById('close-modal');
+    const modalProductName = document.getElementById('modal-product-name');
+    const formSubject = document.getElementById('form-subject');
 
-    notifyButtons.forEach(btn => {
+    orderButtons.forEach(btn => {
         btn.addEventListener('click', () => {
-            const productName = btn.closest('.product-card').querySelector('h3').textContent;
-            const subject = encodeURIComponent('SHOP Notify — ' + productName);
-            const body = encodeURIComponent('I want to be notified when "' + productName + '" becomes available.\n\nMy Name:\nMy Country:');
-            window.location.href = 'mailto:badbrothersx.official@gmail.com?subject=' + subject + '&body=' + body;
+            const productCard = btn.closest('.product-card');
+            const productName = productCard ? productCard.querySelector('h3').textContent : 'BBX Product';
+            
+            if (modalProductName) modalProductName.textContent = `Order: ${productName}`;
+            if (formSubject) formSubject.value = `Order Request — ${productName}`;
+            
+            if (orderModal) {
+                orderModal.style.display = 'flex';
+                // Trigger reflow for transition
+                orderModal.offsetHeight;
+                orderModal.classList.add('active');
+            }
         });
     });
 
-    // Keep close modal for backward compatibility
-    const shopModal = document.getElementById('shop-modal');
-    const closeModalBtn = document.getElementById('btn-close-modal');
-    closeModalBtn?.addEventListener('click', () => {
-        if (shopModal) shopModal.style.display = 'none';
-    });
-    shopModal?.addEventListener('click', (e) => {
-        if (e.target === shopModal) shopModal.style.display = 'none';
-    });
+    if (closeOrderModalBtn && orderModal) {
+        closeOrderModalBtn.addEventListener('click', () => {
+            orderModal.classList.remove('active');
+            setTimeout(() => {
+                orderModal.style.display = 'none';
+            }, 300); // matches transition time
+        });
+    }
+
+    if (orderModal) {
+        orderModal.addEventListener('click', (e) => {
+            if (e.target === orderModal) {
+                orderModal.classList.remove('active');
+                setTimeout(() => {
+                    orderModal.style.display = 'none';
+                }, 300);
+            }
+        });
+    }
 
     // ==========================================
     // D. SCROLL TO TOP PROGRESS CIRCLE & SCROLLSPY

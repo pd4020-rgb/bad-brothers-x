@@ -2303,3 +2303,103 @@ body {
 
 
 
+
+/* Order Modal */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 10, 10, 0.9);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.modal-overlay.active {
+    display: flex; /* overridden by inline style sometimes, but good practice */
+    opacity: 1;
+}
+
+.modal-content {
+    background-color: var(--bg-color);
+    border: 1px solid var(--accent-green);
+    padding: 2rem;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+    border-radius: 4px;
+    transform: translateY(20px);
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 20px rgba(0, 255, 102, 0.1);
+}
+
+.modal-overlay.active .modal-content {
+    transform: translateY(0);
+}
+
+.modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: transparent;
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.modal-close:hover {
+    color: var(--accent-green);
+}
+
+.modal-title {
+    font-family: var(--font-mono);
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    color: var(--accent-green);
+    border-bottom: 1px solid rgba(0, 255, 102, 0.2);
+    padding-bottom: 0.5rem;
+}
+
+.order-form .form-group {
+    margin-bottom: 1rem;
+}
+
+.order-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+}
+
+.order-form input,
+.order-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-color);
+    font-family: var(--font-sans);
+    border-radius: 2px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.order-form input:focus,
+.order-form textarea:focus {
+    outline: none;
+    border-color: var(--accent-green);
+    box-shadow: 0 0 5px rgba(0, 255, 102, 0.2);
+}
+
+.order-form .btn {
+    margin-top: 1.5rem;
+}
