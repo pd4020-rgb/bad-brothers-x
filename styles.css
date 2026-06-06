@@ -1560,18 +1560,23 @@ body {
     }
 }
 
-/* Landscape mobile header optimization */
+/* ==========================================================================
+   MOBILE LANDSCAPE — FULL LAYOUT OPTIMIZATION
+   Targets phones held horizontally (short height, wide width)
+   ========================================================================== */
 @media (max-height: 500px) and (orientation: landscape) {
+
+    /* --- HEADER: compact, inline nav --- */
     .site-header {
-        padding: 10px 24px;
-        gap: 24px;
+        padding: 8px 24px;
+        gap: 20px;
     }
-    
+
     .header-logo {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         white-space: nowrap;
     }
-    
+
     .nav-menu {
         display: flex !important;
         position: static;
@@ -1587,16 +1592,256 @@ body {
         border: none;
         overflow: visible;
     }
-    
+
     .nav-menu .nav-link {
-        font-size: 0.7rem;
+        font-size: 0.65rem;
         padding: 4px 6px;
-        letter-spacing: 1px;
+        letter-spacing: 0.8px;
         border-bottom: none;
     }
-    
+
     .hamburger-btn {
         display: none !important;
+    }
+
+    /* --- GLOBAL SPACING: reduce vertical waste --- */
+    .site-content {
+        padding: 0 24px;
+    }
+
+    .grid-section {
+        padding: 20px 0;
+    }
+
+    .section-header-row {
+        padding: 16px 0 10px 0;
+    }
+
+    .section-title {
+        font-size: 1.6rem;
+    }
+
+    .section-subtitle {
+        font-size: 0.8rem;
+    }
+
+    .section-number {
+        font-size: 0.7rem;
+    }
+
+    /* --- HERO: side-by-side layout --- */
+    .hero-section {
+        grid-template-columns: 1fr 1.5fr;
+    }
+
+    .hero-section .text-panel {
+        padding: 10px 0;
+        order: 1;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .hero-section .media-panel {
+        order: 2;
+        padding: 0;
+    }
+
+    .main-title {
+        font-size: 1.8rem;
+        margin-bottom: 8px;
+    }
+
+    .tagline-badge {
+        font-size: 0.6rem;
+        margin-bottom: 8px;
+    }
+
+    .hero-description {
+        font-size: 0.75rem;
+        margin-bottom: 12px;
+        line-height: 1.4;
+    }
+
+    .hero-section .btn {
+        padding: 8px 14px;
+        font-size: 0.7rem;
+    }
+
+    .hero-section .button-group {
+        gap: 8px;
+    }
+
+    .video-container {
+        aspect-ratio: 16/9;
+    }
+
+    /* --- ROSTER: 2 columns, images fit screen --- */
+    .roster-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .card-image-box {
+        aspect-ratio: 4/3;
+    }
+
+    .card-image-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .artist-name {
+        font-size: 1rem;
+    }
+
+    .artist-status {
+        font-size: 0.65rem;
+    }
+
+    .artist-bio {
+        font-size: 0.8rem;
+        line-height: 1.4;
+    }
+
+    /* --- RELEASES / MUSIC: side-by-side --- */
+    .release-layout {
+        grid-template-columns: 1fr 1.2fr;
+        gap: 16px;
+    }
+
+    .music-player {
+        padding: 16px;
+    }
+
+    .player-header {
+        margin-bottom: 12px;
+        gap: 12px;
+    }
+
+    .disk-spinner-container {
+        width: 50px;
+        height: 50px;
+    }
+
+    .track-title {
+        font-size: 1rem;
+    }
+
+    .player-progress {
+        margin-bottom: 12px;
+    }
+
+    .tracklist-container {
+        padding: 12px;
+    }
+
+    .tracklist-table td {
+        padding: 8px 0;
+        font-size: 0.8rem;
+    }
+
+    /* --- GALLERY: 2 columns, landscape-fit images --- */
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .art-frame {
+        aspect-ratio: 16/10;
+    }
+
+    .art-frame img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .art-meta-desc h4 {
+        font-size: 0.9rem;
+    }
+
+    .art-meta-desc span {
+        font-size: 0.7rem;
+    }
+
+    /* --- SHOP: 2 columns --- */
+    .store-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .product-image {
+        aspect-ratio: 16/10;
+    }
+
+    .product-info h3 {
+        font-size: 1rem;
+    }
+
+    .prod-desc {
+        font-size: 0.75rem;
+    }
+
+    /* --- STUDIO: side-by-side --- */
+    .studio-layout {
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+
+    .service-title {
+        font-size: 1.3rem;
+    }
+
+    .service-intro {
+        font-size: 0.85rem;
+        margin-bottom: 16px;
+    }
+
+    .service-list {
+        gap: 12px;
+    }
+
+    .service-list strong {
+        font-size: 0.85rem;
+    }
+
+    .service-list div {
+        font-size: 0.8rem;
+    }
+
+    /* --- CONTACT FORM --- */
+    .contact-form-container {
+        padding: 20px;
+    }
+
+    .form-header-title {
+        font-size: 1rem;
+        margin-bottom: 12px;
+    }
+
+    .bbx-form {
+        gap: 10px;
+    }
+
+    /* --- FOOTER --- */
+    .site-footer {
+        padding: 16px 24px;
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    /* --- BACK TO TOP --- */
+    .back-to-top-btn {
+        bottom: 12px;
+        right: 12px;
+        width: 36px;
+        height: 36px;
+    }
+
+    .back-to-top-btn .arrow-icon {
+        width: 12px;
+        height: 12px;
     }
 }
 
