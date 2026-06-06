@@ -1,0 +1,1731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAD BROTHERS X — AI-Native Virtual Artist Agency & Creative Label</title>
+    <!-- Modern Premium Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!-- Icon Library -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <style>
+        /* ==========================================================================
+           BAD BROTHERS X — PREMIUM NEO-BRUTALIST DESIGN SYSTEM (styles.css)
+           ========================================================================== */
+
+        /* Design Tokens & Theme Variables */
+        :root {
+            --bg-dark: #000000;
+            --bg-card: #0c0c0c;
+            --bg-header: #121212;
+            --bg-input: #181818;
+            
+            --border-color: #222222;
+            --border-light: #333333;
+            
+            --text-white: #ffffff;
+            --text-muted: #888888;
+            --text-dark: #444444;
+            
+            /* Neon Cyber Accents */
+            --accent-green: #00ff66;
+            --accent-green-dim: rgba(0, 255, 102, 0.15);
+            --accent-cyan: #00e5ff;
+            --accent-cyan-dim: rgba(0, 229, 255, 0.15);
+            
+            --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            --font-mono: 'Share Tech Mono', monospace;
+            
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        /* Reset & Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            scrollbar-width: thin;
+            scrollbar-color: var(--border-light) var(--bg-dark);
+        }
+
+        html {
+            scroll-behavior: smooth;
+            background-color: var(--bg-dark);
+            font-size: 16px;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-dark);
+            color: var(--text-white);
+            min-height: 100vh;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Background Matrix Grid Lines */
+        .bg-matrix-grid {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+            background-size: 50px 50px;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        /* BROWSER WINDOW WRAPPER */
+        .browser-window {
+            width: 100%;
+            max-width: 1280px;
+            background-color: var(--bg-dark);
+            border: 1px solid var(--border-light);
+            border-radius: 12px;
+            box-shadow: 0 30px 70px rgba(0, 0, 0, 0.8);
+            overflow: hidden;
+            z-index: 2;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Browser Window Header Area */
+        .browser-header {
+            background-color: var(--bg-header);
+            border-bottom: 1px solid var(--border-light);
+            padding: 10px 16px 0 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        /* Window Control Dots */
+        .window-controls {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            position: absolute;
+            top: 15px;
+            left: 16px;
+        }
+
+        .control-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .control-dot.close { background-color: #ff5f56; }
+        .control-dot.minimize { background-color: #ffbd2e; }
+        .control-dot.expand { background-color: #27c93f; }
+
+        /* Tabs Layout */
+        .browser-tabs {
+            display: flex;
+            margin-left: 70px;
+            gap: 4px;
+        }
+
+        .tab {
+            background-color: transparent;
+            color: var(--text-muted);
+            border: 1px solid transparent;
+            border-bottom: none;
+            padding: 8px 16px;
+            border-radius: 8px 8px 0 0;
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            letter-spacing: 0.5px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .tab.active {
+            background-color: var(--bg-dark);
+            color: var(--text-white);
+            border-color: var(--border-light);
+            border-bottom: 1px solid var(--bg-dark);
+            margin-bottom: -1px;
+        }
+
+        .tab:hover:not(.active) {
+            color: var(--text-white);
+            background-color: rgba(255, 255, 255, 0.03);
+        }
+
+        .tab-icon {
+            width: 12px;
+            height: 12px;
+        }
+
+        .tab-close {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            padding: 1px;
+        }
+
+        .tab-close:hover {
+            background-color: rgba(255,255,255,0.15);
+        }
+
+        .add-tab {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px 12px;
+        }
+
+        /* Navigation & Address Bar */
+        .browser-navigation {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding-bottom: 10px;
+            border-top: 1px solid rgba(255, 255, 255, 0.03);
+            padding-top: 8px;
+        }
+
+        .nav-arrows {
+            display: flex;
+            gap: 6px;
+        }
+
+        .nav-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-dark);
+            cursor: pointer;
+            padding: 4px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav-btn svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .nav-btn:not(:disabled) {
+            color: var(--text-muted);
+        }
+
+        .nav-btn:not(:disabled):hover {
+            color: var(--text-white);
+            background-color: rgba(255,255,255,0.05);
+        }
+
+        .address-bar {
+            flex-grow: 1;
+            background-color: var(--bg-dark);
+            border: 1px solid var(--border-light);
+            border-radius: 6px;
+            padding: 6px 12px;
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .lock-icon {
+            width: 12px;
+            height: 12px;
+            color: var(--accent-green);
+        }
+
+        .protocol {
+            color: var(--text-dark);
+        }
+
+        .domain {
+            color: var(--text-white);
+            font-weight: 600;
+        }
+
+        .path {
+            color: var(--text-muted);
+        }
+
+        .utility-icons {
+            display: flex;
+            gap: 12px;
+            color: var(--text-muted);
+        }
+
+        .utility-icons svg {
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .utility-icons svg:hover {
+            color: var(--text-white);
+        }
+
+        /* BROWSER WORKSPACE CONTENT */
+        .browser-content {
+            background-color: var(--bg-dark);
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Grid layout pattern */
+        .grid-section {
+            display: grid;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .grid-cell {
+            padding: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* Section Header Rows */
+        .section-header-row {
+            padding: 60px 40px 20px 40px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .section-title {
+            font-family: var(--font-sans);
+            font-weight: 900;
+            font-size: 2.2rem;
+            letter-spacing: -0.5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .accent-number {
+            font-family: var(--font-mono);
+            color: var(--accent-green);
+            font-size: 1.4rem;
+        }
+
+        .section-subtitle {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            margin-top: 6px;
+        }
+
+        /* 1. HERO SECTION */
+        .hero-section {
+            grid-template-columns: 1fr 1.1fr;
+        }
+
+        .hero-section .text-panel {
+            border-right: 1px solid var(--border-color);
+        }
+
+        .tagline-badge {
+            align-self: flex-start;
+            font-family: var(--font-mono);
+            color: var(--accent-green);
+            background-color: var(--accent-green-dim);
+            border: 1px solid var(--accent-green);
+            padding: 4px 10px;
+            font-size: 0.75rem;
+            border-radius: 4px;
+            margin-bottom: 24px;
+            letter-spacing: 1px;
+        }
+
+        .main-title {
+            font-family: var(--font-sans);
+            font-size: 4.5rem;
+            font-weight: 900;
+            line-height: 0.95;
+            letter-spacing: -2px;
+            margin-bottom: 24px;
+        }
+
+        .hero-description {
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+            margin-bottom: 36px;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 16px;
+        }
+
+        /* Button UI System */
+        .btn {
+            font-family: var(--font-sans);
+            font-weight: 700;
+            text-decoration: none;
+            padding: 14px 28px;
+            border-radius: 6px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .btn svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .btn-primary {
+            background-color: var(--text-white);
+            color: var(--bg-dark);
+            border: 1px solid var(--text-white);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--accent-green);
+            border-color: var(--accent-green);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 255, 102, 0.25);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--text-white);
+            border: 1px solid var(--border-light);
+        }
+
+        .btn-outline:hover {
+            border-color: var(--text-white);
+            background-color: rgba(255,255,255,0.03);
+            transform: translateY(-2px);
+        }
+
+        .btn-block {
+            width: 100%;
+            justify-content: center;
+        }
+
+        /* Video Player Media Panel */
+        .hero-section .media-panel {
+            background-color: #050505;
+            position: relative;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .video-container {
+            width: 100%;
+            aspect-ratio: 16/9;
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-light);
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .video-overlay-info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            z-index: 3;
+            pointer-events: none; /* Make sure it doesn't block clicking iframe */
+        }
+
+        .status-indicator {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: var(--text-muted);
+        }
+
+        .status-indicator.live {
+            background-color: var(--accent-green);
+            box-shadow: 0 0 8px var(--accent-green);
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.4; }
+            50% { opacity: 1; }
+            100% { opacity: 0.4; }
+        }
+
+        .video-title {
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .badge {
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            padding: 2px 6px;
+            border-radius: 3px;
+            background-color: rgba(255,255,255,0.1);
+            color: var(--text-white);
+        }
+
+        .badge-green {
+            background-color: var(--accent-green-dim);
+            color: var(--accent-green);
+            border: 1px solid var(--accent-green);
+        }
+
+        /* 2. MARQUEE BANNER */
+        .scrolling-ticker {
+            overflow: hidden;
+            white-space: nowrap;
+            border-bottom: 1px solid var(--border-color);
+            background-color: #050505;
+            padding: 16px 0;
+        }
+
+        .ticker-content {
+            display: inline-block;
+            animation: ticker 25s linear infinite;
+        }
+
+        .ticker-content span {
+            display: inline-block;
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            font-weight: 800;
+            color: var(--text-muted);
+            margin-right: 40px;
+            letter-spacing: 1.5px;
+        }
+
+        @keyframes ticker {
+            0% { transform: translate3d(0, 0, 0); }
+            100% { transform: translate3d(-50%, 0, 0); }
+        }
+
+        /* 3. ROSTER SECTION */
+        .roster-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            border-top: 1px solid var(--border-color);
+        }
+
+        .roster-card {
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            transition: var(--transition);
+        }
+
+        .roster-card:last-child {
+            border-right: none;
+        }
+
+        /* Conceptual Image Placeholders */
+        .card-image-box {
+            width: 100%;
+            aspect-ratio: 1/1;
+            background-color: var(--bg-card);
+            border-bottom: 1px solid var(--border-color);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .placeholder-box::after {
+            content: '';
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            right: 15px;
+            bottom: 15px;
+            border: 1px dashed rgba(255, 255, 255, 0.08);
+            pointer-events: none;
+        }
+
+        .placeholder-content {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            z-index: 2;
+            padding: 20px;
+        }
+
+        .placeholder-icon {
+            width: 40px;
+            height: 40px;
+            color: var(--text-dark);
+            transition: var(--transition);
+        }
+
+        .placeholder-tag {
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .placeholder-sub {
+            font-family: var(--font-sans);
+            font-size: 0.75rem;
+            color: var(--text-dark);
+        }
+
+        .roster-card:hover {
+            background-color: #030303;
+        }
+
+        .roster-card:hover .placeholder-icon {
+            color: var(--accent-green);
+            transform: scale(1.1);
+        }
+
+        .roster-card:hover .card-image-box::after {
+            border-color: var(--accent-green-dim);
+        }
+
+        .card-info {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .card-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .artist-role {
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .artist-status {
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            color: var(--accent-cyan);
+            background-color: var(--accent-cyan-dim);
+            border: 1px solid var(--accent-cyan);
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+
+        .artist-name {
+            font-size: 1.8rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+
+        .artist-bio {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        /* 4. RELEASES SECTION */
+        .release-layout {
+            display: grid;
+            grid-template-columns: 1fr 1.3fr;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .music-player {
+            border-right: 1px solid var(--border-color);
+            padding: 50px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #040404;
+        }
+
+        .player-header {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .disk-spinner-container {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #151515;
+            border: 2px solid var(--border-light);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        }
+
+        .disk {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background-image: 
+                radial-gradient(circle, #000 15%, transparent 16%),
+                radial-gradient(circle, transparent 39%, #00ff66 40%, #00ff66 41%, transparent 42%),
+                repeating-radial-gradient(circle, #151515, #151515 2px, #000 3px, #000 5px);
+            transition: transform 0.5s ease;
+        }
+
+        .disk.playing {
+            animation: spin 3s linear infinite;
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .track-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .track-info .label {
+            font-family: var(--font-mono);
+            color: var(--accent-green);
+            font-size: 0.75rem;
+            margin-bottom: 4px;
+        }
+
+        .track-title {
+            font-size: 1.25rem;
+            font-weight: 800;
+        }
+
+        .track-artist {
+            font-family: var(--font-mono);
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            margin-top: 2px;
+        }
+
+        /* Audio Player Progress */
+        .player-progress {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 30px;
+        }
+
+        .player-progress .time {
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .progress-bar-container {
+            flex-grow: 1;
+            height: 6px;
+            background-color: var(--border-color);
+            border-radius: 3px;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .progress-fill {
+            width: 0%;
+            height: 100%;
+            background-color: var(--text-white);
+            border-radius: 3px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: width 0.1s linear;
+        }
+
+        .progress-bar-container:hover .progress-fill {
+            background-color: var(--accent-green);
+        }
+
+        /* Audio Controls */
+        .player-controls {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ctrl-btn {
+            background: transparent;
+            border: 1px solid var(--border-light);
+            color: var(--text-muted);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+        }
+
+        .ctrl-btn svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .ctrl-btn:hover {
+            color: var(--text-white);
+            border-color: var(--text-white);
+        }
+
+        .ctrl-btn.play-btn {
+            width: 54px;
+            height: 54px;
+            background-color: var(--text-white);
+            color: var(--bg-dark);
+            border: none;
+        }
+
+        .ctrl-btn.play-btn:hover {
+            background-color: var(--accent-green);
+            transform: scale(1.05);
+        }
+
+        /* Tracklist Table */
+        .tracklist-container {
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .tracklist-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .tracklist-table th {
+            text-align: left;
+            font-family: var(--font-mono);
+            color: var(--text-dark);
+            font-size: 0.75rem;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .tracklist-table td {
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 0.95rem;
+            font-family: var(--font-mono);
+        }
+
+        .tracklist-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .table-track-name {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-family: var(--font-sans);
+            font-weight: 600;
+        }
+
+        .track-row {
+            transition: var(--transition);
+            cursor: pointer;
+        }
+
+        .track-row:hover {
+            background-color: rgba(255,255,255,0.02);
+        }
+
+        .track-row.active {
+            color: var(--accent-green);
+        }
+
+        .table-play-btn {
+            background: transparent;
+            border: 1px solid var(--border-light);
+            color: var(--text-muted);
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            padding: 4px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: var(--transition);
+        }
+
+        .table-play-btn svg {
+            width: 10px;
+            height: 10px;
+        }
+
+        .track-row:hover .table-play-btn {
+            color: var(--text-white);
+            border-color: var(--text-white);
+        }
+
+        .track-row.active .table-play-btn {
+            background-color: var(--accent-green-dim);
+            color: var(--accent-green);
+            border-color: var(--accent-green);
+        }
+
+        /* 5. STUDIO CO-PRODUCTION */
+        .studio-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .studio-layout .service-details {
+            padding: 60px 40px;
+            border-right: 1px solid var(--border-color);
+        }
+
+        .service-title {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+
+        .service-intro {
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        .service-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .service-list li {
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+        }
+
+        .list-bullet {
+            color: var(--accent-green);
+            margin-top: 2px;
+            width: 20px;
+            height: 20px;
+            flex-shrink: 0;
+        }
+
+        .service-list strong {
+            display: block;
+            font-size: 1.05rem;
+            margin-bottom: 4px;
+            color: var(--text-white);
+        }
+
+        .service-list div {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        /* Contact Quote Form */
+        .contact-form-container {
+            padding: 60px 40px;
+            background-color: #030303;
+        }
+
+        .form-header-title {
+            font-size: 1.3rem;
+            font-weight: 800;
+            margin-bottom: 24px;
+        }
+
+        .bbx-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .form-group label {
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            letter-spacing: 0.5px;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            background-color: var(--bg-input);
+            border: 1px solid var(--border-light);
+            border-radius: 6px;
+            color: var(--text-white);
+            padding: 12px 16px;
+            font-family: var(--font-sans);
+            font-size: 0.95rem;
+            transition: var(--transition);
+        }
+
+        .form-group select {
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23888888' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+            background-size: 16px;
+            padding-right: 40px;
+        }
+
+        .form-group input::placeholder,
+        .form-group textarea::placeholder {
+            color: #555555;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--accent-green);
+            box-shadow: 0 0 8px rgba(0, 255, 102, 0.1);
+        }
+
+        .success-message {
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+            padding: 24px;
+            background-color: var(--accent-green-dim);
+            border: 1px solid var(--accent-green);
+            border-radius: 8px;
+            animation: slideUp 0.4s ease;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .success-icon {
+            color: var(--accent-green);
+            width: 28px;
+            height: 28px;
+            flex-shrink: 0;
+        }
+
+        .success-message h5 {
+            font-size: 1.05rem;
+            font-weight: 800;
+            margin-bottom: 4px;
+            color: var(--text-white);
+        }
+
+        .success-message p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        /* 6. BROWSER FOOTER */
+        .browser-footer {
+            background-color: var(--bg-header);
+            border-top: 1px solid var(--border-light);
+            padding: 10px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            color: var(--text-dark);
+        }
+
+        .footer-left {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .footer-left .status-pill {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+        }
+
+        .footer-left .status-pill.online {
+            background-color: var(--accent-green);
+        }
+
+        .meta-item {
+            border-left: 1px solid var(--border-light);
+            padding-left: 8px;
+            margin-left: 8px;
+        }
+
+        /* RESPONSIVE LAYOUT MEDIA QUERIES */
+        @media (max-width: 992px) {
+            .hero-section {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero-section .text-panel {
+                border-right: none;
+                border-bottom: 1px solid var(--border-color);
+                padding: 40px 20px;
+            }
+            
+            .hero-section .media-panel {
+                padding: 40px 20px;
+            }
+            
+            .roster-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .roster-card {
+                border-right: none;
+                border-bottom: 1px solid var(--border-color);
+            }
+            
+            .roster-card:last-child {
+                border-bottom: none;
+            }
+            
+            .release-layout {
+                grid-template-columns: 1fr;
+            }
+            
+            .music-player {
+                border-right: none;
+                border-bottom: 1px solid var(--border-color);
+                padding: 40px 20px;
+            }
+            
+            .tracklist-container {
+                padding: 40px 20px;
+            }
+            
+            .studio-layout {
+                grid-template-columns: 1fr;
+            }
+            
+            .studio-layout .service-details {
+                border-right: none;
+                border-bottom: 1px solid var(--border-color);
+                padding: 40px 20px;
+            }
+            
+            .contact-form-container {
+                padding: 40px 20px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .browser-tabs {
+                display: none;
+            }
+            
+            .browser-navigation {
+                padding-left: 10px;
+            }
+            
+            .window-controls {
+                position: static;
+                margin-right: auto;
+            }
+            
+            .main-title {
+                font-size: 3rem;
+            }
+            
+            .browser-footer {
+                flex-direction: column;
+                gap: 6px;
+                text-align: center;
+            }
+            
+            .meta-item {
+                border-left: none;
+                padding-left: 0;
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Outer Retro-Future OS Browser Container -->
+    <div class="browser-window" id="bbx-browser">
+        
+        <!-- Browser Top Bar -->
+        <header class="browser-header">
+            <div class="window-controls">
+                <span class="control-dot close" title="Close Window"></span>
+                <span class="control-dot minimize" title="Minimize Window"></span>
+                <span class="control-dot expand" title="Maximize Window"></span>
+            </div>
+            
+            <div class="browser-tabs">
+                <div class="tab active">
+                    <i data-feather="globe" class="tab-icon"></i>
+                    <span>BAD BROTHERS X // OFFICIAL</span>
+                    <i data-feather="x" class="tab-close"></i>
+                </div>
+                <div class="tab add-tab" title="New Tab">
+                    <i data-feather="plus"></i>
+                </div>
+            </div>
+            
+            <div class="browser-navigation">
+                <div class="nav-arrows">
+                    <button class="nav-btn" disabled><i data-feather="arrow-left"></i></button>
+                    <button class="nav-btn" disabled><i data-feather="arrow-right"></i></button>
+                    <button class="nav-btn refresh-btn" onclick="location.reload()"><i data-feather="rotate-cw"></i></button>
+                </div>
+                
+                <div class="address-bar">
+                    <i data-feather="lock" class="lock-icon"></i>
+                    <span class="protocol">https://</span>
+                    <span class="domain">badbrothersx.com</span>
+                    <span class="path">/home</span>
+                </div>
+                
+                <div class="utility-icons">
+                    <i data-feather="share-2" title="Share"></i>
+                    <i data-feather="star" title="Bookmark"></i>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Workspace (Inside the "Browser") -->
+        <main class="browser-content">
+            
+            <!-- Hero Layout Grid -->
+            <section class="grid-section hero-section">
+                <div class="grid-cell text-panel">
+                    <div class="tagline-badge">AI-NATIVE ART STUDIO</div>
+                    <h1 class="main-title">BAD BROTHERS X</h1>
+                    <p class="hero-description">
+                        Bad Brothers X transforms the original LIFE IS FUN art universe into paintings, characters, films, music, and AI-powered cinematic experiences. Decades of fine art meets cutting-edge technology.
+                    </p>
+                    <div class="button-group">
+                        <a href="#roster" class="btn btn-primary">VIEW ROSTER <i data-feather="chevron-right"></i></a>
+                        <a href="#studio" class="btn btn-outline">HIRE STUDIO <i data-feather="external-link"></i></a>
+                    </div>
+                </div>
+                
+                <div class="grid-cell media-panel">
+                    <!-- YouTube Video Player (Production/Staging) -->
+                    <div class="video-container">
+                        <iframe 
+                            width="100%" 
+                            height="100%" 
+                            src="https://www.youtube.com/embed/42R7bbldoHo?autoplay=1&mute=1&loop=1&playlist=42R7bbldoHo&controls=1" 
+                            title="CHARACTER X — Life is Fun" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen
+                            style="border: none; aspect-ratio: 16/9; width: 100%; height: 100%;">
+                        </iframe>
+                        <div class="video-overlay-info">
+                            <span class="status-indicator live"></span>
+                            <span class="video-title">DEBUT DROP: LIFE IS FUN</span>
+                            <span class="badge">DIR. JUNGKING</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Ticker Banner (Warp Records Vibe) -->
+            <div class="scrolling-ticker">
+                <div class="ticker-content">
+                    <span>• VIRTUAL ARTIST AGENCY</span>
+                    <span>• 40 YEARS FINE ART PEDIGREE</span>
+                    <span>• SYNTHESIZED BY AKA</span>
+                    <span>• CONCEPTUAL POP ART</span>
+                    <span>• BRAND FILM PRODUCTION</span>
+                    <span>• SYSTEM STABLE</span>
+                    <span>• VIRTUAL ARTIST AGENCY</span>
+                    <span>• 40 YEARS FINE ART PEDIGREE</span>
+                    <span>• SYNTHESIZED BY AKA</span>
+                </div>
+            </div>
+
+            <!-- Artists Roster Section -->
+            <section id="roster" class="grid-section roster-section">
+                <div class="section-header-row">
+                    <h2 class="section-title"><span class="accent-number">01 //</span> ROSTER</h2>
+                    <p class="section-subtitle">The creators, IPs, and synthesizers behind the label.</p>
+                </div>
+                
+                <div class="roster-grid">
+                    <!-- Artist 1: JUNGKING -->
+                    <article class="roster-card">
+                        <div class="card-image-box placeholder-box">
+                            <div class="placeholder-content">
+                                <i data-feather="user" class="placeholder-icon"></i>
+                                <span class="placeholder-tag">[ JUNGKING // THE ORIGIN ]</span>
+                                <span class="placeholder-sub">Analog Sketching & Pop Art Concept</span>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <div class="card-meta">
+                                <span class="artist-role">PAINTER & FOUNDER</span>
+                                <span class="artist-status">ACTIVE</span>
+                            </div>
+                            <h3 class="artist-name">JUNGKING</h3>
+                            <p class="artist-bio">
+                                A veteran pop artist with 40 years of dedication to fine art. JungKing provides the analog sketches, raw concepts, and fine art pedigree that form the core soul of the agency.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Artist 2: CHARACTER X -->
+                    <article class="roster-card">
+                        <div class="card-image-box placeholder-box">
+                            <div class="placeholder-content">
+                                <i data-feather="smile" class="placeholder-icon"></i>
+                                <span class="placeholder-tag">[ CHARACTER X // IP ]</span>
+                                <span class="placeholder-sub">Virtual Singer & Performer</span>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <div class="card-meta">
+                                <span class="artist-role">VIRTUAL PERFORMER</span>
+                                <span class="artist-status">DEBUTING</span>
+                            </div>
+                            <h3 class="artist-name">CHARACTER X</h3>
+                            <p class="artist-bio">
+                                Born from JungKing's legendary "Life is Fun" pop art series. Character X is the main virtual avatar of the label, performing in AI-generated music videos and audio drops.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Artist 3: AKA -->
+                    <article class="roster-card">
+                        <div class="card-image-box placeholder-box">
+                            <div class="placeholder-content">
+                                <i data-feather="cpu" class="placeholder-icon"></i>
+                                <span class="placeholder-tag">[ AKA // AGENT ]</span>
+                                <span class="placeholder-sub">AI Generator & Orchestrator</span>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <div class="card-meta">
+                                <span class="artist-role">DIGITAL ORCHESTRATOR</span>
+                                <span class="artist-status">ONLINE</span>
+                            </div>
+                            <h3 class="artist-name">AKA</h3>
+                            <p class="artist-bio">
+                                The lead digital orchestrator of the company. Aka manages the generative AI pipelines, asset synthesis, coding operations, and tech-driven visual systems.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Music & Releases Section -->
+            <section id="releases" class="grid-section releases-section">
+                <div class="section-header-row">
+                    <h2 class="section-title"><span class="accent-number">02 //</span> RELEASES</h2>
+                    <p class="section-subtitle">AI-synthesized audio tracks and design deliverables.</p>
+                </div>
+
+                <div class="release-layout">
+                    <!-- Music Player Component -->
+                    <div class="music-player">
+                        <div class="player-header">
+                            <div class="disk-spinner-container">
+                                <div class="disk" id="disk-element"></div>
+                            </div>
+                            <div class="track-info">
+                                <span class="label">CURRENT DROP</span>
+                                <h4 class="track-title" id="player-track-title">Life is Fun (AI Remix v1.0)</h4>
+                                <span class="track-artist">CHARACTER X × AKA</span>
+                            </div>
+                        </div>
+
+                        <!-- Mini Waveform / Progress Bar -->
+                        <div class="player-progress">
+                            <span class="time current" id="player-time-current">0:00</span>
+                            <div class="progress-bar-container" id="player-progress-bar">
+                                <div class="progress-fill" id="player-progress-fill"></div>
+                            </div>
+                            <span class="time duration" id="player-time-duration">3:14</span>
+                        </div>
+
+                        <!-- Player Controls -->
+                        <div class="player-controls">
+                            <button class="ctrl-btn" id="btn-prev"><i data-feather="skip-back"></i></button>
+                            <button class="ctrl-btn play-btn" id="btn-play-pause"><i data-feather="play" id="play-icon"></i></button>
+                            <button class="ctrl-btn" id="btn-next"><i data-feather="skip-forward"></i></button>
+                            <button class="ctrl-btn" id="btn-loop"><i data-feather="repeat"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Tracklist Table -->
+                    <div class="tracklist-container">
+                        <table class="tracklist-table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Title</th>
+                                    <th>Artist</th>
+                                    <th>Format</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="track-row active" data-src="life_is_fun.mp3" data-title="Life is Fun (AI Remix v1.0)">
+                                    <td>01</td>
+                                    <td>
+                                        <div class="table-track-name">
+                                            <span>Life is Fun (AI Remix v1.0)</span>
+                                            <span class="badge badge-green">NEW</span>
+                                        </div>
+                                    </td>
+                                    <td>Character X × Aka</td>
+                                    <td>Audio Track</td>
+                                    <td><button class="table-play-btn"><i data-feather="play"></i> PLAY</button></td>
+                                </tr>
+                                <tr class="track-row" data-src="m8_3_theme.mp3" data-title="M8-3 Cyber Theme">
+                                    <td>02</td>
+                                    <td>
+                                        <div class="table-track-name">
+                                            <span>M8-3 Cyber Theme</span>
+                                        </div>
+                                    </td>
+                                    <td>Aka</td>
+                                    <td>Audio Soundtrack</td>
+                                    <td><button class="table-play-btn"><i data-feather="play"></i> PLAY</button></td>
+                                </tr>
+                                <tr class="track-row" data-src="analog_pedigree.mp3" data-title="Analog Fine Art Heritage">
+                                    <td>03</td>
+                                    <td>
+                                        <div class="table-track-name">
+                                            <span>Analog Fine Art Heritage (Spoken word)</span>
+                                        </div>
+                                    </td>
+                                    <td>JungKing</td>
+                                    <td>Voice Record</td>
+                                    <td><button class="table-play-btn"><i data-feather="play"></i> PLAY</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Studio Services / B2B Form -->
+            <section id="studio" class="grid-section studio-section">
+                <div class="section-header-row">
+                    <h2 class="section-title"><span class="accent-number">03 //</span> STUDIO CO-PRODUCTION</h2>
+                    <p class="section-subtitle">Partner with Bad Brothers X for high-ticket AI videos and character IP creation.</p>
+                </div>
+
+                <div class="studio-layout">
+                    <div class="service-details">
+                        <h3 class="service-title">B2B Creative Services</h3>
+                        <p class="service-intro">
+                            We provide premium AI art direction and high-fidelity video production for businesses and brands looking to pivot into the next digital generation.
+                        </p>
+                        <ul class="service-list">
+                            <li>
+                                <i data-feather="check-square" class="list-bullet"></i>
+                                <div>
+                                    <strong>AI Brand Video Production:</strong> High-end cinematic visual films synthesized with custom audio assets.
+                                </div>
+                            </li>
+                            <li>
+                                <i data-feather="check-square" class="list-bullet"></i>
+                                <div>
+                                    <strong>Mascot & Virtual Performer IP:</strong> Concept design, avatar generation, and virtual performance deployment.
+                                </div>
+                            </li>
+                            <li>
+                                <i data-feather="check-square" class="list-bullet"></i>
+                                <div>
+                                    <strong>AI Art Direction Consulting:</strong> Transitioning legacy visual pipelines into generative AI pipelines.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <h4 class="form-header-title">Send Project Brief</h4>
+                        <form id="project-form" class="bbx-form">
+                            <div class="form-group">
+                                <label for="client-name">Your Name / Company</label>
+                                <input type="text" id="client-name" required placeholder="Enter name or agency...">
+                            </div>
+                            <div class="form-group">
+                                <label for="client-email">Email Address</label>
+                                <input type="email" id="client-email" required placeholder="Enter contact email...">
+                            </div>
+                            <div class="form-group">
+                                <label for="project-type">Project Type</label>
+                                <select id="project-type">
+                                    <option value="cinematic">Cinematic Brand Video</option>
+                                    <option value="virtual-ip">Virtual Artist / Mascot IP</option>
+                                    <option value="music-video">AI Music Video Co-Production</option>
+                                    <option value="consulting">Art Direction Consulting</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="project-desc">Project Description & Budget Details</label>
+                                <textarea id="project-desc" rows="4" placeholder="Describe the scope, timeline, and budget..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">SUBMIT REQUEST <i data-feather="send"></i></button>
+                        </form>
+                        <div id="form-success-msg" class="success-message" style="display: none;">
+                            <i data-feather="check-circle" class="success-icon"></i>
+                            <div>
+                                <h5>Brief Received</h5>
+                                <p>Aka has logged your project details. We will respond within 24 hours.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Browser Status/Footer -->
+        <footer class="browser-footer">
+            <div class="footer-left">
+                <span class="status-pill online"></span>
+                <span>SYSTEM: STABLE // CONNECTION: SECURE</span>
+            </div>
+            <div class="footer-center">
+                <span>© 2026 BAD BROTHERS X. ALL RIGHTS RESERVED.</span>
+            </div>
+            <div class="footer-right">
+                <span class="meta-item">UTF-8</span>
+                <span class="meta-item">FPS: 60</span>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Background Grid Lines to enhance Brutalist vibe -->
+    <div class="bg-matrix-grid"></div>
+
+    <script>
+        /* ==========================================================================
+           BAD BROTHERS X — CORE INTERACTION LOGIC (app.js)
+           ========================================================================== */
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // 1. Initialize Feather Icons
+            if (typeof feather !== 'undefined') {
+                feather.replace();
+            }
+
+            // 2. Custom Audio Player Logic
+            const playBtn = document.getElementById('btn-play-pause');
+            const playIcon = document.getElementById('play-icon');
+            const diskElement = document.getElementById('disk-element');
+            const trackTitle = document.getElementById('player-track-title');
+            const timeCurrent = document.getElementById('player-time-current');
+            const timeDuration = document.getElementById('player-time-duration');
+            const progressBar = document.getElementById('player-progress-bar');
+            const progressFill = document.getElementById('player-progress-fill');
+            const trackRows = document.querySelectorAll('.track-row');
+
+            let isPlaying = false;
+            let currentProgress = 0; // percentage
+            let durationSeconds = 194; // Default track duration (3:14)
+            let currentSeconds = 0;
+            let playbackInterval = null;
+
+            // Helper to format time (e.g. 125 -> 2:05)
+            function formatTime(secs) {
+                const minutes = Math.floor(secs / 60);
+                const seconds = Math.floor(secs % 60);
+                return `${minutes}:${seconds.toString().padStart(2, '0')}`;
+            }
+
+            // Update track durations for simulation
+            const trackDurations = {
+                "Life is Fun (AI Remix v1.0)": 194, // 3:14
+                "M8-3 Cyber Theme": 142,           // 2:22
+                "Analog Fine Art Heritage (Spoken word)": 285 // 4:45
+            };
+
+            function updateTrackInfo(title) {
+                trackTitle.textContent = title;
+                durationSeconds = trackDurations[title] || 180;
+                timeDuration.textContent = formatTime(durationSeconds);
+                resetPlayback();
+            }
+
+            function resetPlayback() {
+                currentSeconds = 0;
+                currentProgress = 0;
+                timeCurrent.textContent = "0:00";
+                progressFill.style.width = "0%";
+                if (isPlaying) {
+                    startPlaybackTimer();
+                }
+            }
+
+            function togglePlayPause() {
+                isPlaying = !isPlaying;
+                if (isPlaying) {
+                    playBtn.innerHTML = '<i id="play-icon" data-feather="pause"></i>';
+                    diskElement.classList.add('playing');
+                    startPlaybackTimer();
+                } else {
+                    playBtn.innerHTML = '<i id="play-icon" data-feather="play"></i>';
+                    diskElement.classList.remove('playing');
+                    clearInterval(playbackInterval);
+                }
+                feather.replace();
+            }
+
+            function startPlaybackTimer() {
+                clearInterval(playbackInterval);
+                playbackInterval = setInterval(() => {
+                    if (currentSeconds < durationSeconds) {
+                        currentSeconds += 1;
+                        currentProgress = (currentSeconds / durationSeconds) * 100;
+                        timeCurrent.textContent = formatTime(currentSeconds);
+                        progressFill.style.width = `${currentProgress}%`;
+                    } else {
+                        // Track finished, loop or stop
+                        resetPlayback();
+                        togglePlayPause();
+                    }
+                }, 1000);
+            }
+
+            // Audio Play/Pause Button Trigger
+            if (playBtn) {
+                playBtn.addEventListener('click', togglePlayPause);
+            }
+
+            // Clicking Tracklist Rows
+            trackRows.forEach(row => {
+                row.addEventListener('click', function() {
+                    // Remove active class from all rows
+                    trackRows.forEach(r => r.classList.remove('active'));
+                    // Highlight clicked row
+                    this.classList.add('active');
+                    
+                    // Extract title and update player state
+                    const title = this.getAttribute('data-title');
+                    updateTrackInfo(title);
+                    
+                    // Auto play if not playing
+                    if (!isPlaying) {
+                        togglePlayPause();
+                    }
+                });
+            });
+
+            // Clicking Progress Bar to Seek Time
+            if (progressBar) {
+                progressBar.addEventListener('click', (e) => {
+                    const barWidth = progressBar.clientWidth;
+                    const clickX = e.offsetX;
+                    const percentage = clickX / barWidth;
+                    
+                    currentSeconds = Math.floor(percentage * durationSeconds);
+                    currentProgress = percentage * 100;
+                    timeCurrent.textContent = formatTime(currentSeconds);
+                    progressFill.style.width = `${currentProgress}%`;
+                });
+            }
+
+            // Prev / Next button click simulation
+            document.getElementById('btn-prev')?.addEventListener('click', () => {
+                let activeIndex = Array.from(trackRows).findIndex(r => r.classList.contains('active'));
+                let prevIndex = activeIndex - 1;
+                if (prevIndex < 0) prevIndex = trackRows.length - 1;
+                trackRows[prevIndex].click();
+            });
+
+            document.getElementById('btn-next')?.addEventListener('click', () => {
+                let activeIndex = Array.from(trackRows).findIndex(r => r.classList.contains('active'));
+                let nextIndex = activeIndex + 1;
+                if (nextIndex >= trackRows.length) nextIndex = 0;
+                trackRows[nextIndex].click();
+            });
+
+
+            // 3. B2B Client Inquiry Form Submission
+            const projectForm = document.getElementById('project-form');
+            const successMsg = document.getElementById('form-success-msg');
+
+            if (projectForm && successMsg) {
+                projectForm.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    
+                    // Fade out form
+                    projectForm.style.transition = 'opacity 0.3s ease';
+                    projectForm.style.opacity = '0';
+                    
+                    setTimeout(() => {
+                        projectForm.style.display = 'none';
+                        
+                        // Show success screen
+                        successMsg.style.display = 'flex';
+                        
+                        // Re-replace icons in the success screen
+                        if (typeof feather !== 'undefined') {
+                            feather.replace();
+                        }
+                    }, 300);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
