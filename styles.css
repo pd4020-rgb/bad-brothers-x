@@ -757,6 +757,139 @@ body {
 }
 
 /* ==========================================================================
+   4b. ORIGIN STORY TIMELINE
+   ========================================================================== */
+
+.origin-section {
+    padding-bottom: 60px;
+}
+
+.origin-intro {
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.origin-quote {
+    font-family: var(--font-mono);
+    font-size: clamp(1.1rem, 2.5vw, 1.6rem);
+    color: var(--accent-green);
+    letter-spacing: 2px;
+    opacity: 0.9;
+}
+
+.origin-timeline {
+    position: relative;
+    padding-left: 40px;
+    border-left: 1px solid rgba(57, 255, 174, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.timeline-node {
+    position: relative;
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.timeline-node::before {
+    content: '';
+    position: absolute;
+    left: -46px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--bg-card);
+    border: 2px solid rgba(57, 255, 174, 0.5);
+}
+
+.timeline-node--final::before {
+    background-color: var(--accent-green);
+    border-color: var(--accent-green);
+    box-shadow: 0 0 12px rgba(57, 255, 174, 0.6);
+}
+
+.timeline-year {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    letter-spacing: 1.5px;
+    padding-top: 4px;
+    text-align: right;
+}
+
+.accent-green-text {
+    color: var(--accent-green) !important;
+    font-weight: 700;
+}
+
+.timeline-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.timeline-desc {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+.timeline-desc strong {
+    color: var(--text-primary);
+}
+
+.timeline-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.t-tag {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 1px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    border: 1px solid rgba(255,255,255,0.12);
+    color: var(--text-muted);
+}
+
+.t-tag.accent-tag {
+    border-color: rgba(57, 255, 174, 0.4);
+    color: var(--accent-green);
+}
+
+/* Mobile: stack year above content */
+@media (max-width: 600px) {
+    .origin-timeline {
+        padding-left: 24px;
+    }
+
+    .timeline-node {
+        grid-template-columns: 1fr;
+        gap: 6px;
+    }
+
+    .timeline-node::before {
+        left: -30px;
+    }
+
+    .timeline-year {
+        text-align: left;
+        font-size: 0.72rem;
+    }
+}
+
+/* ==========================================================================
    5. JUNGKING GALLERY (NO BORDERS)
    ========================================================================== */
 .gallery-grid {
