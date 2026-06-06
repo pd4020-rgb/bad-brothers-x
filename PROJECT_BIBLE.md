@@ -99,6 +99,7 @@ BAD BROTHERS X (AI 엔터 에이전시)
 - [x] SEO 메타태그 (og:image, og:description, twitter card)
 - [x] 푸터 SNS 링크 (YouTube, Instagram @xjungking, Email)
 - [x] Vercel 배포 + 커스텀 도메인 연결
+- [x] v2.3 모바일/PC 레이아웃 패치 (비디오 우선 배치, PC 가로 62% 비디오 확장, 모바일 버튼 소형화, 번역 방지 태그, PWA B 아이콘 적용)
 
 ### 전략 문서
 - [x] 사이트 분석 보고서 (site_analysis.md)
