@@ -1233,6 +1233,8 @@ body {
     .hero-section .text-panel {
         padding: 20px 0;
         order: 2;
+        align-items: center;
+        text-align: center;
     }
     
     .hero-section .media-panel {
@@ -1366,6 +1368,7 @@ body {
     
     .tagline-badge {
         margin-bottom: 16px;
+        align-self: center;
     }
     
     .hero-description {
@@ -1395,6 +1398,8 @@ body {
     
     .hero-section .button-group {
         gap: 10px;
+        justify-content: center;
+        width: 100%;
     }
     
     .site-footer {
