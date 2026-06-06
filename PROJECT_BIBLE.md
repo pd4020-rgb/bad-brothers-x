@@ -100,6 +100,7 @@ BAD BROTHERS X (AI 엔터 에이전시)
 - [x] 푸터 SNS 링크 (YouTube, Instagram @xjungking, Email)
 - [x] Vercel 배포 + 커스텀 도메인 연결
 - [x] v2.3 모바일/PC 레이아웃 패치 (비디오 우선 배치, PC 가로 62% 비디오 확장, 모바일 버튼 소형화, 번역 방지 태그, PWA B 아이콘 적용)
+- [x] v2.4 모바일 레이아웃 디테일 개선 (모바일 화면 양쪽 여백 16px 정렬 통일, Hero 영역 설명 텍스트 위아래 줄간격 및 여백 축소, 로스터 및 메인 설명 텍스트 크기 0.95rem 통일)
 
 ### 전략 문서
 - [x] 사이트 분석 보고서 (site_analysis.md)
