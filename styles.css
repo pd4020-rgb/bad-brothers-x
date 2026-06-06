@@ -1566,10 +1566,10 @@ body {
    ========================================================================== */
 @media (max-height: 500px) and (orientation: landscape) {
 
-    /* --- HEADER: compact, inline nav --- */
+    /* --- HEADER: compact, inline nav, tappable size --- */
     .site-header {
-        padding: 8px 24px;
-        gap: 20px;
+        padding: 10px 24px;
+        gap: 16px;
     }
 
     .header-logo {
@@ -1586,7 +1586,7 @@ body {
         backdrop-filter: none;
         -webkit-backdrop-filter: none;
         flex-direction: row;
-        gap: 6px;
+        gap: 4px;
         padding: 0;
         box-shadow: none;
         border: none;
@@ -1594,10 +1594,13 @@ body {
     }
 
     .nav-menu .nav-link {
-        font-size: 0.65rem;
-        padding: 4px 6px;
+        font-size: 0.8rem;
+        padding: 8px 10px;
         letter-spacing: 0.8px;
         border-bottom: none;
+        min-height: 36px;
+        display: flex;
+        align-items: center;
     }
 
     .hamburger-btn {
@@ -1610,7 +1613,7 @@ body {
     }
 
     .grid-section {
-        padding: 20px 0;
+        padding: 30px 0;
     }
 
     .section-header-row {
@@ -1635,15 +1638,18 @@ body {
     }
 
     .hero-section .text-panel {
-        padding: 10px 0;
+        padding: 16px 0;
         order: 1;
         align-items: flex-start;
         text-align: left;
+        justify-content: center;
     }
 
     .hero-section .media-panel {
         order: 2;
         padding: 0;
+        display: flex;
+        align-items: center;
     }
 
     .main-title {
