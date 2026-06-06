@@ -185,8 +185,8 @@ document.addEventListener('DOMContentLoaded', () => {
             };
 
             try {
-                // Formspree endpoint — replace 'xpwzanpy' with your actual Formspree form ID
-                const response = await fetch('https://formspree.io/f/xpwzanpy', {
+                // Formsubmit endpoint for direct email delivery
+                const response = await fetch('https://formsubmit.co/ajax/badbrothersx.official@gmail.com', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
                     body: JSON.stringify(formData)
