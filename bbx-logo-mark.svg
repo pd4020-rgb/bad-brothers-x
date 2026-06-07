@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120" role="img" aria-labelledby="title">
+  <title id="title">Bad Brothers X symbol</title>
+  <g fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M12 12v96l78-48z"/>
+    <path d="M228 12v96l-78-48z"/>
+    <path d="M78 22l84 76"/>
+    <path d="M162 22L78 98"/>
+    <path d="M12 60h78"/>
+    <path d="M150 60h78"/>
+  </g>
+</svg>
