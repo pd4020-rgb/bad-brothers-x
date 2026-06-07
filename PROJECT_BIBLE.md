@@ -172,6 +172,8 @@ BAD BROTHERS X (AI 엔터 에이전시)
 - [x] v2.5 모바일 첫화면 텍스트/버튼 중앙 정렬 패치 (그린 태그라인, 메인 타이틀, 상세 설명글, 버튼 그룹 중앙 정렬 구현)
 - [x] v2.6 모바일 ambient glow 숨김 (가로 모드 녹색 배경 제거) + 가로 모드 헤더 최적화
 - [x] v2.7 모바일 가로 모드 전체 레이아웃 최적화 (로스터·갤러리·숍 2열, 히어로·뮤직·스튜디오 좌우 배치, 이미지 비율 조정, 전체 패딩 축소)
+- [x] v4.0 SHOP 파일럿 구조 구축 (실제 HTTPS 결제 URL이 있는 상품만 BUY NOW 활성화, 디지털 아트팩 1개 우선 테스트, 미검증 실물 상품 COMING SOON 고정)
+- [x] 판매 이미지 품질 검사 스크립트 및 SHOP 출시 기준 문서 추가 (`check-shop-images.js`, `SHOP_LAUNCH.md`)
 
 ### 전략 문서
 - [x] 사이트 분석 보고서 (site_analysis.md)
@@ -188,7 +190,7 @@ BAD BROTHERS X (AI 엔터 에이전시)
 1. YouTube MV를 MUSIC 섹션에 실제로 임베드 (https://youtu.be/42R7bbldoHo)
 2. 갤러리 섹션에 실제 작품 이미지 삽입
 3. sitemap.xml 생성 + Google Search Console 등록
-4. Etsy/Redbubble 스토어 연동 (SHOP 섹션 링크 연결)
+4. Gumroad에 `BBX Digital Art Pack — Vol. 01` 실제 상품 생성, 외부 구매 테스트 후 `shop-config.js`에 결제 URL 연결
 
 ### 🟡 이번 달 내
 5. CHARACTER X 전용 AI 생성 비주얼/영상
@@ -201,6 +203,14 @@ BAD BROTHERS X (AI 엔터 에이전시)
 10. CHARACTER X 인스타/틱톡 전용 계정
 11. Patreon/Ko-fi 팬 후원 시스템
 12. 이메일 구독(뉴스레터) 폼 추가
+
+### SHOP 출시 원칙
+
+1. 웹사이트 이미지는 상품 미리보기이며 판매·인쇄 원본이 아니다.
+2. 인쇄 후보 원본은 장변 최소 6000px, 최종 출력 크기 기준 300 PPI를 권장한다.
+3. 디지털 파일은 공개 웹 저장소에 올리지 않고 Gumroad가 결제 후 전달한다.
+4. 실제 결제, 이메일 영수증, 다운로드, 환불, 정산 테스트를 통과한 상품만 `BUY NOW`로 공개한다.
+5. 캔버스·후디·바이닐은 실물 샘플과 배송비가 검증될 때까지 `COMING SOON`으로 유지한다.
 
 ---
 

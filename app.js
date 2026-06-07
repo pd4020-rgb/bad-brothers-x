@@ -222,50 +222,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // ==========================================
-    // C. ORDER MODAL LOGIC
+    // C. SHOP RELEASE GATE
     // ==========================================
-    const orderButtons = document.querySelectorAll('.shop-order-btn');
-    const orderModal = document.getElementById('order-modal');
-    const closeOrderModalBtn = document.getElementById('close-modal');
-    const modalProductName = document.getElementById('modal-product-name');
-    const formSubject = document.getElementById('form-subject');
+    const shopConfig = window.BBX_SHOP?.products || {};
 
-    orderButtons.forEach(btn => {
-        btn.addEventListener('click', () => {
-            const productCard = btn.closest('.product-card');
-            const productName = productCard ? productCard.querySelector('h3').textContent : 'BBX Product';
-            
-            if (modalProductName) modalProductName.textContent = `Order: ${productName}`;
-            if (formSubject) formSubject.value = `Order Request — ${productName}`;
-            
-            if (orderModal) {
-                orderModal.style.display = 'flex';
-                // Trigger reflow for transition
-                orderModal.offsetHeight;
-                orderModal.classList.add('active');
-            }
-        });
+    document.querySelectorAll('[data-product-id]').forEach(card => {
+        const product = shopConfig[card.dataset.productId];
+        const buyButton = card.querySelector('[data-buy-button]');
+        const statusLabel = card.querySelector('[data-status]');
+
+        if (!buyButton || !product) return;
+
+        const hasLiveCheckout = product.status === 'live'
+            && /^https:\/\//i.test(product.checkoutUrl);
+
+        if (hasLiveCheckout) {
+            buyButton.href = product.checkoutUrl;
+            buyButton.removeAttribute('aria-disabled');
+            buyButton.innerHTML = 'BUY NOW <i data-feather="shopping-cart"></i>';
+            if (statusLabel) statusLabel.textContent = 'AVAILABLE NOW';
+        } else {
+            buyButton.removeAttribute('href');
+            buyButton.setAttribute('aria-disabled', 'true');
+            buyButton.addEventListener('click', event => event.preventDefault());
+        }
     });
 
-    if (closeOrderModalBtn && orderModal) {
-        closeOrderModalBtn.addEventListener('click', () => {
-            orderModal.classList.remove('active');
-            setTimeout(() => {
-                orderModal.style.display = 'none';
-            }, 300); // matches transition time
-        });
-    }
-
-    if (orderModal) {
-        orderModal.addEventListener('click', (e) => {
-            if (e.target === orderModal) {
-                orderModal.classList.remove('active');
-                setTimeout(() => {
-                    orderModal.style.display = 'none';
-                }, 300);
-            }
-        });
-    }
+    if (typeof feather !== 'undefined') feather.replace();
 
     // ==========================================
     // D. SCROLL TO TOP PROGRESS CIRCLE & SCROLLSPY
@@ -342,5 +325,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
-
 
