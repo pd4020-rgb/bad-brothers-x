@@ -2319,9 +2319,40 @@ body {
 
     /* --- FOOTER --- */
     .site-footer {
-        padding: 16px 24px;
-        flex-direction: row;
-        gap: 16px;
+        padding: 24px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+        text-align: left;
+    }
+
+    .footer-top {
+        gap: 24px;
+    }
+
+    .footer-legal {
+        width: 100%;
+        margin-top: 0;
+        padding: 14px 0;
+    }
+
+    .footer-legal p {
+        max-width: none;
+        margin: 0;
+        text-align: left;
+        line-height: 1.6;
+    }
+
+    .footer-meta {
+        width: 100%;
+        justify-content: flex-start;
+        gap: 12px;
+        white-space: nowrap;
+    }
+
+    .meta-item {
+        padding-left: 0;
+        margin-left: 0;
     }
 
     /* --- BACK TO TOP --- */
