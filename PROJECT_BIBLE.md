@@ -175,6 +175,7 @@ BAD BROTHERS X (AI 엔터 에이전시)
 - [x] v4.0 SHOP 파일럿 구조 구축 (실제 HTTPS 결제 URL이 있는 상품만 BUY NOW 활성화, 디지털 아트팩 1개 우선 테스트, 미검증 실물 상품 COMING SOON 고정)
 - [x] 판매 이미지 품질 검사 스크립트 및 SHOP 출시 기준 문서 추가 (`check-shop-images.js`, `SHOP_LAUNCH.md`)
 - [x] BBX 공식 심볼을 헤더 브랜드명 아래에 반응형으로 적용 (PC·모바일 세로·모바일 가로 비율 검수)
+- [x] 헤더와 본문 배경을 순수 검정으로 통일하고 ambient glow 제거, 헤더 심볼 가독성 확대
 
 ### 전략 문서
 - [x] 사이트 분석 보고서 (site_analysis.md)
