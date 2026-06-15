@@ -1,0 +1,1545 @@
+window.archiveManifestData = 
+{
+  "generatedAt": "2026-06-07T01:19:39.879Z",
+  "site": "https://www.jungking.com",
+  "mediaLibrary": {
+    "cardCount": 641,
+    "folderCount": 3,
+    "fileCount": 638
+  },
+  "warnings": [
+    {
+      "type": "redirect",
+      "exhibition": "2023 Collabo Collage Gallery,2인전,울산",
+      "detail": "현재 상세 URL이 2025 메인 페이지 콘텐츠로 연결됨. 자동 분류 보류 필요."
+    }
+  ],
+  "exhibitions": [
+    {
+      "order": 0,
+      "title": "2026 Bad Brothers X",
+      "folder": "00_2026 Bad Brothers X",
+      "url": "",
+      "headings": [],
+      "paragraphs": [
+        "Bad Brothers X Project. The genesis of an independent virtual art scene, fully separated from physical exhibitions and traditional collaborations.",
+        "This project encompasses the Character X 'LIFE IS FUN' music video, original album production, and cutting-edge AI video creation.",
+        "Moving forward, all new virtual IP creations and digital artworks will be archived within this independent universe."
+      ],
+      "assets": [],
+      "actualFiles": [
+        "001_bbx_website.jpg",
+        "002_bbx_roster.jpg",
+        "003_bbx_mv1.jpg",
+        "004_bbx_mv2.jpg"
+      ],
+      "status": "ready"
+    },
+    {
+      "order": 1,
+      "title": "2025 2인전, 갤러리오로라",
+      "folder": "01_2025 2인전, 갤러리오로라",
+      "url": "https://www.jungking.com/",
+      "headings": [
+        "JUNGKING",
+        "25.1.6까지 \n오로라갤러리2인전 JUNGKING X RENASON"
+      ],
+      "paragraphs": [],
+      "assets": [
+        {
+          "mediaId": "092bee_c59191db2e8d446e91ae1b21670109a8~mv2.jpg",
+          "fileName": "DSC00056.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_c59191db2e8d446e91ae1b21670109a8~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_c59191db2e8d446e91ae1b21670109a8~mv2.jpg/v1/fill/w_600,h_448,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC00056_JPG.jpg"
+        },
+        {
+          "mediaId": "092bee_e0333284e21f48129e13a979a0dc0289~mv2.jpg",
+          "fileName": "DSC00078.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_e0333284e21f48129e13a979a0dc0289~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_e0333284e21f48129e13a979a0dc0289~mv2.jpg/v1/fill/w_600,h_421,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC00078_JPG.jpg"
+        },
+        {
+          "mediaId": "092bee_e95465903cb94766836242373d3db822~mv2.jpg",
+          "fileName": "DSC00058.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_e95465903cb94766836242373d3db822~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_e95465903cb94766836242373d3db822~mv2.jpg/v1/fill/w_600,h_482,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC00058_JPG.jpg"
+        },
+        {
+          "mediaId": "092bee_afd9a497db504db297f79ac89ce9648a~mv2.jpg",
+          "fileName": "C0004T01.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_afd9a497db504db297f79ac89ce9648a~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_afd9a497db504db297f79ac89ce9648a~mv2.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_DSC00056.JPG",
+        "002_DSC00078.JPG",
+        "003_DSC00058.JPG",
+        "004_C0004T01.JPG"
+      ]
+    },
+    {
+      "order": 2,
+      "title": "2024 인천아트쇼,갤러리 위",
+      "folder": "02_2024 인천아트쇼,갤러리 위",
+      "url": "https://www.jungking.com/2024%EC%9D%B8%EC%B2%9C%EC%95%84%ED%8A%B8%EC%87%BC-%EA%B0%A4%EB%9F%AC%EB%A6%AC-%EC%9C%84",
+      "headings": [
+        "JUNGKING",
+        "2024  인천아트쇼",
+        "갤러리위 , (김선영,정킹,아트놈,허필석,손진형 ) 참여작가님"
+      ],
+      "paragraphs": [
+        "​"
+      ],
+      "assets": [
+        {
+          "mediaId": "092bee_afb4d28b8d1e491bb607096b09571478~mv2.jpg",
+          "fileName": "KakaoTalk_20241220_193324325_01.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_afb4d28b8d1e491bb607096b09571478~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_afb4d28b8d1e491bb607096b09571478~mv2.jpg/v1/fill/w_669,h_1129,al_c,q_85,usm_0.66_1.00_0.01/092bee_afb4d28b8d1e491bb607096b09571478~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_c8c5ce41f18b433d924f9baf7fa8545a~mv2.jpg",
+          "fileName": "KakaoTalk_20241220_193324325.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_c8c5ce41f18b433d924f9baf7fa8545a~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_c8c5ce41f18b433d924f9baf7fa8545a~mv2.jpg/v1/fill/w_669,h_1110,al_c,q_85,usm_0.66_1.00_0.01/092bee_c8c5ce41f18b433d924f9baf7fa8545a~mv2.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_KakaoTalk_20241220_193324325_01.jpg",
+        "002_KakaoTalk_20241220_193324325.jpg"
+      ]
+    },
+    {
+      "order": 3,
+      "title": "2024 개인전(초대전), 갤러리 위",
+      "folder": "03_2024 개인전(초대전), 갤러리 위",
+      "url": "https://www.jungking.com/%EB%B3%B5%EC%A0%9C-2023-collabo-collage-gallery-2%EC%9D%B8%EC%A0%84-%EC%9A%B8%EC%82%B0",
+      "headings": [
+        "JUNGKING",
+        "2024  MARCH ON, LIFE IS FUN",
+        "​"
+      ],
+      "paragraphs": [
+        "정킹 개인전(초대전) \n기간: 2024 . 4. 17 ~ 5. 11",
+        "​",
+        "전시 타이틀 \"March on , life is fun\" (행진. 삶을 즐겁게)",
+        "캐릭터 X가 즐겁게 삶이라는 무한한 우주를 탐험하는 여정을 통해 \n우리 모두가 행복하고 긍정적인 미래로 함께 나아가자는 메시지를 전달한다.\n\"LIFE IS FUN\" 시리즈에서 파생된 캐릭터 X는 현대인의 다양한 페르소나를 재치있게 표현하며, \n타의에 의해 규정된 무조건적 규칙에 반대한다. 또한 삶과 일상에 늘 존재",
+        "(어려움, 장애물, 경쟁 등)하는 대상은 이겨야 할 존재가 아닌 즐겨야 할 대상으로 접근한다.",
+        "상상은 자유다. 캐릭터 X는 말한다, “삶이라는 경주, 끝없는 우주, 우리가 만든 파라다이스,",
+        "\"March on , life is fun\"",
+        "Exhibition title \"March on, life is fun\"",
+        "Character X delivers the message that through the joyful exploration of the infinite universe called life, we should all move towards a happy and positive future together. Derived from the \"LIFE IS FUN\" series, Character X ingeniously represents the various personas of modern individuals and opposes the unconditional rules defined by others. Moreover, it approaches the ever-present aspects of life and daily routines (such as difficulties, obstacles, competition, etc.) not as entities to be conquered but as ones to be enjoyed.",
+        "Imagination is free. Character X says, \"The race of life, the endless universe, the paradise we have created, 'March on, life is fun.'\"",
+        "​",
+        "​"
+      ],
+      "assets": [
+        {
+          "mediaId": "092bee_ed52cf339c08430e82cc8cb26c8a4c00~mv2.jpg",
+          "fileName": "24 정킹작가 개인전.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_ed52cf339c08430e82cc8cb26c8a4c00~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_ed52cf339c08430e82cc8cb26c8a4c00~mv2.jpg/v1/fill/w_1470,h_1960,al_c,q_90,usm_0.66_1.00_0.01/092bee_ed52cf339c08430e82cc8cb26c8a4c00~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_65239f16a93a48c3920228a5be4a88b0~mv2.jpg",
+          "fileName": "작가와의 만남_edited.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_65239f16a93a48c3920228a5be4a88b0~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_65239f16a93a48c3920228a5be4a88b0~mv2.jpg/v1/fill/w_1791,h_980,al_c,q_85,usm_0.66_1.00_0.01/092bee_65239f16a93a48c3920228a5be4a88b0~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_2b498aacbb5647e69a8eb002750e6e42~mv2.jpg",
+          "fileName": "개인전1.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_2b498aacbb5647e69a8eb002750e6e42~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_2b498aacbb5647e69a8eb002750e6e42~mv2.jpg/v1/fill/w_693,h_980,al_c,q_85,usm_0.66_1.00_0.01/092bee_2b498aacbb5647e69a8eb002750e6e42~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_75306e719ca24664b30a0b558e5fd0b1~mv2.jpeg",
+          "fileName": "갤러리 위 전경2.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_75306e719ca24664b30a0b558e5fd0b1~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_75306e719ca24664b30a0b558e5fd0b1~mv2.jpeg/v1/fill/w_709,h_980,al_c,q_85,usm_0.66_1.00_0.01/092bee_75306e719ca24664b30a0b558e5fd0b1~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_ff46ff56a5bf42a099493dec27b4fbf4~mv2.jpeg",
+          "fileName": "갤러리 위 전경.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_ff46ff56a5bf42a099493dec27b4fbf4~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_ff46ff56a5bf42a099493dec27b4fbf4~mv2.jpeg/v1/fill/w_1632,h_980,al_c,q_85,usm_0.66_1.00_0.01/092bee_ff46ff56a5bf42a099493dec27b4fbf4~mv2.jpeg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_24 정킹작가 개인전.jpg",
+        "002_작가와의 만남_edited.jpg",
+        "003_개인전1.jpg",
+        "004_갤러리 위 전경2.jpeg",
+        "005_갤러리 위 전경.jpeg"
+      ]
+    },
+    {
+      "order": 4,
+      "title": "2024 화랑미술제 in 수원, 갤러리 위",
+      "folder": "04_2024 화랑미술제 in 수원, 갤러리 위",
+      "url": "https://www.jungking.com/%ED%99%94%EB%9E%91%EB%AF%B8%EC%88%A0%EC%A0%9C%EC%9D%B8%EC%88%98%EC%9B%90-%EA%B0%A4%EB%9F%AC%EB%A6%AC-%EC%9C%84",
+      "headings": [
+        "JUNGKING",
+        "2024  화랑미술제 In 수원",
+        "갤러리위 , (정킹,아트놈,고스,최한진,임지빈,허필석 ) 작가님"
+      ],
+      "paragraphs": [
+        "​"
+      ],
+      "assets": [
+        {
+          "mediaId": "092bee_4735dee113d44504bfa7d169ec086ac9~mv2.jpg",
+          "fileName": "KakaoTalk_20241007_190054668_01.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_4735dee113d44504bfa7d169ec086ac9~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_4735dee113d44504bfa7d169ec086ac9~mv2.jpg/v1/fill/w_1338,h_1784,al_c,q_90,usm_0.66_1.00_0.01/092bee_4735dee113d44504bfa7d169ec086ac9~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_f1480ddcd5ea453184ec964e7ab4f546~mv2.jpg",
+          "fileName": "KakaoTalk_20241007_190054668.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_f1480ddcd5ea453184ec964e7ab4f546~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_f1480ddcd5ea453184ec964e7ab4f546~mv2.jpg/v1/fill/w_669,h_660,al_c,q_85,usm_0.66_1.00_0.01/092bee_f1480ddcd5ea453184ec964e7ab4f546~mv2.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_KakaoTalk_20241007_190054668_01.jpg",
+        "002_KakaoTalk_20241007_190054668.jpg"
+      ]
+    },
+    {
+      "order": 5,
+      "title": "2024 라이브페인팅 특별부스, 갤러리위",
+      "folder": "05_2024 라이브페인팅 특별부스, 갤러리위",
+      "url": "https://www.jungking.com/%EB%9D%BC%EC%9D%B4%EB%B8%8C%ED%8E%98%EC%9D%B8%ED%8C%85-%EA%B0%A4%EB%9F%AC%EB%A6%AC-%EC%9C%84",
+      "headings": [
+        "JUNGKING",
+        "2024  라이브페인팅 KBS뉴스 촬영\n화랑미술제 IN 수원 , 갤러리위 , 정킹작가 라이브페인팅특별부스"
+      ],
+      "paragraphs": [],
+      "assets": [
+        {
+          "mediaId": "092bee_5322c609d38643c7994e417dd9d52487~mv2.jpg",
+          "fileName": "KBS촬영 라이브 퍼포먼스 화랑미술제인수원 특별부스",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_5322c609d38643c7994e417dd9d52487~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_5322c609d38643c7994e417dd9d52487~mv2.jpg/v1/fill/w_1468,h_1266,al_c,q_85,usm_0.66_1.00_0.01/092bee_5322c609d38643c7994e417dd9d52487~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_f8b9d81178494e8a87c99d8a2cb8994f~mv2.jpg",
+          "fileName": "kbs 뉴스 방송 .jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_f8b9d81178494e8a87c99d8a2cb8994f~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_f8b9d81178494e8a87c99d8a2cb8994f~mv2.jpg/v1/fill/w_1019,h_633,al_c,q_85,usm_0.66_1.00_0.01/092bee_f8b9d81178494e8a87c99d8a2cb8994f~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_90d0bdf0328e4b3ab226f03e1e6e0bbe~mv2.jpg",
+          "fileName": "라이브 퍼포먼스 화랑미술제인수원 특별부스.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_90d0bdf0328e4b3ab226f03e1e6e0bbe~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_90d0bdf0328e4b3ab226f03e1e6e0bbe~mv2.jpg/v1/fill/w_1338,h_1338,al_c,q_85,usm_0.66_1.00_0.01/092bee_90d0bdf0328e4b3ab226f03e1e6e0bbe~mv2.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_KBS촬영 라이브 퍼포먼스 화랑미술제인수원 특별부스.jpg",
+        "002_kbs 뉴스 방송 .jpg",
+        "003_라이브 퍼포먼스 화랑미술제인수원 특별부스.jpg"
+      ]
+    },
+    {
+      "order": 6,
+      "title": "2023 Collabo Collage Gallery,2인전,울산",
+      "folder": "06_2023 Collabo Collage Gallery,2인전,울산",
+      "url": "https://www.jungking.com/2023collabocollagegallery",
+      "headings": [
+        "JUNGKING",
+        "25.1.6까지 \n오로라갤러리2인전 JUNGKING X RENASON"
+      ],
+      "paragraphs": [],
+      "assets": [
+        {
+          "mediaId": "092bee_6c505c8021a14391ac24089fad6743f9f000.jpg",
+          "fileName": "092bee_6c505c8021a14391ac24089fad6743f9f000.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_6c505c8021a14391ac24089fad6743f9f000.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_6c505c8021a14391ac24089fad6743f9f000.jpg/v1/fill/w_1200,h_766,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/092bee_6c505c8021a14391ac24089fad6743f9f000.jpg"
+        },
+        {
+          "mediaId": "092bee_c59191db2e8d446e91ae1b21670109a8~mv2.jpg",
+          "fileName": "DSC00056.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_c59191db2e8d446e91ae1b21670109a8~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_c59191db2e8d446e91ae1b21670109a8~mv2.jpg/v1/fill/w_600,h_448,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC00056_JPG.jpg"
+        },
+        {
+          "mediaId": "092bee_e0333284e21f48129e13a979a0dc0289~mv2.jpg",
+          "fileName": "DSC00078.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_e0333284e21f48129e13a979a0dc0289~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_e0333284e21f48129e13a979a0dc0289~mv2.jpg/v1/fill/w_600,h_421,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC00078_JPG.jpg"
+        },
+        {
+          "mediaId": "092bee_e95465903cb94766836242373d3db822~mv2.jpg",
+          "fileName": "DSC00058.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_e95465903cb94766836242373d3db822~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_e95465903cb94766836242373d3db822~mv2.jpg/v1/fill/w_600,h_482,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC00058_JPG.jpg"
+        },
+        {
+          "mediaId": "092bee_afd9a497db504db297f79ac89ce9648a~mv2.jpg",
+          "fileName": "C0004T01.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_afd9a497db504db297f79ac89ce9648a~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_afd9a497db504db297f79ac89ce9648a~mv2.jpg/v1/fill/w_600,h_407,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/C0004T01_JPG.jpg"
+        }
+      ],
+      "status": "review_required",
+      "actualFiles": []
+    },
+    {
+      "order": 7,
+      "title": "2021 ARTJEJU , 갤러리 4번가, 제주",
+      "folder": "07_2021 ARTJEJU , 갤러리 4번가, 제주",
+      "url": "https://www.jungking.com/2021artjeju",
+      "headings": [
+        "JUNGKING",
+        "2021 ARTJEJU 갤러리 4번가"
+      ],
+      "paragraphs": [
+        "​"
+      ],
+      "assets": [
+        {
+          "mediaId": "092bee_29a10ae552cf4738a4c0e19d8cb4c2ac~mv2.jpg",
+          "fileName": "artjeju.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_29a10ae552cf4738a4c0e19d8cb4c2ac~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_29a10ae552cf4738a4c0e19d8cb4c2ac~mv2.jpg/v1/fill/w_1037,h_669,al_c,q_85,usm_0.66_1.00_0.01/092bee_29a10ae552cf4738a4c0e19d8cb4c2ac~mv2.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_artjeju.jpg"
+      ]
+    },
+    {
+      "order": 8,
+      "title": "2020 URBAN BREAK Art Asia, 코엑스",
+      "folder": "08_2020 URBAN BREAK Art Asia, 코엑스",
+      "url": "https://www.jungking.com/%EB%B3%B5%EC%A0%9C-2020-urban-break-art-asia-%EC%BD%94%EC%97%91%EC%8A%A4",
+      "headings": [
+        "JUNGKING",
+        "2020 URBAN BREAK ART ASIA JUNGKING X 앤아트 갤러리"
+      ],
+      "paragraphs": [
+        "JUNGKING",
+        "어반 브레이크 아트 아시아 코엑스 페어 참여 , 앤아트 갤러리  코엑스",
+        "하반기 글로벌 아트 페스티벌, 어반브레이크 아트아시아 11.12(수) - 15(일) COEX / URBAN BREAK Art Asia"
+      ],
+      "assets": [
+        {
+          "mediaId": "092bee_53b05daadc6c410ab1f5288db392ab4d~mv2.jpeg",
+          "fileName": "URBAN BREAK ARTASIA.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_53b05daadc6c410ab1f5288db392ab4d~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_53b05daadc6c410ab1f5288db392ab4d~mv2.jpeg/v1/fill/w_1001,h_669,al_c,q_85,usm_0.66_1.00_0.01/092bee_53b05daadc6c410ab1f5288db392ab4d~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_d97b77c583c4415b88c3a42238bfcb79~mv2.jpeg",
+          "fileName": "URBAN BREAK ARTASIA6.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_d97b77c583c4415b88c3a42238bfcb79~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_d97b77c583c4415b88c3a42238bfcb79~mv2.jpeg/v1/fill/w_980,h_1466,al_c,q_85,usm_0.66_1.00_0.01/092bee_d97b77c583c4415b88c3a42238bfcb79~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_f45b08aac5b14914969a401dd6ea08a9~mv2.jpeg",
+          "fileName": "URBAN BREAK ARTASIA15.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_f45b08aac5b14914969a401dd6ea08a9~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_f45b08aac5b14914969a401dd6ea08a9~mv2.jpeg/v1/fill/w_1001,h_669,al_c,q_85,usm_0.66_1.00_0.01/092bee_f45b08aac5b14914969a401dd6ea08a9~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_5f88a393333c4064a4ec6dd9b4857dd2~mv2.jpeg",
+          "fileName": "KakaoTalk_Photo_2020-11-13-21-52-31-15.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_5f88a393333c4064a4ec6dd9b4857dd2~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_5f88a393333c4064a4ec6dd9b4857dd2~mv2.jpeg/v1/fill/w_980,h_1400,al_c,q_85,usm_0.66_1.00_0.01/092bee_5f88a393333c4064a4ec6dd9b4857dd2~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_22ce608a5ebc4f598d6e3a862929846c~mv2.jpeg",
+          "fileName": "URBAN BREAK ARTASIA2.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_22ce608a5ebc4f598d6e3a862929846c~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_22ce608a5ebc4f598d6e3a862929846c~mv2.jpeg/v1/fill/w_1001,h_669,al_c,q_85,usm_0.66_1.00_0.01/092bee_22ce608a5ebc4f598d6e3a862929846c~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_a2de0c81ed034a8584be89f54acd92dc~mv2.jpeg",
+          "fileName": "URBAN BREAK ARTASIA11.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_a2de0c81ed034a8584be89f54acd92dc~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_a2de0c81ed034a8584be89f54acd92dc~mv2.jpeg/v1/fill/w_1001,h_669,al_c,q_85,usm_0.66_1.00_0.01/092bee_a2de0c81ed034a8584be89f54acd92dc~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_037003b05bec43c0a0faf7275656f231~mv2.jpeg",
+          "fileName": "URBAN BREAK ARTASIA10.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_037003b05bec43c0a0faf7275656f231~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_037003b05bec43c0a0faf7275656f231~mv2.jpeg/v1/fill/w_980,h_1400,al_c,q_85,usm_0.66_1.00_0.01/092bee_037003b05bec43c0a0faf7275656f231~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_8aa0eef7c76445aba1a9a3e4ffdde071~mv2.jpeg",
+          "fileName": "URBAN BREAK ARTASIA",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_8aa0eef7c76445aba1a9a3e4ffdde071~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_8aa0eef7c76445aba1a9a3e4ffdde071~mv2.jpeg/v1/fill/w_980,h_1466,al_c,q_85,usm_0.66_1.00_0.01/092bee_8aa0eef7c76445aba1a9a3e4ffdde071~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_9c3995239c4046aa8db0d3735648374e~mv2.jpeg",
+          "fileName": "URBAN BREAK ARTASIA5.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_9c3995239c4046aa8db0d3735648374e~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_9c3995239c4046aa8db0d3735648374e~mv2.jpeg/v1/fill/w_980,h_1466,al_c,q_85,usm_0.66_1.00_0.01/092bee_9c3995239c4046aa8db0d3735648374e~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_b577e3184ef940398f2bce52f899345f~mv2.jpeg",
+          "fileName": "URBAN BREAK ARTASIA16.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_b577e3184ef940398f2bce52f899345f~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_b577e3184ef940398f2bce52f899345f~mv2.jpeg/v1/fill/w_1960,h_2612,al_c,q_90,usm_0.66_1.00_0.01/092bee_b577e3184ef940398f2bce52f899345f~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_2da71ed4a5a3421194c4284d53782eb8~mv2.jpeg",
+          "fileName": "URBAN BREAK ARTASIA9.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_2da71ed4a5a3421194c4284d53782eb8~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_2da71ed4a5a3421194c4284d53782eb8~mv2.jpeg/v1/fill/w_980,h_979,al_c,q_85,usm_0.66_1.00_0.01/092bee_2da71ed4a5a3421194c4284d53782eb8~mv2.jpeg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_URBAN BREAK ARTASIA.jpeg",
+        "002_URBAN BREAK ARTASIA6.jpeg",
+        "003_URBAN BREAK ARTASIA15.jpeg",
+        "004_KakaoTalk_Photo_2020-11-13-21-52-31-15.jpeg",
+        "005_URBAN BREAK ARTASIA2.jpeg",
+        "006_URBAN BREAK ARTASIA11.jpeg",
+        "007_URBAN BREAK ARTASIA10.jpeg",
+        "008_URBAN BREAK ARTASIA.jpeg",
+        "009_URBAN BREAK ARTASIA5.jpeg",
+        "010_URBAN BREAK ARTASIA16.jpeg",
+        "011_URBAN BREAK ARTASIA9.jpeg"
+      ]
+    },
+    {
+      "order": 9,
+      "title": "2020 CARNIVAL, 아쉬갤러리",
+      "folder": "09_2020 CARNIVAL, 아쉬갤러리",
+      "url": "https://www.jungking.com/2020carnival",
+      "headings": [
+        "JUNGKING",
+        "2020 CARNIVAL ALTAMIRA 아쉬갤러리"
+      ],
+      "paragraphs": [
+        "2020.09월11일 ~ 9월 27일 아쉬갤러리 헤이리 \"카니발전 알타미라\" 그룹전",
+        "알타미라 '날리는 돌'의 딸, '흔들리는 손' 다양한 작가들의 작품도 함께 감상.",
+        "​"
+      ],
+      "assets": [
+        {
+          "mediaId": "092bee_b8c90a575d3f4948b202d36f60842735~mv2.png",
+          "fileName": "KakaoTalk_20201010_144418215_02.png",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_b8c90a575d3f4948b202d36f60842735~mv2.png",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_b8c90a575d3f4948b202d36f60842735~mv2.png/v1/fill/w_979,h_1413,al_c,q_85,usm_0.66_1.00_0.01/092bee_b8c90a575d3f4948b202d36f60842735~mv2.png"
+        },
+        {
+          "mediaId": "092bee_b9c4a49702f5473ca4e29314355dbc6f~mv2.jpg",
+          "fileName": "KakaoTalk_20201010_160614224.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_b9c4a49702f5473ca4e29314355dbc6f~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_b9c4a49702f5473ca4e29314355dbc6f~mv2.jpg/v1/fill/w_980,h_980,al_c,q_85,usm_0.66_1.00_0.01/092bee_b9c4a49702f5473ca4e29314355dbc6f~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_d98197d687df4eceb8c213e6a3595879~mv2.jpg",
+          "fileName": "2.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_d98197d687df4eceb8c213e6a3595879~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_d98197d687df4eceb8c213e6a3595879~mv2.jpg/v1/fill/w_1062,h_892,al_c,q_85,usm_0.66_1.00_0.01/092bee_d98197d687df4eceb8c213e6a3595879~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_2207022e326c43f489b764b2174b0fbd~mv2.jpg",
+          "fileName": "1.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_2207022e326c43f489b764b2174b0fbd~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_2207022e326c43f489b764b2174b0fbd~mv2.jpg/v1/fill/w_979,h_1290,al_c,q_85,usm_0.66_1.00_0.01/092bee_2207022e326c43f489b764b2174b0fbd~mv2.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_KakaoTalk_20201010_144418215_02.png",
+        "002_KakaoTalk_20201010_160614224.jpg",
+        "003_2.jpg",
+        "004_1.jpg"
+      ]
+    },
+    {
+      "order": 10,
+      "title": "2020 광교 갤러리아백화점 VIP ROOM(앤아트갤러리)",
+      "folder": "10_2020 광교 갤러리아백화점 VIP ROOM(앤아트갤러리)",
+      "url": "https://www.jungking.com/2020%EA%B4%91%EA%B5%90%EA%B0%A4%EB%9F%AC%EB%A6%AC%EC%95%84%EB%B0%B1%ED%99%94%EC%A0%90",
+      "headings": [
+        "JUNGKING",
+        "2020 앤아트갤러리 X 광교갤러리아"
+      ],
+      "paragraphs": [
+        "2020.08월 앤아트 갤러리 광교갤러리아 백화점 VIP ROOM 전시 다양한 작가와 작품을 감상. 이미지출처: 앤아트갤러리"
+      ],
+      "assets": [
+        {
+          "mediaId": "092bee_cc479d16a1424cc6ae1171996ade9c07~mv2.jpg",
+          "fileName": "광교갤러리아백화점-VIP room전시5.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_cc479d16a1424cc6ae1171996ade9c07~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_cc479d16a1424cc6ae1171996ade9c07~mv2.jpg/v1/fill/w_2378,h_1784,al_c,q_90,usm_0.66_1.00_0.01/092bee_cc479d16a1424cc6ae1171996ade9c07~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_8ab8737200dc4bdb8d33a5b798ee74d0~mv2.jpg",
+          "fileName": "광교갤러리아백화점-VIP room전시3.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_8ab8737200dc4bdb8d33a5b798ee74d0~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_8ab8737200dc4bdb8d33a5b798ee74d0~mv2.jpg/v1/fill/w_2378,h_1784,al_c,q_90,usm_0.66_1.00_0.01/092bee_8ab8737200dc4bdb8d33a5b798ee74d0~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_39ec9bb57dd9417a932eb63d041f8c97~mv2.jpg",
+          "fileName": "광교갤러리아백화점-VIP room전시.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_39ec9bb57dd9417a932eb63d041f8c97~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_39ec9bb57dd9417a932eb63d041f8c97~mv2.jpg/v1/fill/w_2378,h_1784,al_c,q_90,usm_0.66_1.00_0.01/092bee_39ec9bb57dd9417a932eb63d041f8c97~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_be37e644e47241e3ac4bb23262d6c583~mv2.jpg",
+          "fileName": "광교갤러리아백화점-VIP room전시2.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_be37e644e47241e3ac4bb23262d6c583~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_be37e644e47241e3ac4bb23262d6c583~mv2.jpg/v1/fill/w_1960,h_2612,al_c,q_90,usm_0.66_1.00_0.01/092bee_be37e644e47241e3ac4bb23262d6c583~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_dd1ed8087c2d49beb27ff41030fc783d~mv2.jpg",
+          "fileName": "광교갤러리아백화점-VIP room전시4.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_dd1ed8087c2d49beb27ff41030fc783d~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_dd1ed8087c2d49beb27ff41030fc783d~mv2.jpg/v1/fill/w_2378,h_1784,al_c,q_90,usm_0.66_1.00_0.01/092bee_dd1ed8087c2d49beb27ff41030fc783d~mv2.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_광교갤러리아백화점-VIP room전시5.jpg",
+        "002_광교갤러리아백화점-VIP room전시3.jpg",
+        "003_광교갤러리아백화점-VIP room전시.jpg",
+        "004_광교갤러리아백화점-VIP room전시2.jpg",
+        "005_광교갤러리아백화점-VIP room전시4.jpg"
+      ]
+    },
+    {
+      "order": 11,
+      "title": "2020 앤아트갤러리",
+      "folder": "11_2020 앤아트갤러리",
+      "url": "https://www.jungking.com/2020%EC%95%A4%EC%95%84%ED%8A%B8%EA%B0%A4%EB%9F%AC%EB%A6%AC",
+      "headings": [
+        "JUNGKING",
+        "2020 앤아트갤러리"
+      ],
+      "paragraphs": [
+        "2020.01월 앤아트 갤러리 전시 다양한 작가와 작품을 감상. 이미지출처: 앤아트갤러리"
+      ],
+      "assets": [
+        {
+          "mediaId": "092bee_464b0220f85c4ec780397ae1a3b0358b~mv2.jpg",
+          "fileName": "2020년 1월 앤아트갤러리.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_464b0220f85c4ec780397ae1a3b0358b~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_464b0220f85c4ec780397ae1a3b0358b~mv2.jpg/v1/fill/w_979,h_1292,al_c,q_85,usm_0.66_1.00_0.01/092bee_464b0220f85c4ec780397ae1a3b0358b~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_87e6bd5fc4a94b6086cb0999c56bc074~mv2.jpg",
+          "fileName": "2020년 1월 앤아트갤러리.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_87e6bd5fc4a94b6086cb0999c56bc074~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_87e6bd5fc4a94b6086cb0999c56bc074~mv2.jpg/v1/fill/w_979,h_1295,al_c,q_85,usm_0.66_1.00_0.01/092bee_87e6bd5fc4a94b6086cb0999c56bc074~mv2.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_2020년 1월 앤아트갤러리.jpg",
+        "002_2020년 1월 앤아트갤러리.jpg"
+      ]
+    },
+    {
+      "order": 12,
+      "title": "2020 하트시그널 채널A 작품설치",
+      "folder": "12_2020 하트시그널 채널A 작품설치",
+      "url": "https://www.jungking.com/2020%ED%95%98%ED%8A%B8%EC%8B%9C%EA%B7%B8%EB%84%90%EC%B1%84%EB%84%90",
+      "headings": [
+        "JUNGKING",
+        "2020 하트시그널 X 채널A"
+      ],
+      "paragraphs": [
+        "2020.03.25. ~ 2020.07.15.  16부작 / 넷플릭스 방영중",
+        "시그널 하우스에 입주하게 된 청춘 남녀들이 서로 ‘썸’을 타고, 연예인 예측단이 이들의 심리를 추리하는 리얼리티 프로그램",
+        "정킹작가 작품설치 ,다양한 작가들의 작품을 드라마속에서 볼수있습니다. 이미지출처: 하트시그널,공감"
+      ],
+      "assets": [
+        {
+          "mediaId": "092bee_47d39e06bf2a4e18b2c6c765fa56224e~mv2.jpg",
+          "fileName": "하트시그널3.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_47d39e06bf2a4e18b2c6c765fa56224e~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_47d39e06bf2a4e18b2c6c765fa56224e~mv2.jpg/v1/fill/w_980,h_1386,al_c,q_85,usm_0.66_1.00_0.01/092bee_47d39e06bf2a4e18b2c6c765fa56224e~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_06047f6f20e04ea3870dde4873822208~mv2.jpg",
+          "fileName": "하트시그널3-2.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_06047f6f20e04ea3870dde4873822208~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_06047f6f20e04ea3870dde4873822208~mv2.jpg/v1/fill/w_1188,h_892,al_c,q_85,usm_0.66_1.00_0.01/092bee_06047f6f20e04ea3870dde4873822208~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_81e736d9e882482faececb89be5a3465~mv2.jpg",
+          "fileName": "하트시그널3-4.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_81e736d9e882482faececb89be5a3465~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_81e736d9e882482faececb89be5a3465~mv2.jpg/v1/fill/w_980,h_980,al_c,q_85,usm_0.66_1.00_0.01/092bee_81e736d9e882482faececb89be5a3465~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_76eab3e9d8ec42ecac84015ca599b81a~mv2.jpg",
+          "fileName": "하트시그널-5.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_76eab3e9d8ec42ecac84015ca599b81a~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_76eab3e9d8ec42ecac84015ca599b81a~mv2.jpg/v1/fill/w_1336,h_892,al_c,q_85,usm_0.66_1.00_0.01/092bee_76eab3e9d8ec42ecac84015ca599b81a~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_52b6b01c141c4769b66a75285642948f~mv2.jpg",
+          "fileName": "하트시그널3-6.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_52b6b01c141c4769b66a75285642948f~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_52b6b01c141c4769b66a75285642948f~mv2.jpg/v1/fill/w_1336,h_892,al_c,q_85,usm_0.66_1.00_0.01/092bee_52b6b01c141c4769b66a75285642948f~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_4a80835fec044bed8a913ce19ef0bb36~mv2.jpg",
+          "fileName": "하트시그널3-1.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_4a80835fec044bed8a913ce19ef0bb36~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_4a80835fec044bed8a913ce19ef0bb36~mv2.jpg/v1/fill/w_980,h_1347,al_c,q_85,usm_0.66_1.00_0.01/092bee_4a80835fec044bed8a913ce19ef0bb36~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_8e449a3b63d24ea48b926596a3758e68~mv2_d_2016_1212_s_2.jpg",
+          "fileName": "정킹개인전2.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_8e449a3b63d24ea48b926596a3758e68~mv2_d_2016_1212_s_2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_8e449a3b63d24ea48b926596a3758e68~mv2_d_2016_1212_s_2.jpg/v1/fill/w_1483,h_892,al_c,q_85,usm_0.66_1.00_0.01/092bee_8e449a3b63d24ea48b926596a3758e68~mv2_d_2016_1212_s_2.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_하트시그널3.jpg",
+        "002_하트시그널3-2.jpg",
+        "003_하트시그널3-4.jpg",
+        "004_하트시그널-5.jpg",
+        "005_하트시그널3-6.jpg",
+        "006_하트시그널3-1.jpg",
+        "007_정킹개인전2.jpg"
+      ]
+    },
+    {
+      "order": 13,
+      "title": "2019압구정꼴라주 2인전 구)조니워커빌딩",
+      "folder": "13_2019압구정꼴라주 2인전 구)조니워커빌딩",
+      "url": "https://www.jungking.com/2019%EC%95%95%EA%B5%AC%EC%A0%95%EA%BC%B4%EB%9D%BC%EC%A3%BC2%EC%9D%B8%EC%A0%84",
+      "headings": [
+        "JUNGKING",
+        "2019 JUNGKING X SONJINHYOUNG APGUJEONG COLLAGE",
+        "2019 JUNGKING X SONJINHYOUNG APGUJEONG COLLAGE"
+      ],
+      "paragraphs": [
+        "JUNGKING",
+        "기획 인앤아웃아트 구)조니워커 빌딩  \"LIFE IS FUN\"",
+        "​",
+        "About the Artist / Biography and Notes",
+        "I am pop artist Jung King. Currently, I am working with color media, painting, and objects on the theme of “LIFE IS FUN.”",
+        "Work Notes—The Birth of Character X: “LIFE IS FUN”",
+        "The X symbol has many meanings, including a sign of the existence of the artist—that one’s will should not be framed by the will of others. In addition, the X image is characterized as something (difficulties, domestication,",
+        "obstacles, competition, etc.) that is always present in daily life and is thus to be enjoyed, as opposed to something to be fought against. Character X is used to emphasize the application of visual objects and colors, so that it can express its message freely across the spectrum of pop art including video media. Works created in this way convey a message that life is enjoyable, so it is to be dealt with in a joyful way.",
+        "Today, people talk to each other constantly but are unable to truly communicate with each other,",
+        "leading to a great deal of confusion and abstruseness. In such circumstances, an individual wanders constantly and struggles to fit into the world’s framework  An individual’s inner self is planned and constructed like a gray city, rendering oneself framed into the existing structure of the world. In this highly restricted world, the characters, who unfold the imagination on our behalf, appear as heroes; or else we ourselves come to born again as heroes.",
+        "Sometimes, deviating from all this makes resolving problems more fun. Working with a character makes the work visual, through which the alienated can deviate from their internal world and their burdensome gray space, thus recovering their true feeling of presence. Further, those who are dreaming of deviating from the world and whose places are taken by Character X come to muster their courage and thus to satirize the world. While restrictions and norms are visualized in a gray frame, internal and external sensibilities can transcend the space where people live, producing both a socially directed space and a visualized, fantasy space. Imagination is freedom. Character X says, “Why so serious? LIFE IS FUN!”",
+        "© 2016 by KINGS"
+      ],
+      "assets": [
+        {
+          "mediaId": "092bee_873547df03ad40b39061aa49778412de~mv2.jpg",
+          "fileName": "XLIF4893.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_873547df03ad40b39061aa49778412de~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_873547df03ad40b39061aa49778412de~mv2.jpg/v1/fill/w_338,h_422,q_90,enc_avif,quality_auto/092bee_873547df03ad40b39061aa49778412de~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_6f7b39bd0e214492880db648814c73bd~mv2.jpg",
+          "fileName": "DSC03258.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_6f7b39bd0e214492880db648814c73bd~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_6f7b39bd0e214492880db648814c73bd~mv2.jpg/v1/fill/w_632,h_422,q_90,enc_avif,quality_auto/092bee_6f7b39bd0e214492880db648814c73bd~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_ef6463116097416a9e8e53c84e462eb9~mv2.jpg",
+          "fileName": "IMG_7270.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_ef6463116097416a9e8e53c84e462eb9~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_ef6463116097416a9e8e53c84e462eb9~mv2.jpg/v1/fill/w_244,h_324,q_90,enc_avif,quality_auto/092bee_ef6463116097416a9e8e53c84e462eb9~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_a157d47621194b44a6b29dae5ef40e54~mv2.jpg",
+          "fileName": "DSC03084.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_a157d47621194b44a6b29dae5ef40e54~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_a157d47621194b44a6b29dae5ef40e54~mv2.jpg/v1/fill/w_486,h_324,q_90,enc_avif,quality_auto/092bee_a157d47621194b44a6b29dae5ef40e54~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_47a5f2194631456f9d14a139777404cf~mv2_d_1682_2362_s_2.jpg",
+          "fileName": "ap collage.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_47a5f2194631456f9d14a139777404cf~mv2_d_1682_2362_s_2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_47a5f2194631456f9d14a139777404cf~mv2_d_1682_2362_s_2.jpg/v1/fill/w_231,h_324,q_90,enc_avif,quality_auto/092bee_47a5f2194631456f9d14a139777404cf~mv2_d_1682_2362_s_2.jpg"
+        },
+        {
+          "mediaId": "092bee_a6e1f516751c4cd8bb392d97ab2a6fb7~mv2.jpg",
+          "fileName": "DSC03064.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_a6e1f516751c4cd8bb392d97ab2a6fb7~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_a6e1f516751c4cd8bb392d97ab2a6fb7~mv2.jpg/v1/fill/w_484,h_323,q_90,enc_avif,quality_auto/092bee_a6e1f516751c4cd8bb392d97ab2a6fb7~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_e7807a5e8ddb495ca13f8d9375761c6b~mv2.jpg",
+          "fileName": "DSC03261.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_e7807a5e8ddb495ca13f8d9375761c6b~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_e7807a5e8ddb495ca13f8d9375761c6b~mv2.jpg/v1/fill/w_486,h_323,q_90,enc_avif,quality_auto/092bee_e7807a5e8ddb495ca13f8d9375761c6b~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_c5279e9345e341ed8525236821823cf4~mv2.jpg",
+          "fileName": "DSC03838.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_c5279e9345e341ed8525236821823cf4~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_c5279e9345e341ed8525236821823cf4~mv2.jpg/v1/fill/w_484,h_324,q_90,enc_avif,quality_auto/092bee_c5279e9345e341ed8525236821823cf4~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_8839cf33c2124508b08d9a851052ca88~mv2.jpg",
+          "fileName": "DSC03090.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_8839cf33c2124508b08d9a851052ca88~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_8839cf33c2124508b08d9a851052ca88~mv2.jpg/v1/fill/w_486,h_324,q_90,enc_avif,quality_auto/092bee_8839cf33c2124508b08d9a851052ca88~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_840f59f0ba3e4edcb2b685c9d2434191~mv2.jpg",
+          "fileName": "DSC03776.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_840f59f0ba3e4edcb2b685c9d2434191~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_840f59f0ba3e4edcb2b685c9d2434191~mv2.jpg/v1/fill/w_484,h_324,q_90,enc_avif,quality_auto/092bee_840f59f0ba3e4edcb2b685c9d2434191~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_c0745a6fddf540fda993a36707c787fb~mv2.jpg",
+          "fileName": "DSC03823.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_c0745a6fddf540fda993a36707c787fb~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_c0745a6fddf540fda993a36707c787fb~mv2.jpg/v1/fill/w_486,h_324,q_90,enc_avif,quality_auto/092bee_c0745a6fddf540fda993a36707c787fb~mv2.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_XLIF4893.jpg",
+        "002_DSC03258.jpg",
+        "003_IMG_7270.jpg",
+        "004_DSC03084.jpg",
+        "005_ap collage.jpg",
+        "006_DSC03064.jpg",
+        "007_DSC03261.jpg",
+        "008_DSC03838.jpg",
+        "009_DSC03090.jpg",
+        "010_DSC03776.jpg",
+        "011_DSC03823.jpg"
+      ]
+    },
+    {
+      "order": 14,
+      "title": "2019 마이애미 AQUA , 미국",
+      "folder": "14_2019 마이애미 AQUA , 미국",
+      "url": "https://www.jungking.com/2019%EB%A7%88%EC%9D%B4%EC%95%A0%EB%AF%B8aqua",
+      "headings": [
+        "JUNGKING"
+      ],
+      "paragraphs": [],
+      "assets": [
+        {
+          "mediaId": "092bee_9849bce2813c466b9a25a982d1b6100a~mv2.jpeg",
+          "fileName": "KakaoTalk_Photo_2020-05-09-13-03-42-9.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_9849bce2813c466b9a25a982d1b6100a~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_9849bce2813c466b9a25a982d1b6100a~mv2.jpeg/v1/fill/w_979,h_851,al_c,q_85,usm_0.66_1.00_0.01/092bee_9849bce2813c466b9a25a982d1b6100a~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_2102b3bd8f654af8bf644fe842bf2f6a~mv2.jpeg",
+          "fileName": "KakaoTalk_Photo_2020-05-09-13-03-42-10.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_2102b3bd8f654af8bf644fe842bf2f6a~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_2102b3bd8f654af8bf644fe842bf2f6a~mv2.jpeg/v1/fill/w_979,h_979,al_c,q_85,usm_0.66_1.00_0.01/092bee_2102b3bd8f654af8bf644fe842bf2f6a~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_3640d2235c204e74895a806fc9d3cf70~mv2.jpeg",
+          "fileName": "KakaoTalk_Photo_2020-05-09-13-03-42-11.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_3640d2235c204e74895a806fc9d3cf70~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_3640d2235c204e74895a806fc9d3cf70~mv2.jpeg/v1/fill/w_979,h_867,al_c,q_85,usm_0.66_1.00_0.01/092bee_3640d2235c204e74895a806fc9d3cf70~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_19b9209ca6904cd09355deb005dbcf15~mv2.jpeg",
+          "fileName": "KakaoTalk_Photo_2020-05-09-13-03-42-6.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_19b9209ca6904cd09355deb005dbcf15~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_19b9209ca6904cd09355deb005dbcf15~mv2.jpeg/v1/fill/w_979,h_947,al_c,q_85,usm_0.66_1.00_0.01/092bee_19b9209ca6904cd09355deb005dbcf15~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_d16b0256873544ac83edae44b3e6ab46~mv2.jpeg",
+          "fileName": "KakaoTalk_Photo_2020-05-09-13-03-42-8.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_d16b0256873544ac83edae44b3e6ab46~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_d16b0256873544ac83edae44b3e6ab46~mv2.jpeg/v1/fill/w_980,h_1167,al_c,q_85,usm_0.66_1.00_0.01/092bee_d16b0256873544ac83edae44b3e6ab46~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_01188182c3b045e9820ef9daca6a5a25~mv2.jpg",
+          "fileName": "KakaoTalk_20191203_175625665.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_01188182c3b045e9820ef9daca6a5a25~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_01188182c3b045e9820ef9daca6a5a25~mv2.jpg/v1/fill/w_980,h_1466,al_c,q_85,usm_0.66_1.00_0.01/092bee_01188182c3b045e9820ef9daca6a5a25~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_c63fafc2cffe4a57a1d34b8e964780d5~mv2_d_3024_4032_s_4_2.jpg",
+          "fileName": "KakaoTalk_20191203_175806337.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_c63fafc2cffe4a57a1d34b8e964780d5~mv2_d_3024_4032_s_4_2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_c63fafc2cffe4a57a1d34b8e964780d5~mv2_d_3024_4032_s_4_2.jpg/v1/fill/w_1960,h_2612,al_c,q_90,usm_0.66_1.00_0.01/092bee_c63fafc2cffe4a57a1d34b8e964780d5~mv2_d_3024_4032_s_4_2.jpg"
+        },
+        {
+          "mediaId": "092bee_c126afcc102440b387365bbc4683dd49~mv2.jpg",
+          "fileName": "KakaoTalk_20191203_175625860.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_c126afcc102440b387365bbc4683dd49~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_c126afcc102440b387365bbc4683dd49~mv2.jpg/v1/fill/w_980,h_1466,al_c,q_85,usm_0.66_1.00_0.01/092bee_c126afcc102440b387365bbc4683dd49~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_61d6c73757ae44fa9ae633f780a9c548~mv2.jpg",
+          "fileName": "z9.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_61d6c73757ae44fa9ae633f780a9c548~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_61d6c73757ae44fa9ae633f780a9c548~mv2.jpg/v1/fill/w_980,h_942,al_c,q_85,usm_0.66_1.00_0.01/092bee_61d6c73757ae44fa9ae633f780a9c548~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_e475a369c4724e4292df84b6dd9d1ece~mv2.jpg",
+          "fileName": "z14.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_e475a369c4724e4292df84b6dd9d1ece~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_e475a369c4724e4292df84b6dd9d1ece~mv2.jpg/v1/fill/w_980,h_987,al_c,q_85,usm_0.66_1.00_0.01/092bee_e475a369c4724e4292df84b6dd9d1ece~mv2.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_KakaoTalk_Photo_2020-05-09-13-03-42-9.jpeg",
+        "002_KakaoTalk_Photo_2020-05-09-13-03-42-10.jpeg",
+        "003_KakaoTalk_Photo_2020-05-09-13-03-42-11.jpeg",
+        "004_KakaoTalk_Photo_2020-05-09-13-03-42-6.jpeg",
+        "005_KakaoTalk_Photo_2020-05-09-13-03-42-8.jpeg",
+        "006_KakaoTalk_20191203_175625665.jpg",
+        "007_KakaoTalk_20191203_175806337.jpg",
+        "008_KakaoTalk_20191203_175625860.jpg",
+        "009_z9.JPG",
+        "010_z14.JPG"
+      ]
+    },
+    {
+      "order": 15,
+      "title": "2019 Collabo NAPAL",
+      "folder": "15_2019 Collabo NAPAL",
+      "url": "https://www.jungking.com/2019collabonapal",
+      "headings": [
+        "JUNGKING",
+        "2019 JUNGKING X NAPAL SOUND COLLABORATION"
+      ],
+      "paragraphs": [
+        "JUNGKING",
+        "NAPAL과의 정킹작가의 작품과 콜라보 전시 압구정 2층  소리나는 작품"
+      ],
+      "assets": [
+        {
+          "mediaId": "092bee_542b8c61f6ea49cd895c54ef1dac0a8f~mv2.jpeg",
+          "fileName": "KakaoTalk_Photo_2020-05-09-13-03-42-12.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_542b8c61f6ea49cd895c54ef1dac0a8f~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_542b8c61f6ea49cd895c54ef1dac0a8f~mv2.jpeg/v1/fill/w_268,h_256,q_90,enc_avif,quality_auto/092bee_542b8c61f6ea49cd895c54ef1dac0a8f~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_b20ed111d3cd4d5683b27256dffbd16b~mv2.jpeg",
+          "fileName": "KakaoTalk_Photo_2020-05-09-13-03-42-5.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_b20ed111d3cd4d5683b27256dffbd16b~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_b20ed111d3cd4d5683b27256dffbd16b~mv2.jpeg/v1/fill/w_269,h_256,q_90,enc_avif,quality_auto/092bee_b20ed111d3cd4d5683b27256dffbd16b~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_c30f0110ae374901a096d6c9f1dc6325~mv2.jpeg",
+          "fileName": "KakaoTalk_Photo_2020-05-09-13-03-42-15.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_c30f0110ae374901a096d6c9f1dc6325~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_c30f0110ae374901a096d6c9f1dc6325~mv2.jpeg/v1/fill/w_542,h_474,q_90,enc_avif,quality_auto/092bee_c30f0110ae374901a096d6c9f1dc6325~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_01be4ff5a7b04ba787fe8ff3cda8a708~mv2.jpeg",
+          "fileName": "KakaoTalk_Photo_2020-05-09-13-03-42-13.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_01be4ff5a7b04ba787fe8ff3cda8a708~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_01be4ff5a7b04ba787fe8ff3cda8a708~mv2.jpeg/v1/fill/w_419,h_404,q_90,enc_avif,quality_auto/092bee_01be4ff5a7b04ba787fe8ff3cda8a708~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_bed3c01703354fa4985101436edfb7f6~mv2.jpeg",
+          "fileName": "KakaoTalk_Photo_2020-05-09-13-03-42-14.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_bed3c01703354fa4985101436edfb7f6~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_bed3c01703354fa4985101436edfb7f6~mv2.jpeg/v1/fill/w_419,h_326,q_90,enc_avif,quality_auto/092bee_bed3c01703354fa4985101436edfb7f6~mv2.jpeg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_KakaoTalk_Photo_2020-05-09-13-03-42-12.jpeg",
+        "002_KakaoTalk_Photo_2020-05-09-13-03-42-5.jpeg",
+        "003_KakaoTalk_Photo_2020-05-09-13-03-42-15.jpeg",
+        "004_KakaoTalk_Photo_2020-05-09-13-03-42-13.jpeg",
+        "005_KakaoTalk_Photo_2020-05-09-13-03-42-14.jpeg"
+      ]
+    },
+    {
+      "order": 16,
+      "title": "2019 T festa 명동, project",
+      "folder": "16_2019 T festa 명동, project",
+      "url": "https://www.jungking.com/2019tfesta",
+      "headings": [
+        "JUNGKING"
+      ],
+      "paragraphs": [],
+      "assets": [
+        {
+          "mediaId": "092bee_9dd236e5cde24badb996343d4c1ee73a~mv2.jpeg",
+          "fileName": "KakaoTalk_Photo_2020-05-09-13-03-42-1.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_9dd236e5cde24badb996343d4c1ee73a~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_9dd236e5cde24badb996343d4c1ee73a~mv2.jpeg/v1/fill/w_979,h_876,al_c,q_85,usm_0.66_1.00_0.01/092bee_9dd236e5cde24badb996343d4c1ee73a~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_ad233059d5684c3ea115fd0adfc0fc0a~mv2.jpeg",
+          "fileName": "KakaoTalk_Photo_2020-05-09-13-03-42-2.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_ad233059d5684c3ea115fd0adfc0fc0a~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_ad233059d5684c3ea115fd0adfc0fc0a~mv2.jpeg/v1/fill/w_979,h_955,al_c,q_85,usm_0.66_1.00_0.01/092bee_ad233059d5684c3ea115fd0adfc0fc0a~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_fb6bb7c2923b485f96bc2990b1b70d0f~mv2.png",
+          "fileName": "스크린샷 2020-05-09 오후 1.08.27.png",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_fb6bb7c2923b485f96bc2990b1b70d0f~mv2.png",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_fb6bb7c2923b485f96bc2990b1b70d0f~mv2.png/v1/fill/w_980,h_1229,al_c,q_85,usm_0.66_1.00_0.01/092bee_fb6bb7c2923b485f96bc2990b1b70d0f~mv2.png"
+        },
+        {
+          "mediaId": "092bee_cf000d4267934e03b32530decbb22a71~mv2.png",
+          "fileName": "스크린샷 2020-05-09 오후 1.06.16.png",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_cf000d4267934e03b32530decbb22a71~mv2.png",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_cf000d4267934e03b32530decbb22a71~mv2.png/v1/fill/w_2761,h_847,al_c,q_90,usm_0.66_1.00_0.01/092bee_cf000d4267934e03b32530decbb22a71~mv2.png"
+        },
+        {
+          "mediaId": "092bee_4ae38c23dcfa45d7ac85f8a8cf02f406~mv2.jpeg",
+          "fileName": "KakaoTalk_Photo_2020-05-09-13-03-42-4.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_4ae38c23dcfa45d7ac85f8a8cf02f406~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_4ae38c23dcfa45d7ac85f8a8cf02f406~mv2.jpeg/v1/fill/w_983,h_848,al_c,q_85,usm_0.66_1.00_0.01/092bee_4ae38c23dcfa45d7ac85f8a8cf02f406~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_038ddebaa790495180afab916666a6e1~mv2.jpeg",
+          "fileName": "KakaoTalk_Photo_2020-05-09-13-03-42-3.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_038ddebaa790495180afab916666a6e1~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_038ddebaa790495180afab916666a6e1~mv2.jpeg/v1/fill/w_979,h_953,al_c,q_85,usm_0.66_1.00_0.01/092bee_038ddebaa790495180afab916666a6e1~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_1a9cc91cef714e33b79b22b450e6fbcf~mv2.png",
+          "fileName": "스크린샷 2020-05-09 오후 1.07.41.png",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_1a9cc91cef714e33b79b22b450e6fbcf~mv2.png",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_1a9cc91cef714e33b79b22b450e6fbcf~mv2.png/v1/fill/w_2356,h_848,al_c,q_90,usm_0.66_1.00_0.01/092bee_1a9cc91cef714e33b79b22b450e6fbcf~mv2.png"
+        },
+        {
+          "mediaId": "092bee_6c0bc1d66f2f4e29b8af9abd2142352d~mv2.png",
+          "fileName": "스크린샷 2020-05-09 오후 1.07.05.png",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_6c0bc1d66f2f4e29b8af9abd2142352d~mv2.png",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_6c0bc1d66f2f4e29b8af9abd2142352d~mv2.png/v1/fill/w_5068,h_848,al_c,q_90,usm_0.66_1.00_0.01/092bee_6c0bc1d66f2f4e29b8af9abd2142352d~mv2.png"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_KakaoTalk_Photo_2020-05-09-13-03-42-1.jpeg",
+        "002_KakaoTalk_Photo_2020-05-09-13-03-42-2.jpeg",
+        "003_스크린샷 2020-05-09 오후 1.08.27.png",
+        "004_스크린샷 2020-05-09 오후 1.06.16.png",
+        "005_KakaoTalk_Photo_2020-05-09-13-03-42-4.jpeg",
+        "006_KakaoTalk_Photo_2020-05-09-13-03-42-3.jpeg",
+        "007_스크린샷 2020-05-09 오후 1.07.41.png",
+        "008_스크린샷 2020-05-09 오후 1.07.05.png"
+      ]
+    },
+    {
+      "order": 17,
+      "title": "2019 콜라보전시 X 비노플라워 한남.서래",
+      "folder": "17_2019 콜라보전시 X 비노플라워 한남.서래",
+      "url": "https://www.jungking.com/2019%EC%BD%9C%EB%9D%BC%EB%B3%B4%EC%A0%84%EC%8B%9Cx%EB%B9%84%EB%85%B8%ED%94%8C%EB%9D%BC%EC%9B%8C",
+      "headings": [
+        "JUNGKING",
+        "2019 JUNGKING X COLLABO EX VINOFLOWER art. wine. jazz",
+        "2019 JUNGKING X VINOFLOWER"
+      ],
+      "paragraphs": [
+        "JUNGKING",
+        "2019 09/1 ~ 09/30​ 정킹 콜라보전시 X 비노플라워 한남,서래  아트,와인,재즈 \"LIFE IS FUN\"",
+        "pop artist jungking / jazz pianist park jeonguk / wine class park hyeoncheol / general plan hong seohui",
+        "​",
+        "​",
+        "팝아티스트 인터뷰& 작가와의 만남 내용: 홀스허브TV  \"LIFE IS FUN\"",
+        "​",
+        "Title: For Jackpot to Create Jackpot (Jung King, Pop Artist)",
+        "Jung King, Pop Artist",
+        "Q, Please tell us about yourself and your exhibition.",
+        "​",
+        "Hello, my name is Jung King.",
+        "I am a pop artist who works with different objet, painting, and media, to work around the topic: “Life Is fun”.",
+        "For this exhibition, I’m trying to communicate with people about rather difficult stories about the society and individuals through various characters.",
+        "If you take a look, some of them are colorful, while others are not. Each of them are different with different elements.",
+        "You know how music and poetry also have implications...",
+        "If you such messages, you’ll be able to understand what pop art is and communicate on many different levels.",
+        "​",
+        "​",
+        "Q. Can you tell us about the topic of this exhibition?",
+        "​",
+        "I have subtopics under the big umbrella, ‘Life is fun’, and if you look at the paintings, you’ll see X marks.",
+        "Usually, the sign X conveys something negative: if could be personal complex or a stigma. Life doesn’t always work out the way we want it to work out.",
+        "But we should have fun in trying to resolve them, rather than trying to compete against them. X symbolizes having fun trying to solve the difficulties in our lives.",
+        "This time, I have something called the Jackpot Series.",
+        "By jackpot, I mean great luck and infinite potential that comes from within self rather than from the outside. Through Jackpot Series, I wanted to tell people to explode energy and possibilities.",
+        "If you observe this series, you will see jackpot in the middle of the character.",
+        "Jackpot symbolizes great luck and potential that lies within oneself. They don’t come from the outside world. People already have jackpots within, and they should ‘hit the jackpot’.",
+        "I hope the audience will realize great jackpots within themselves as they view my work.",
+        "Q, Can you tells us about this work?",
+        "This work is the representative work for the Jackpot Series, and it’s called ‘Bounce in the Beginning’.",
+        "It may sound very alien, but it shows my interpretation of the Creation as described in the book of Genesis.",
+        "If you look, Adam and Eve are surfing, and here are the fruit and the serpent.",
+        "When humans are first created, our heart beats very rhythmically.",
+        "But as we live on, our lives become so standardized and regulated, we often forget to see how fun it can be. I wanted to challenge that with this work.",
+        "As these people evolve, they are already bouncing. And these jackpot families are getting ready to hit the jackpot.",
+        "If you view these media-connected works in a sequence, people are dancing in various ways, as they evolve from anthropoids to space travelers.",
+        "You can see them hitting the jackpot. And I hope my audience will bounce along together. Thank you."
+      ],
+      "assets": [
+        {
+          "mediaId": "092bee_8722b0f06b714ba98840c3a3e725cf19~mv2.jpg",
+          "fileName": "정킹콜라보전시 비노플라워 한남,서래.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_8722b0f06b714ba98840c3a3e725cf19~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_8722b0f06b714ba98840c3a3e725cf19~mv2.jpg/v1/fill/w_387,h_389,q_90,enc_avif,quality_auto/092bee_8722b0f06b714ba98840c3a3e725cf19~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_4250f4aa4af845f78b9729c3990e7539~mv2.jpg",
+          "fileName": "정킹콜라보전시 비노플라워 한남,서래1.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_4250f4aa4af845f78b9729c3990e7539~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_4250f4aa4af845f78b9729c3990e7539~mv2.jpg/v1/fill/w_583,h_389,q_90,enc_avif,quality_auto/092bee_4250f4aa4af845f78b9729c3990e7539~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_f3a3d5b4efd54342ab567549e5a86280~mv2.jpg",
+          "fileName": "8.JPG정킹콜라보전시 비노플라워 한남,서래",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_f3a3d5b4efd54342ab567549e5a86280~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_f3a3d5b4efd54342ab567549e5a86280~mv2.jpg/v1/fill/w_277,h_272,q_90,enc_avif,quality_auto/092bee_f3a3d5b4efd54342ab567549e5a86280~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_578e7646df9342a08fb03e19f0996d3d~mv2.jpg",
+          "fileName": "정킹콜라보전시 비노플라워 한남,서래.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_578e7646df9342a08fb03e19f0996d3d~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_578e7646df9342a08fb03e19f0996d3d~mv2.jpg/v1/fill/w_274,h_272,q_90,enc_avif,quality_auto/092bee_578e7646df9342a08fb03e19f0996d3d~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_10a99096f88043cfb74cf82bad1cb5f9~mv2.jpg",
+          "fileName": "KakaoTalk_20190925_173315830_05.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_10a99096f88043cfb74cf82bad1cb5f9~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_10a99096f88043cfb74cf82bad1cb5f9~mv2.jpg/v1/fill/w_409,h_272,q_90,enc_avif,quality_auto/092bee_10a99096f88043cfb74cf82bad1cb5f9~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_c39d8e9279da4c32bb74277857dfe676~mv2.jpg",
+          "fileName": "정킹콜라보전시 비노플라워 한남,서래.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_c39d8e9279da4c32bb74277857dfe676~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_c39d8e9279da4c32bb74277857dfe676~mv2.jpg/v1/fill/w_579,h_386,q_90,enc_avif,quality_auto/092bee_c39d8e9279da4c32bb74277857dfe676~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_f51723bccb464e318a0bee3f3e733e32~mv2.jpg",
+          "fileName": "6.JPG정킹콜라보전시 비노플라워 한남,서래",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_f51723bccb464e318a0bee3f3e733e32~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_f51723bccb464e318a0bee3f3e733e32~mv2.jpg/v1/fill/w_391,h_386,q_90,enc_avif,quality_auto/092bee_f51723bccb464e318a0bee3f3e733e32~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_d871059842db455fb53e8790a117d18d~mv2.jpg",
+          "fileName": "정킹콜라보전시 비노플라워 한남,서래.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_d871059842db455fb53e8790a117d18d~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_d871059842db455fb53e8790a117d18d~mv2.jpg/v1/fill/w_562,h_401,q_90,enc_avif,quality_auto/092bee_d871059842db455fb53e8790a117d18d~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_e3535a97fb524602bafdc8638dc88146~mv2.jpg",
+          "fileName": "정킹콜라보전시 비노플라워 한남,서래.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_e3535a97fb524602bafdc8638dc88146~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_e3535a97fb524602bafdc8638dc88146~mv2.jpg/v1/fill/w_408,h_401,q_90,enc_avif,quality_auto/092bee_e3535a97fb524602bafdc8638dc88146~mv2.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_정킹콜라보전시 비노플라워 한남,서래.JPG",
+        "002_정킹콜라보전시 비노플라워 한남,서래1.jpg",
+        "003_8.JPG정킹콜라보전시 비노플라워 한남,서래",
+        "004_정킹콜라보전시 비노플라워 한남,서래.JPG",
+        "005_KakaoTalk_20190925_173315830_05.jpg",
+        "006_정킹콜라보전시 비노플라워 한남,서래.jpg",
+        "007_6.JPG정킹콜라보전시 비노플라워 한남,서래",
+        "008_정킹콜라보전시 비노플라워 한남,서래.JPG",
+        "009_정킹콜라보전시 비노플라워 한남,서래.JPG"
+      ]
+    },
+    {
+      "order": 18,
+      "title": "2019 OCN Drama \"Kill it\" 작품설치",
+      "folder": "18_2019 OCN Drama _Kill it_ 작품설치",
+      "url": "https://www.jungking.com/2019ocn",
+      "headings": [
+        "JUNGKING",
+        "2019 JUNGKING X OCN DRAMA \"KILL IT\""
+      ],
+      "paragraphs": [
+        "2019. 3.23~4.28 방영 12부작",
+        "장기용, 나나주연 /연출 남성우,안지숙 극본 손현수, 최명진 OCN 드라마 정킹작가 작품설치 ,다양한 작가들의 작품을 드라마속에서 볼수있습니다."
+      ],
+      "assets": [
+        {
+          "mediaId": "092bee_1768af01fb1c47b0bb793a44df5f6602~mv2.jpg",
+          "fileName": "ssss.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_1768af01fb1c47b0bb793a44df5f6602~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_1768af01fb1c47b0bb793a44df5f6602~mv2.jpg/v1/fill/w_980,h_725,al_c,q_85,usm_0.66_1.00_0.01/092bee_1768af01fb1c47b0bb793a44df5f6602~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_d2a762175dc648b9862bc6c91bd2794c~mv2.jpg",
+          "fileName": "sssss.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_d2a762175dc648b9862bc6c91bd2794c~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_d2a762175dc648b9862bc6c91bd2794c~mv2.jpg/v1/fill/w_980,h_737,al_c,q_85,usm_0.66_1.00_0.01/092bee_d2a762175dc648b9862bc6c91bd2794c~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_931c923fcd80412c9cfc375c3b034d84~mv2.jpg",
+          "fileName": "ss.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_931c923fcd80412c9cfc375c3b034d84~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_931c923fcd80412c9cfc375c3b034d84~mv2.jpg/v1/fill/w_980,h_726,al_c,q_85,usm_0.66_1.00_0.01/092bee_931c923fcd80412c9cfc375c3b034d84~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_31e13838746f454fae44a6cdf195d2a4~mv2.jpg",
+          "fileName": "s.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_31e13838746f454fae44a6cdf195d2a4~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_31e13838746f454fae44a6cdf195d2a4~mv2.jpg/v1/fill/w_980,h_726,al_c,q_85,usm_0.66_1.00_0.01/092bee_31e13838746f454fae44a6cdf195d2a4~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_bed0dbb5bbcd4546b67abc5d02414035~mv2_d_2106_1446_s_2.jpg",
+          "fileName": "정킹개인전.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_bed0dbb5bbcd4546b67abc5d02414035~mv2_d_2106_1446_s_2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_bed0dbb5bbcd4546b67abc5d02414035~mv2_d_2106_1446_s_2.jpg/v1/fill/w_1960,h_1344,al_c,q_90,usm_0.66_1.00_0.01/092bee_bed0dbb5bbcd4546b67abc5d02414035~mv2_d_2106_1446_s_2.jpg"
+        },
+        {
+          "mediaId": "092bee_8e449a3b63d24ea48b926596a3758e68~mv2_d_2016_1212_s_2.jpg",
+          "fileName": "정킹개인전2.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_8e449a3b63d24ea48b926596a3758e68~mv2_d_2016_1212_s_2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_8e449a3b63d24ea48b926596a3758e68~mv2_d_2016_1212_s_2.jpg/v1/fill/w_1960,h_1178,al_c,q_90,usm_0.66_1.00_0.01/092bee_8e449a3b63d24ea48b926596a3758e68~mv2_d_2016_1212_s_2.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_ssss.JPG",
+        "002_sssss.JPG",
+        "003_ss.JPG",
+        "004_s.JPG",
+        "005_정킹개인전.jpg",
+        "006_정킹개인전2.jpg"
+      ]
+    },
+    {
+      "order": 19,
+      "title": "2019갤러리인사아트 개인전",
+      "folder": "19_2019갤러리인사아트 개인전",
+      "url": "https://www.jungking.com/2019%EA%B0%A4%EB%9F%AC%EB%A6%AC%EC%9D%B8%EC%82%AC%EC%95%84%ED%8A%B8",
+      "headings": [
+        "JUNGKING",
+        "2019 JUNGKING X SOLO EXHIBITION GALLERY INSART",
+        "2019 JUNGKING X HORSE HUB TV"
+      ],
+      "paragraphs": [
+        "JUNGKING",
+        "2019 06/12 ~ 06/17",
+        "​갤러리 인사아트 3층 개인전 \"LIFE IS FUN\"",
+        "​",
+        "JUNGKING FOR JACKPOT TO CREATE JACKPOT POP ARTIST",
+        "출처: 홀스허브TV  \"LIFE IS FUN\"",
+        "​",
+        "Title: For Jackpot to Create Jackpot (Jung King, Pop Artist)",
+        "Jung King, Pop Artist",
+        "Q, Please tell us about yourself and your exhibition.",
+        "​",
+        "Hello, my name is Jung King.",
+        "I am a pop artist who works with different objet, painting, and media, to work around the topic: “Life Is fun”.",
+        "For this exhibition, I’m trying to communicate with people about rather difficult stories about the society and individuals through various characters.",
+        "If you take a look, some of them are colorful, while others are not. Each of them are different with different elements.",
+        "You know how music and poetry also have implications...",
+        "If you such messages, you’ll be able to understand what pop art is and communicate on many different levels.",
+        "​",
+        "​",
+        "Q. Can you tell us about the topic of this exhibition?",
+        "​",
+        "I have subtopics under the big umbrella, ‘Life is fun’, and if you look at the paintings, you’ll see X marks.",
+        "Usually, the sign X conveys something negative: if could be personal complex or a stigma. Life doesn’t always work out the way we want it to work out.",
+        "But we should have fun in trying to resolve them, rather than trying to compete against them. X symbolizes having fun trying to solve the difficulties in our lives.",
+        "This time, I have something called the Jackpot Series.",
+        "By jackpot, I mean great luck and infinite potential that comes from within self rather than from the outside. Through Jackpot Series, I wanted to tell people to explode energy and possibilities.",
+        "If you observe this series, you will see jackpot in the middle of the character.",
+        "Jackpot symbolizes great luck and potential that lies within oneself. They don’t come from the outside world. People already have jackpots within, and they should ‘hit the jackpot’.",
+        "I hope the audience will realize great jackpots within themselves as they view my work.",
+        "Q, Can you tells us about this work?",
+        "This work is the representative work for the Jackpot Series, and it’s called ‘Bounce in the Beginning’.",
+        "It may sound very alien, but it shows my interpretation of the Creation as described in the book of Genesis.",
+        "If you look, Adam and Eve are surfing, and here are the fruit and the serpent.",
+        "When humans are first created, our heart beats very rhythmically.",
+        "But as we live on, our lives become so standardized and regulated, we often forget to see how fun it can be. I wanted to challenge that with this work.",
+        "As these people evolve, they are already bouncing. And these jackpot families are getting ready to hit the jackpot.",
+        "If you view these media-connected works in a sequence, people are dancing in various ways, as they evolve from anthropoids to space travelers.",
+        "You can see them hitting the jackpot. And I hope my audience will bounce along together. Thank you.",
+        "​",
+        "​",
+        "​",
+        "​",
+        "About the Artist / Biography and Notes",
+        "I am pop artist Jung King. Currently, I am working with color media, painting, and objects on the theme of “LIFE IS FUN.”",
+        "Work Notes—The Birth of Character X: “LIFE IS FUN”",
+        "The X symbol has many meanings, including a sign of the existence of the artist—that one’s will should not be framed by the will of others. In addition, the X image is characterized as something (difficulties, domestication,",
+        "obstacles, competition, etc.) that is always present in daily life and is thus to be enjoyed, as opposed to something to be fought against. Character X is used to emphasize the application of visual objects and colors, so that it can express its message freely across the spectrum of pop art including video media. Works created in this way convey a message that life is enjoyable, so it is to be dealt with in a joyful way.",
+        "Today, people talk to each other constantly but are unable to truly communicate with each other,",
+        "leading to a great deal of confusion and abstruseness. In such circumstances, an individual wanders constantly and struggles to fit into the world’s framework  An individual’s inner self is planned and constructed like a gray city, rendering oneself framed into the existing structure of the world. In this highly restricted world, the characters, who unfold the imagination on our behalf, appear as heroes; or else we ourselves come to born again as heroes.",
+        "Sometimes, deviating from all this makes resolving problems more fun. Working with a character makes the work visual, through which the alienated can deviate from their internal world and their burdensome gray space, thus recovering their true feeling of presence. Further, those who are dreaming of deviating from the world and whose places are taken by Character X come to muster their courage and thus to satirize the world. While restrictions and norms are visualized in a gray frame, internal and external sensibilities can transcend the space where people live, producing both a socially directed space and a visualized, fantasy space. Imagination is freedom. Character X says, “Why so serious? LIFE IS FUN!”"
+      ],
+      "assets": [
+        {
+          "mediaId": "092bee_98c4bdd53a3944f5a84efb00c0521535~mv2.jpg",
+          "fileName": "DSC02400.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_98c4bdd53a3944f5a84efb00c0521535~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_98c4bdd53a3944f5a84efb00c0521535~mv2.jpg/v1/fill/w_635,h_424,q_90,enc_avif,quality_auto/092bee_98c4bdd53a3944f5a84efb00c0521535~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_5fef5f1df98c4f46a8e314dc2c38d20e~mv2.jpg",
+          "fileName": "162.2x130.3 mixedmedia 2019  JACKPOT SERIES.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_5fef5f1df98c4f46a8e314dc2c38d20e~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_5fef5f1df98c4f46a8e314dc2c38d20e~mv2.jpg/v1/fill/w_335,h_424,q_90,enc_avif,quality_auto/092bee_5fef5f1df98c4f46a8e314dc2c38d20e~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_c17f3499e0b44fb281e0b9dbb495973d~mv2.jpg",
+          "fileName": "DSC02065.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_c17f3499e0b44fb281e0b9dbb495973d~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_c17f3499e0b44fb281e0b9dbb495973d~mv2.jpg/v1/fill/w_187,h_279,q_90,enc_avif,quality_auto/092bee_c17f3499e0b44fb281e0b9dbb495973d~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_0cef09911ab74d2fa4514e8264c85266~mv2.jpg",
+          "fileName": "162.2x130.3 mixedmedia 2019  JACKPOT SERIES life is fun.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_0cef09911ab74d2fa4514e8264c85266~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_0cef09911ab74d2fa4514e8264c85266~mv2.jpg/v1/fill/w_354,h_279,q_90,enc_avif,quality_auto/092bee_0cef09911ab74d2fa4514e8264c85266~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_ece31e796f3e47869c3ba2bca233fac3~mv2.jpg",
+          "fileName": "DSC02242.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_ece31e796f3e47869c3ba2bca233fac3~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_ece31e796f3e47869c3ba2bca233fac3~mv2.jpg/v1/fill/w_419,h_279,q_90,enc_avif,quality_auto/092bee_ece31e796f3e47869c3ba2bca233fac3~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_bed0dbb5bbcd4546b67abc5d02414035~mv2_d_2106_1446_s_2.jpg",
+          "fileName": "정킹개인전.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_bed0dbb5bbcd4546b67abc5d02414035~mv2_d_2106_1446_s_2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_bed0dbb5bbcd4546b67abc5d02414035~mv2_d_2106_1446_s_2.jpg/v1/fill/w_478,h_328,q_90,enc_avif,quality_auto/092bee_bed0dbb5bbcd4546b67abc5d02414035~mv2_d_2106_1446_s_2.jpg"
+        },
+        {
+          "mediaId": "092bee_d6e5913d80184cd19809ae35d6c00f52~mv2.jpg",
+          "fileName": "DSC02082.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_d6e5913d80184cd19809ae35d6c00f52~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_d6e5913d80184cd19809ae35d6c00f52~mv2.jpg/v1/fill/w_492,h_328,q_90,enc_avif,quality_auto/092bee_d6e5913d80184cd19809ae35d6c00f52~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_51c0d585487b4f2cb21203002aa54248~mv2.jpg",
+          "fileName": "90.9x72.7   JACKPOT SERIES p.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_51c0d585487b4f2cb21203002aa54248~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_51c0d585487b4f2cb21203002aa54248~mv2.jpg/v1/fill/w_373,h_442,q_90,enc_avif,quality_auto/092bee_51c0d585487b4f2cb21203002aa54248~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_1768af01fb1c47b0bb793a44df5f6602~mv2.jpg",
+          "fileName": "ssss.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_1768af01fb1c47b0bb793a44df5f6602~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_1768af01fb1c47b0bb793a44df5f6602~mv2.jpg/v1/fill/w_597,h_442,q_90,enc_avif,quality_auto/092bee_1768af01fb1c47b0bb793a44df5f6602~mv2.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_DSC02400.jpg",
+        "002_162.2x130.3 mixedmedia 2019 JACKPOT SERIES.jpg",
+        "003_DSC02065.jpg",
+        "004_162.2x130.3 mixedmedia 2019 JACKPOT SERIES life is fun.jpg",
+        "005_DSC02242.jpg",
+        "006_정킹개인전.jpg",
+        "007_DSC02082.jpg",
+        "008_90.9x72.7 JACKPOT SERIES p.jpg",
+        "009_ssss.JPG"
+      ]
+    },
+    {
+      "order": 20,
+      "title": "2017 2인전 時差適應 갤러리 위",
+      "folder": "20_2017 2인전 時差適應 갤러리 위",
+      "url": "https://www.jungking.com/20172%EC%9D%B8%EC%A0%84%E6%99%82%E5%B7%AE%E9%81%A9%E6%87%89",
+      "headings": [
+        "JUNGKING",
+        "Video Channel Name",
+        "Video Channel Name",
+        "Video Title",
+        "Video Title",
+        "Video Title",
+        "Video Title",
+        "2017 2인전 시차적응전",
+        "JUNGKING X RENASON"
+      ],
+      "paragraphs": [],
+      "assets": [
+        {
+          "mediaId": "d0220c_19562cc5f5874d7693c4fad0af46db12~mv2.jpg",
+          "fileName": "d0220c_19562cc5f5874d7693c4fad0af46db12~mv2.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/d0220c_19562cc5f5874d7693c4fad0af46db12~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/d0220c_19562cc5f5874d7693c4fad0af46db12~mv2.jpg/v1/fill/w_760,h_428,enc_auto/file.jpeg 1x, https://static.wixstatic.com/media/d0220c_19562cc5f5874d7693c4fad0af46db12~mv2.jpg/v1/fill/w_1520,h_855,enc_auto/file.jpeg 2x, https://static.wixstatic.com/media/d0220c_19562cc5f5874d7693c4fad0af46db12~mv2.jpg/v1/fill/w_2280,h_1283,enc_auto/file.jpeg 3x"
+        },
+        {
+          "mediaId": "d0220c_c379a7f4f6984160812510e934ae94e5~mv2.jpg",
+          "fileName": "d0220c_c379a7f4f6984160812510e934ae94e5~mv2.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/d0220c_c379a7f4f6984160812510e934ae94e5~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/d0220c_c379a7f4f6984160812510e934ae94e5~mv2.jpg/v1/fill/w_183,h_103,enc_auto/file.jpeg 1x, https://static.wixstatic.com/media/d0220c_c379a7f4f6984160812510e934ae94e5~mv2.jpg/v1/fill/w_365,h_205,enc_auto/file.jpeg 2x, https://static.wixstatic.com/media/d0220c_c379a7f4f6984160812510e934ae94e5~mv2.jpg/v1/fill/w_548,h_308,enc_auto/file.jpeg 3x"
+        },
+        {
+          "mediaId": "d0220c_3f06dfa2780e4a7c9c482173aa5fc3d2~mv2.jpg",
+          "fileName": "d0220c_3f06dfa2780e4a7c9c482173aa5fc3d2~mv2.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/d0220c_3f06dfa2780e4a7c9c482173aa5fc3d2~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/d0220c_3f06dfa2780e4a7c9c482173aa5fc3d2~mv2.jpg/v1/fill/w_183,h_103,enc_auto/file.jpeg 1x, https://static.wixstatic.com/media/d0220c_3f06dfa2780e4a7c9c482173aa5fc3d2~mv2.jpg/v1/fill/w_365,h_205,enc_auto/file.jpeg 2x, https://static.wixstatic.com/media/d0220c_3f06dfa2780e4a7c9c482173aa5fc3d2~mv2.jpg/v1/fill/w_548,h_308,enc_auto/file.jpeg 3x"
+        },
+        {
+          "mediaId": "d0220c_29ef74e2f66a484d98e30a79bd0edf8e~mv2.jpg",
+          "fileName": "d0220c_29ef74e2f66a484d98e30a79bd0edf8e~mv2.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/d0220c_29ef74e2f66a484d98e30a79bd0edf8e~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/d0220c_29ef74e2f66a484d98e30a79bd0edf8e~mv2.jpg/v1/fill/w_183,h_103,enc_auto/file.jpeg 1x, https://static.wixstatic.com/media/d0220c_29ef74e2f66a484d98e30a79bd0edf8e~mv2.jpg/v1/fill/w_365,h_205,enc_auto/file.jpeg 2x, https://static.wixstatic.com/media/d0220c_29ef74e2f66a484d98e30a79bd0edf8e~mv2.jpg/v1/fill/w_548,h_308,enc_auto/file.jpeg 3x"
+        },
+        {
+          "mediaId": "d0220c_abed23d7fb1a4e02aeb76c0aab472463~mv2.jpg",
+          "fileName": "d0220c_abed23d7fb1a4e02aeb76c0aab472463~mv2.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/d0220c_abed23d7fb1a4e02aeb76c0aab472463~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/d0220c_abed23d7fb1a4e02aeb76c0aab472463~mv2.jpg/v1/fill/w_183,h_103,enc_auto/file.jpeg 1x, https://static.wixstatic.com/media/d0220c_abed23d7fb1a4e02aeb76c0aab472463~mv2.jpg/v1/fill/w_365,h_205,enc_auto/file.jpeg 2x, https://static.wixstatic.com/media/d0220c_abed23d7fb1a4e02aeb76c0aab472463~mv2.jpg/v1/fill/w_548,h_308,enc_auto/file.jpeg 3x"
+        },
+        {
+          "mediaId": "092bee_79f43d4d5f9948b4b9e7c4532ca72917~mv2.jpg",
+          "fileName": "갤러리위전시메일링_시차적응展.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_79f43d4d5f9948b4b9e7c4532ca72917~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_79f43d4d5f9948b4b9e7c4532ca72917~mv2.jpg/v1/fill/w_600,h_2531,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/092bee_79f43d4d5f9948b4b9e7c4532ca72917~mv2.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_2017-1.jpg",
+        "002_2017-2.jpg"
+      ]
+    },
+    {
+      "order": 21,
+      "title": "2016 SCOPE 마이애미",
+      "folder": "21_2016 SCOPE 마이애미",
+      "url": "https://www.jungking.com/collaboration-works",
+      "headings": [
+        "JUNGKING"
+      ],
+      "paragraphs": [],
+      "assets": [
+        {
+          "mediaId": "092bee_979c5a070e984984be25e7b2b5a3c7b0~mv2.jpg",
+          "fileName": "z3.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_979c5a070e984984be25e7b2b5a3c7b0~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_979c5a070e984984be25e7b2b5a3c7b0~mv2.jpg/v1/fill/w_979,h_983,al_c,q_85,usm_0.66_1.00_0.01/092bee_979c5a070e984984be25e7b2b5a3c7b0~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_99eda3fbe0de42778980e6fbf7b89ebf~mv2.jpg",
+          "fileName": "z15.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_99eda3fbe0de42778980e6fbf7b89ebf~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_99eda3fbe0de42778980e6fbf7b89ebf~mv2.jpg/v1/fill/w_980,h_978,al_c,q_85,usm_0.66_1.00_0.01/092bee_99eda3fbe0de42778980e6fbf7b89ebf~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_61ab4aa4b60a4c7898624c92c4d9d0f5~mv2.jpg",
+          "fileName": "z12.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_61ab4aa4b60a4c7898624c92c4d9d0f5~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_61ab4aa4b60a4c7898624c92c4d9d0f5~mv2.jpg/v1/fill/w_980,h_982,al_c,q_85,usm_0.66_1.00_0.01/092bee_61ab4aa4b60a4c7898624c92c4d9d0f5~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_7f32336094fa482bba18ee664ca0254e~mv2.jpg",
+          "fileName": "z2.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_7f32336094fa482bba18ee664ca0254e~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_7f32336094fa482bba18ee664ca0254e~mv2.jpg/v1/fill/w_980,h_968,al_c,q_85,usm_0.66_1.00_0.01/092bee_7f32336094fa482bba18ee664ca0254e~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_26b401fea349421eba29b7c2242fedb4~mv2.jpg",
+          "fileName": "z5.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_26b401fea349421eba29b7c2242fedb4~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_26b401fea349421eba29b7c2242fedb4~mv2.jpg/v1/fill/w_980,h_986,al_c,q_85,usm_0.66_1.00_0.01/092bee_26b401fea349421eba29b7c2242fedb4~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_0c14ebda15994b0eb4a6d44559574576~mv2.jpg",
+          "fileName": "z1.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_0c14ebda15994b0eb4a6d44559574576~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_0c14ebda15994b0eb4a6d44559574576~mv2.jpg/v1/fill/w_980,h_977,al_c,q_85,usm_0.66_1.00_0.01/092bee_0c14ebda15994b0eb4a6d44559574576~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_61d6c73757ae44fa9ae633f780a9c548~mv2.jpg",
+          "fileName": "z9.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_61d6c73757ae44fa9ae633f780a9c548~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_61d6c73757ae44fa9ae633f780a9c548~mv2.jpg/v1/fill/w_980,h_942,al_c,q_85,usm_0.66_1.00_0.01/092bee_61d6c73757ae44fa9ae633f780a9c548~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_e475a369c4724e4292df84b6dd9d1ece~mv2.jpg",
+          "fileName": "z14.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_e475a369c4724e4292df84b6dd9d1ece~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_e475a369c4724e4292df84b6dd9d1ece~mv2.jpg/v1/fill/w_980,h_987,al_c,q_85,usm_0.66_1.00_0.01/092bee_e475a369c4724e4292df84b6dd9d1ece~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_bdc33654665c4cd9affa9c3ed4918b25~mv2.jpg",
+          "fileName": "z4.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_bdc33654665c4cd9affa9c3ed4918b25~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_bdc33654665c4cd9affa9c3ed4918b25~mv2.jpg/v1/fill/w_1246,h_848,al_c,q_85,usm_0.66_1.00_0.01/092bee_bdc33654665c4cd9affa9c3ed4918b25~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_1fdc8f742f9f47cebab7fc762a637a30~mv2.jpg",
+          "fileName": "z6.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_1fdc8f742f9f47cebab7fc762a637a30~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_1fdc8f742f9f47cebab7fc762a637a30~mv2.jpg/v1/fill/w_980,h_980,al_c,q_85,usm_0.66_1.00_0.01/092bee_1fdc8f742f9f47cebab7fc762a637a30~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_dcf94ecdd1d746b1aca58f3d397ab71f~mv2.jpg",
+          "fileName": "z7.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_dcf94ecdd1d746b1aca58f3d397ab71f~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_dcf94ecdd1d746b1aca58f3d397ab71f~mv2.jpg/v1/fill/w_979,h_972,al_c,q_85,usm_0.66_1.00_0.01/092bee_dcf94ecdd1d746b1aca58f3d397ab71f~mv2.jpg"
+        },
+        {
+          "mediaId": "092bee_c7b938bb5afe4229a4a0863b73561b5b~mv2.jpeg",
+          "fileName": "정킹.jpeg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_c7b938bb5afe4229a4a0863b73561b5b~mv2.jpeg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_c7b938bb5afe4229a4a0863b73561b5b~mv2.jpeg/v1/fill/w_980,h_1784,al_c,q_85,usm_0.66_1.00_0.01/092bee_c7b938bb5afe4229a4a0863b73561b5b~mv2.jpeg"
+        },
+        {
+          "mediaId": "092bee_76c286c868654e8d96406a7bae2a6c67~mv2.jpg",
+          "fileName": "scop.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_76c286c868654e8d96406a7bae2a6c67~mv2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_76c286c868654e8d96406a7bae2a6c67~mv2.jpg/v1/fill/w_1344,h_848,al_c,q_85,usm_0.66_1.00_0.01/092bee_76c286c868654e8d96406a7bae2a6c67~mv2.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_z3.JPG",
+        "002_z15.JPG",
+        "003_z12.JPG",
+        "004_z2.JPG",
+        "005_z5.JPG",
+        "006_z1.JPG",
+        "007_z9.JPG",
+        "008_z14.JPG",
+        "009_z4.JPG",
+        "010_z6.JPG",
+        "011_z7.JPG",
+        "012_정킹.jpeg",
+        "013_scop.jpg"
+      ]
+    },
+    {
+      "order": 22,
+      "title": "2015 2인전 HOME EQUUS ahsh 갤러리",
+      "folder": "22_2015 2인전 HOME EQUUS ahsh 갤러리",
+      "url": "https://www.jungking.com/20152%EC%9D%B8%EC%A0%84homeequus",
+      "headings": [
+        "JUNGKING"
+      ],
+      "paragraphs": [],
+      "assets": [
+        {
+          "mediaId": "092bee_c4e9d9b07a8c4b4680ffbafdc74e30b5.jpg",
+          "fileName": "2인전 손진형 정킹 아쉬 헤이리-1.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_c4e9d9b07a8c4b4680ffbafdc74e30b5.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_c4e9d9b07a8c4b4680ffbafdc74e30b5.jpg/v1/fill/w_979,h_665,al_c,q_85,usm_0.66_1.00_0.01/092bee_c4e9d9b07a8c4b4680ffbafdc74e30b5.jpg"
+        },
+        {
+          "mediaId": "092bee_8894dced0248442d9ac63aa99f69be09.jpg",
+          "fileName": "1426351581081.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_8894dced0248442d9ac63aa99f69be09.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_8894dced0248442d9ac63aa99f69be09.jpg/v1/fill/w_979,h_653,al_c,q_85,usm_0.66_1.00_0.01/092bee_8894dced0248442d9ac63aa99f69be09.jpg"
+        },
+        {
+          "mediaId": "092bee_068aa40ef242409b9b546c93d8e070df.jpg",
+          "fileName": "1426351547391.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_068aa40ef242409b9b546c93d8e070df.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_068aa40ef242409b9b546c93d8e070df.jpg/v1/fill/w_979,h_653,al_c,q_85,usm_0.66_1.00_0.01/092bee_068aa40ef242409b9b546c93d8e070df.jpg"
+        },
+        {
+          "mediaId": "092bee_88ed6a2dd3974f779516586acf4fcb56.jpg",
+          "fileName": "1426351547391 copy.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_88ed6a2dd3974f779516586acf4fcb56.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_88ed6a2dd3974f779516586acf4fcb56.jpg/v1/fill/w_979,h_653,al_c,q_85,usm_0.66_1.00_0.01/092bee_88ed6a2dd3974f779516586acf4fcb56.jpg"
+        },
+        {
+          "mediaId": "092bee_f37a124e19054fafad1194c74709c288.jpg",
+          "fileName": "E98A3767.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_f37a124e19054fafad1194c74709c288.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_f37a124e19054fafad1194c74709c288.jpg/v1/fill/w_979,h_651,al_c,q_85,usm_0.66_1.00_0.01/092bee_f37a124e19054fafad1194c74709c288.jpg"
+        },
+        {
+          "mediaId": "092bee_6329104cf65143678ffda8b94674ee8a.jpg",
+          "fileName": "E98A3756.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_6329104cf65143678ffda8b94674ee8a.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_6329104cf65143678ffda8b94674ee8a.jpg/v1/fill/w_979,h_1467,al_c,q_85,usm_0.66_1.00_0.01/092bee_6329104cf65143678ffda8b94674ee8a.jpg"
+        },
+        {
+          "mediaId": "092bee_2b054b941922492b9862b43e4504a4a4.jpg",
+          "fileName": "E98A3766.JPG",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_2b054b941922492b9862b43e4504a4a4.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_2b054b941922492b9862b43e4504a4a4.jpg/v1/fill/w_979,h_653,al_c,q_85,usm_0.66_1.00_0.01/092bee_2b054b941922492b9862b43e4504a4a4.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_2인전 손진형 정킹 아쉬 헤이리-1.jpg",
+        "002_1426351581081.jpg",
+        "003_1426351547391.jpg",
+        "004_1426351547391 copy.jpg",
+        "005_E98A3767.JPG",
+        "006_E98A3756.JPG",
+        "007_E98A3766.JPG"
+      ]
+    },
+    {
+      "order": 23,
+      "title": "2015 춘점추선 드로잉전 그룹 ahsh 갤러리",
+      "folder": "23_2015 춘점추선 드로잉전 그룹 ahsh 갤러리",
+      "url": "https://www.jungking.com/2015-ahsh",
+      "headings": [
+        "JUNGKING"
+      ],
+      "paragraphs": [],
+      "assets": [
+        {
+          "mediaId": "092bee_fe97d085740441d8a6acd736f3159a85.jpg",
+          "fileName": "a2 copy.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_fe97d085740441d8a6acd736f3159a85.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_fe97d085740441d8a6acd736f3159a85.jpg/v1/fill/w_976,h_717,al_c,q_85,usm_0.66_1.00_0.01/092bee_fe97d085740441d8a6acd736f3159a85.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_a2 copy.jpg"
+      ]
+    },
+    {
+      "order": 24,
+      "title": "2004 전주국제영화제 지프마인드 ‘WITH ME“",
+      "folder": "24_2004 전주국제영화제 지프마인드 ‘WITH ME“",
+      "url": "https://www.jungking.com/2004-with-me",
+      "headings": [
+        "JUNGKING"
+      ],
+      "paragraphs": [],
+      "assets": [
+        {
+          "mediaId": "092bee_939e744b0a7c4f31b870be2f125ace62~mv2_d_2398_3000_s_2.jpg",
+          "fileName": "1-전주국제영화제초청작-지프마인드부분-뮤직영상.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_939e744b0a7c4f31b870be2f125ace62~mv2_d_2398_3000_s_2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_939e744b0a7c4f31b870be2f125ace62~mv2_d_2398_3000_s_2.jpg/v1/crop/x_162,y_0,w_2070,h_1761/fill/w_600,h_510,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/092bee_939e744b0a7c4f31b870be2f125ace62~mv2_d_2398_3000_s_2.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_1-전주국제영화제초청작-지프마인드부분-뮤직영상.jpg"
+      ]
+    },
+    {
+      "order": 25,
+      "title": "2004 RESFEST 영화제 서울",
+      "folder": "25_2004 RESFEST 영화제 서울",
+      "url": "https://www.jungking.com/2004-with-me-1",
+      "headings": [
+        "JUNGKING"
+      ],
+      "paragraphs": [],
+      "assets": [
+        {
+          "mediaId": "092bee_939e744b0a7c4f31b870be2f125ace62~mv2_d_2398_3000_s_2.jpg",
+          "fileName": "1-전주국제영화제초청작-지프마인드부분-뮤직영상.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/092bee_939e744b0a7c4f31b870be2f125ace62~mv2_d_2398_3000_s_2.jpg",
+          "displayUrl": "https://static.wixstatic.com/media/092bee_939e744b0a7c4f31b870be2f125ace62~mv2_d_2398_3000_s_2.jpg/v1/crop/x_162,y_2365,w_2070,h_635/fill/w_624,h_240,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/092bee_939e744b0a7c4f31b870be2f125ace62~mv2_d_2398_3000_s_2.jpg"
+        }
+      ],
+      "status": "ready",
+      "actualFiles": [
+        "001_1-전주국제영화제초청작-지프마인드부분-뮤직영상.jpg"
+      ]
+    }
+  ]
+};

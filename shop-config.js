@@ -6,7 +6,8 @@
 window.BBX_SHOP = {
     products: {
         "digital-art-pack": {
-            status: "setup",
+            status: "coming",
+            name: "LIFE IS FUN (Blue) — Digital Edition",
             checkoutUrl: ""
         }
     }
