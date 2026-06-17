@@ -21,7 +21,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=2.0">
+    <link rel="stylesheet" href="styles.css?v=3.1">
     <!-- PWA / Home Screen -->
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -44,8 +44,8 @@
             <span class="header-logo">BAD BROTHERS X</span>
         </a>
         <nav class="nav-menu luxury-nav" id="nav-menu">
-            <a href="#roster" class="nav-link">ROSTER</a>
             <a href="#releases" class="nav-link">MUSIC</a>
+            <a href="#roster" class="nav-link">ROSTER</a>
             <a href="#origin" class="nav-link">STORY</a>
             <a href="#gallery" class="nav-link">GALLERY</a>
             <a href="#shop" class="nav-link">SHOP</a>
@@ -60,7 +60,7 @@
         <section id="hero" class="hero-section luxury-hero">
             <div class="video-container luxury-video-container">
                 <video class="visual-poster luxury-poster" autoplay muted loop playsinline poster="video_poster.jpg">
-                    <source src="life_is_fun_loop.mp4" type="video/mp4">
+                    <source src="timeline.mp4" type="video/mp4">
                 </video>
             </div>
             <div class="hero-text-overlay">
@@ -69,72 +69,17 @@
             </div>
         </section>
 
-        <!-- Artists Roster Section -->
-        <section id="roster" class="roster-section luxury-roster">
-            <div class="section-header-row luxury-header-row">
-                <h2 class="section-title luxury-section-title">THE ROSTER</h2>
-                <p class="roster-intro-text">
-                    BAD BROTHERS X is an independent AI entertainment label where decades of physical pop art meet digital synthesis. Fusing the analog vision of contemporary artist JUNGKING with generative engines, we build, produce, and manage a new generation of virtual performers, custom soundtracks, and cinematic digital worlds.
-                </p>
-                <div class="particle-stage">
-                    <div class="particle-copy">
-                        <span class="particle-kicker">SEOUL — EST. 2004</span>
-                        <h3>ANALOG.<br>CONCEPTUAL.<br>ALIVE.</h3>
-                        <p>Analog pop art expanded<br>through artificial intelligence.</p>
-                    </div>
-                    <div class="canvas-container">
-                        <canvas id="digitalCanvas"></canvas>
-                    </div>
-                </div>
-            </div>
-
-            <div class="roster-list luxury-roster-list">
-                <article class="roster-row luxury-roster-row">
-                    <div class="card-image-box luxury-image-box">
-                        <img src="character_x.png" alt="CHARACTER X" loading="lazy">
-                    </div>
-                    <div class="card-info luxury-card-info">
-                        <h3 class="artist-name luxury-artist-name">CHARACTER X</h3>
-                        <span class="artist-role luxury-artist-role">VIRTUAL PERFORMER</span>
-                        <p class="luxury-artist-bio">A comical yet profoundly serious figure behind a cactus mask — first sketched on paper, now alive through AI. Born from decades of JungKing's original drawings and pop art narratives, Character X is the flagship virtual performer of BBX: singing, acting, and moving across digital stages. The embodiment of everyone who refuses to be defined by the world's rules.</p>
-                    </div>
-                </article>
-
-                <article class="roster-row luxury-roster-row">
-                    <div class="card-image-box luxury-image-box">
-                        <img src="jungking_portrait.png" alt="JUNGKING" loading="lazy">
-                    </div>
-                    <div class="card-info luxury-card-info">
-                        <h3 class="artist-name luxury-artist-name">JUNGKING</h3>
-                        <span class="artist-role luxury-artist-role">FOUNDER & ARTIST</span>
-                        <p class="luxury-artist-bio">The origin of everything. Every character, every story, every universe inside BBX began as JungKing's hand-drawn sketch on paper. 20+ years of analog pop art — exhibited at SCOPE Miami Beach, AQUA Art Miami, and major galleries across Seoul — now serves as the creative DNA powering an entire AI entertainment label.</p>
-                    </div>
-                </article>
-
-                <article class="roster-row luxury-roster-row">
-                    <div class="card-image-box luxury-image-box">
-                        <img src="88x_character.png" alt="88X" loading="lazy">
-                    </div>
-                    <div class="card-info luxury-card-info">
-                        <h3 class="artist-name luxury-artist-name">88X</h3>
-                        <span class="artist-role luxury-artist-role">HEAD OF PRODUCTION</span>
-                        <p class="luxury-artist-bio">The production mastermind of Bad Brothers X. 88X produced the debut album <em>Crazy March</em> for the "Life is Fun" universe — a raw, intense sonic statement built from JungKing's original sketches and storylines. Beyond the studio, 88X performs as a virtual actor across BBX's cinematic content. Where the analog archive meets machine, 88X is the one pressing record.</p>
-                    </div>
-                </article>
-            </div>
-        </section>
-
         <!-- Music & Releases Section -->
         <section id="releases" class="grid-section releases-section">
             <div class="section-header-row">
-                <h2 class="section-title"><span class="accent-number">02 //</span> RELEASES &amp; DEMOS</h2>
-                <p class="section-subtitle">Hear the virtual soundtracks synthesized by the 88X engine.</p>
+                <h2 class="section-title"><span class="accent-number">01 //</span> OFFICIAL RELEASE</h2>
+                <p class="section-subtitle">Watch the official video, preview the tracks, then continue into the people and source archive behind BBX.</p>
             </div>
 
             <!-- YouTube MV Feature Embed -->
             <div class="mv-embed-container">
-                <div class="mv-label"><span class="accent-number">▶</span> OFFICIAL MV — LIFE IS FUN</div>
-                <div class="mv-iframe-wrap" id="official-mv" data-youtube-id="42R7bbldoHo"></div>
+                <div class="mv-label"><span class="accent-number">▶</span> OFFICIAL MV — CRAZY MARCH</div>
+                <div class="mv-iframe-wrap" id="official-mv" data-youtube-id="HipjBHgvH7g"></div>
             </div>
 
             <!-- Official Audio Releases (Apple Music Style) -->
@@ -143,8 +88,29 @@
                     <img src="crazy_march_cover.jpg" alt="Life is Fun Album Cover" class="am-album-cover">
                     <div class="am-album-info">
                         <h2 class="am-album-title">Life is Fun</h2>
-                        <p class="am-album-artist">CHARACTERX × 88X</p>
+                        <p class="am-album-artist">CHARACTERX</p>
                         <p class="am-album-meta">2026 • 2 TRACKS</p>
+                        <div class="platform-strip" aria-label="Official streaming platforms">
+                            <p class="platform-strip-label">OFFICIALLY AVAILABLE ON MAJOR PLATFORMS</p>
+                            <div class="platform-badges">
+                                <span class="platform-badge platform-badge--spotify" aria-label="Available on Spotify">
+                                    <span>Spotify</span>
+                                </span>
+                                <span class="platform-badge platform-badge--apple" aria-label="Available on Apple Music">
+                                    <span>Apple Music</span>
+                                </span>
+                                <span class="platform-badge platform-badge--youtube" aria-label="Available on YouTube Music">
+                                    <span>YouTube Music</span>
+                                </span>
+                                <span class="platform-badge platform-badge--instagram" aria-label="Available on Instagram">
+                                    <span>Instagram</span>
+                                </span>
+                                <span class="platform-badge platform-badge--tiktok" aria-label="Available on TikTok">
+                                    <span>TikTok</span>
+                                </span>
+                            </div>
+                            <p class="platform-search-note">Search "CHARACTERX" on your music platform.</p>
+                        </div>
                     </div>
                 </div>
                 
@@ -161,8 +127,11 @@
                             </div>
                         </div>
                         <div class="am-track-right">
-                            <a href="#" class="am-spotify-link" onclick="alert('Spotify link will be available soon.'); return false;">
+                            <a href="https://open.spotify.com/album/76Bql9DOW9fOINHeLyqYqX" class="am-stream-link" target="_blank" rel="noopener">
                                 <i data-feather="external-link"></i> Spotify
+                            </a>
+                            <a href="https://music.apple.com/kr/album/life-is-fun-single/6780744474" class="am-stream-link" target="_blank" rel="noopener">
+                                <i data-feather="music"></i> Apple Music
                             </a>
                         </div>
                     </div>
@@ -179,8 +148,11 @@
                             </div>
                         </div>
                         <div class="am-track-right">
-                            <a href="#" class="am-spotify-link" onclick="alert('Spotify link will be available soon.'); return false;">
+                            <a href="https://open.spotify.com/album/76Bql9DOW9fOINHeLyqYqX" class="am-stream-link" target="_blank" rel="noopener">
                                 <i data-feather="external-link"></i> Spotify
+                            </a>
+                            <a href="https://music.apple.com/kr/album/life-is-fun-single/6780744474" class="am-stream-link" target="_blank" rel="noopener">
+                                <i data-feather="music"></i> Apple Music
                             </a>
                         </div>
                     </div>
@@ -272,6 +244,63 @@
             </div>
             -->
         </section>
+
+
+        <!-- Artists Roster Section -->
+        <section id="roster" class="roster-section luxury-roster">
+            <div class="section-header-row luxury-header-row">
+                <h2 class="section-title luxury-section-title">THE ROSTER</h2>
+                <p class="roster-intro-text">
+                    BAD BROTHERS X is an independent AI entertainment label where decades of physical pop art meet digital synthesis. Fusing the analog vision of contemporary artist JUNGKING with generative engines, we build, produce, and manage a new generation of virtual performers, custom soundtracks, and cinematic digital worlds.
+                </p>
+                <div class="particle-stage">
+                    <div class="particle-copy">
+                        <span class="particle-kicker">SEOUL — EST. 2004</span>
+                        <h3>ANALOG.<br>CONCEPTUAL.<br>ALIVE.</h3>
+                        <p>Analog pop art expanded<br>through artificial intelligence.</p>
+                    </div>
+                    <div class="canvas-container">
+                        <canvas id="digitalCanvas"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="roster-list luxury-roster-list">
+                <article class="roster-row luxury-roster-row">
+                    <div class="card-image-box luxury-image-box">
+                        <img src="character_x.png" alt="CHARACTER X" loading="lazy">
+                    </div>
+                    <div class="card-info luxury-card-info">
+                        <h3 class="artist-name luxury-artist-name">CHARACTER X</h3>
+                        <span class="artist-role luxury-artist-role">VIRTUAL PERFORMER</span>
+                        <p class="luxury-artist-bio">A comical yet profoundly serious figure behind a cactus mask — first sketched on paper, now alive through AI. Born from decades of JungKing's original drawings and pop art narratives, Character X is the flagship virtual performer of BBX: singing, acting, and moving across digital stages. The embodiment of everyone who refuses to be defined by the world's rules.</p>
+                    </div>
+                </article>
+
+                <article class="roster-row luxury-roster-row">
+                    <div class="card-image-box luxury-image-box">
+                        <img src="jungking_portrait.png" alt="JUNGKING" loading="lazy">
+                    </div>
+                    <div class="card-info luxury-card-info">
+                        <h3 class="artist-name luxury-artist-name">JUNGKING</h3>
+                        <span class="artist-role luxury-artist-role">FOUNDER & ARTIST</span>
+                        <p class="luxury-artist-bio">The origin of everything. Every character, every story, every universe inside BBX began as JungKing's hand-drawn sketch on paper. 20+ years of analog pop art — exhibited at SCOPE Miami Beach, AQUA Art Miami, and major galleries across Seoul — now serves as the creative DNA powering an entire AI entertainment label.</p>
+                    </div>
+                </article>
+
+                <article class="roster-row luxury-roster-row">
+                    <div class="card-image-box luxury-image-box">
+                        <img src="88x_character.png" alt="88X" loading="lazy">
+                    </div>
+                    <div class="card-info luxury-card-info">
+                        <h3 class="artist-name luxury-artist-name">88X</h3>
+                        <span class="artist-role luxury-artist-role">HEAD OF PRODUCTION</span>
+                        <p class="luxury-artist-bio">The production mastermind of Bad Brothers X. 88X produced the debut album <em>Crazy March</em> for the "Life is Fun" universe — a raw, intense sonic statement built from JungKing's original sketches and storylines. Beyond the studio, 88X performs as a virtual actor across BBX's cinematic content. Where the analog archive meets machine, 88X is the one pressing record.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
 
         <!-- Origin Story Section -->
         <section id="origin" class="grid-section origin-section">
@@ -652,7 +681,7 @@
         <div class="footer-top">
             <span class="copyright">© 2026 BAD BROTHERS X. ALL RIGHTS RESERVED.</span>
             <div class="footer-social">
-                <a href="https://youtu.be/42R7bbldoHo" target="_blank" class="social-icon-link" aria-label="YouTube">
+                <a href="https://youtu.be/HipjBHgvH7g" target="_blank" class="social-icon-link" aria-label="YouTube">
                     <i data-feather="youtube"></i>
                 </a>
                 <a href="https://www.instagram.com/xjungking" target="_blank" class="social-icon-link" aria-label="Instagram">

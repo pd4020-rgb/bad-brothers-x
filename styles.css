@@ -281,6 +281,67 @@ body {
     letter-spacing: 0.5px;
 }
 
+.platform-strip {
+    margin-top: 18px;
+    max-width: 520px;
+}
+
+.platform-strip-label,
+.platform-search-note {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.48);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+
+.platform-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin-top: 10px;
+}
+
+.platform-badge {
+    display: inline-flex;
+    align-items: center;
+    min-height: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.68);
+    cursor: default;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: none;
+}
+
+.platform-badge:not(:last-child)::after {
+    content: "/";
+    margin: 0 9px;
+    color: rgba(255, 255, 255, 0.26);
+}
+
+.platform-badge:hover {
+    border-color: transparent;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.68);
+}
+
+.platform-search-note {
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.42);
+    font-size: 0.66rem;
+    letter-spacing: 0.1em;
+}
+
 @media (max-width: 768px) {
     .am-album-header {
         flex-direction: column;
@@ -290,6 +351,15 @@ body {
     .am-album-cover {
         width: 260px;
         height: 260px;
+    }
+    .platform-strip {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .platform-badges {
+        justify-content: center;
+        row-gap: 8px;
     }
 }
 
@@ -379,8 +449,12 @@ body {
 .am-track-right {
     display: flex;
     align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
+.am-stream-link,
 .am-spotify-link {
     font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
     font-size: 0.8rem;
@@ -396,6 +470,7 @@ body {
     transition: all 0.2s ease;
 }
 
+.am-stream-link:hover,
 .am-spotify-link:hover {
     background: rgba(255,255,255,0.1);
 }
@@ -409,10 +484,16 @@ body {
     }
     .am-track-right {
         width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
     }
+    .am-stream-link,
     .am-spotify-link {
         width: 100%;
         justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
@@ -4245,5 +4326,518 @@ select {
         margin-top: 22px;
         font-size: 0.82rem;
         line-height: 1.55;
+    }
+}
+
+/* Mobile persistent top navigation.
+   Keeps section links visible during long scrolling without reopening a drawer. */
+@media (max-width: 992px) {
+    .site-header.luxury-header {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 0 !important;
+        padding: max(12px, env(safe-area-inset-top)) 0 0 !important;
+        background: rgba(0, 0, 0, 0.96) !important;
+        border-bottom: 0 !important;
+        z-index: 3000 !important;
+    }
+
+    .site-header.luxury-header .header-brand {
+        width: 100%;
+        padding: 0 18px 12px;
+        gap: 14px;
+        min-width: 0;
+    }
+
+    .site-header.luxury-header .header-image-logo {
+        height: 54px;
+        margin: -10px 0;
+        flex: 0 0 auto;
+    }
+
+    .site-header.luxury-header .header-logo {
+        font-size: clamp(1.05rem, 5vw, 1.32rem);
+        letter-spacing: 0.22em;
+        line-height: 1;
+        white-space: nowrap;
+    }
+
+    .site-header.luxury-header .luxury-nav {
+        display: flex !important;
+        position: static !important;
+        width: 100% !important;
+        max-width: none !important;
+        height: auto !important;
+        min-height: 42px;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: flex-end !important;
+        gap: 18px !important;
+        padding: 0 18px 12px !important;
+        background: transparent !important;
+        border: 0 !important;
+        box-shadow: none !important;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        transform: none !important;
+        transition: none !important;
+    }
+
+    .site-header.luxury-header .luxury-nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    .site-header.luxury-header .luxury-nav::before {
+        display: none !important;
+    }
+
+    .site-header.luxury-header .luxury-nav .nav-link {
+        width: auto !important;
+        flex: 0 0 auto;
+        padding: 8px 0 !important;
+        border: 0 !important;
+        border-radius: 0 !important;
+        color: rgba(255, 255, 255, 0.78);
+        background: transparent !important;
+        font-family: "Arial Black", "Inter", -apple-system, BlinkMacSystemFont, sans-serif !important;
+        font-size: 0.72rem !important;
+        font-weight: 900 !important;
+        letter-spacing: 0.16em !important;
+        line-height: 1;
+        text-transform: uppercase;
+        -webkit-font-smoothing: antialiased;
+        white-space: nowrap;
+    }
+
+    .site-header.luxury-header .luxury-nav .nav-link.active,
+    .site-header.luxury-header .luxury-nav .nav-link:hover {
+        color: #ffffff !important;
+        border: 0 !important;
+        background: transparent !important;
+    }
+
+    .luxury-hybrid-content {
+        padding-top: 116px !important;
+    }
+
+    section[id] {
+        scroll-margin-top: 128px;
+    }
+
+    .luxury-roster {
+        padding: 48px 18px 64px !important;
+    }
+
+    .luxury-roster .luxury-header-row {
+        margin-bottom: 34px !important;
+    }
+
+    .luxury-roster-list {
+        gap: 54px !important;
+    }
+
+    .luxury-roster-row {
+        gap: 18px !important;
+        align-items: start !important;
+    }
+
+    .luxury-card-info {
+        padding: 0 2px !important;
+    }
+
+    .luxury-image-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .luxury-image-box img {
+        width: min(100%, 420px) !important;
+        max-height: min(56vh, 520px) !important;
+        object-fit: contain !important;
+    }
+
+    .luxury-artist-name {
+        margin-bottom: 10px !important;
+        font-size: clamp(2.4rem, 11vw, 4rem) !important;
+        letter-spacing: -0.07em !important;
+        line-height: 0.95 !important;
+    }
+
+    .luxury-artist-role {
+        font-size: 0.68rem !important;
+        letter-spacing: 0.22em !important;
+        line-height: 1.3 !important;
+    }
+
+    .luxury-artist-bio {
+        margin-top: 16px !important;
+        font-size: 0.9rem !important;
+        line-height: 1.58 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-header.luxury-header .header-brand {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .site-header.luxury-header .header-image-logo {
+        height: 50px;
+    }
+
+    .site-header.luxury-header .header-logo {
+        font-size: clamp(0.95rem, 4.5vw, 1.15rem);
+        letter-spacing: 0.18em;
+    }
+
+    .site-header.luxury-header .luxury-nav {
+        gap: 16px !important;
+        justify-content: flex-end !important;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+
+    .site-header.luxury-header .luxury-nav .nav-link {
+        font-size: 0.66rem !important;
+        padding: 8px 0 !important;
+    }
+
+    .luxury-hybrid-content {
+        padding-top: 108px !important;
+    }
+
+    section[id] {
+        scroll-margin-top: 120px;
+    }
+
+    .luxury-roster {
+        padding: 34px 14px 52px !important;
+    }
+
+    .luxury-roster .luxury-header-row {
+        margin-bottom: 26px !important;
+    }
+
+    .roster-intro-text {
+        margin-top: 16px !important;
+        font-size: 0.86rem !important;
+        line-height: 1.52 !important;
+    }
+
+    .luxury-roster-list {
+        gap: 42px !important;
+    }
+
+    .luxury-roster-row {
+        gap: 14px !important;
+    }
+
+    .luxury-image-box img {
+        width: min(100%, 360px) !important;
+        max-height: min(48vh, 430px) !important;
+    }
+
+    .luxury-artist-name {
+        margin-bottom: 8px !important;
+        font-size: clamp(2.1rem, 12vw, 3.15rem) !important;
+    }
+
+    .luxury-artist-bio {
+        margin-top: 13px !important;
+        font-size: 0.84rem !important;
+        line-height: 1.5 !important;
+    }
+}
+
+@media (max-height: 500px) and (orientation: landscape) {
+    .site-header.luxury-header {
+        padding-top: 8px !important;
+    }
+
+    .site-header.luxury-header .header-brand {
+        padding-bottom: 8px;
+    }
+
+    .site-header.luxury-header .header-image-logo {
+        height: 42px;
+    }
+
+    .site-header.luxury-header .header-logo {
+        font-size: 0.95rem;
+    }
+
+    .site-header.luxury-header .luxury-nav {
+        min-height: 34px;
+        padding-bottom: 8px !important;
+    }
+
+    .site-header.luxury-header .luxury-nav .nav-link {
+        font-size: 0.6rem !important;
+        padding: 7px 0 !important;
+    }
+
+    .luxury-hybrid-content {
+        padding-top: 92px !important;
+    }
+
+    section[id] {
+        scroll-margin-top: 104px;
+    }
+
+    .luxury-roster {
+        padding-top: 28px !important;
+        padding-bottom: 42px !important;
+    }
+
+    .luxury-roster-list {
+        gap: 34px !important;
+    }
+
+    .luxury-roster-row {
+        grid-template-columns: 0.82fr 1fr !important;
+        gap: 18px !important;
+        align-items: center !important;
+    }
+
+    .luxury-image-box img {
+        max-height: 62vh !important;
+    }
+
+    .luxury-artist-name {
+        font-size: clamp(1.9rem, 8vw, 3rem) !important;
+    }
+
+    .luxury-artist-bio {
+        font-size: 0.78rem !important;
+        line-height: 1.42 !important;
+    }
+}
+
+/* Final grid containment pass: keep roster copy and artwork cards inside their columns. */
+.luxury-roster,
+.luxury-roster-list,
+.luxury-roster-row,
+.luxury-card-info,
+.gallery-section,
+.gallery-grid,
+.gallery-item,
+.art-frame,
+.art-meta-desc {
+    max-width: 100%;
+    min-width: 0;
+}
+
+.luxury-card-info,
+.art-meta-desc {
+    overflow-wrap: anywhere;
+}
+
+.luxury-artist-name {
+    max-width: 100% !important;
+    overflow-wrap: anywhere;
+    text-wrap: balance;
+}
+
+.luxury-artist-bio,
+.roster-intro-text {
+    max-width: 100% !important;
+    overflow-wrap: break-word;
+}
+
+.gallery-grid {
+    width: 100%;
+    align-items: start;
+}
+
+.gallery-item {
+    overflow: hidden;
+}
+
+.art-frame {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto minmax(0, 1fr);
+    gap: 10px;
+    padding: 12px;
+    align-items: center;
+    justify-items: center;
+    justify-content: stretch;
+}
+
+.art-num-tag {
+    position: static;
+    justify-self: start;
+    max-width: 100%;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    color: #8a8f8d;
+    font-size: 0.66rem;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.14em;
+    white-space: nowrap;
+    z-index: auto;
+}
+
+.art-frame .gallery-img {
+    position: static;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100%;
+    min-height: 0;
+    padding: 0 !important;
+    object-fit: contain !important;
+    background: transparent !important;
+}
+
+.art-meta-desc h4,
+.art-meta-desc span {
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
+@media (min-width: 993px) {
+    .luxury-roster-row {
+        min-width: 0;
+    }
+
+    .luxury-artist-name {
+        font-size: clamp(3rem, 4.6vw, 5.8rem) !important;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 992px) {
+    .site-header.luxury-header .luxury-nav .nav-link {
+        font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif !important;
+        font-weight: 700 !important;
+        letter-spacing: 0.18em !important;
+    }
+
+    .luxury-roster {
+        width: 100% !important;
+        padding-left: 18px !important;
+        padding-right: 18px !important;
+        overflow-x: hidden;
+    }
+
+    .luxury-roster-row {
+        width: 100%;
+        grid-template-columns: minmax(0, 1fr) !important;
+        justify-items: center !important;
+    }
+
+    .luxury-image-box,
+    .luxury-card-info {
+        width: min(100%, 420px) !important;
+        max-width: 420px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .luxury-image-box img {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .luxury-card-info {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        overflow: visible;
+    }
+
+    .luxury-artist-name {
+        font-size: clamp(2.15rem, 9.4vw, 3.8rem) !important;
+        line-height: 0.98 !important;
+        letter-spacing: -0.065em !important;
+    }
+
+    .gallery-section {
+        width: 100% !important;
+        padding-left: 18px !important;
+        padding-right: 18px !important;
+        overflow-x: hidden;
+    }
+
+    .gallery-grid {
+        grid-template-columns: minmax(0, 1fr) !important;
+        gap: 34px !important;
+    }
+
+    .art-frame {
+        width: 100%;
+        aspect-ratio: 1.05 / 1;
+        padding: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-header.luxury-header .luxury-nav .nav-link {
+        font-size: 0.64rem !important;
+        font-weight: 700 !important;
+        letter-spacing: 0.17em !important;
+    }
+
+    .luxury-roster {
+        padding-left: 14px !important;
+        padding-right: 14px !important;
+    }
+
+    .luxury-image-box,
+    .luxury-card-info {
+        width: min(100%, 360px) !important;
+        max-width: 360px !important;
+    }
+
+    .luxury-artist-name {
+        font-size: clamp(1.72rem, 8.8vw, 2.45rem) !important;
+        letter-spacing: -0.055em !important;
+    }
+
+    .luxury-artist-bio {
+        font-size: 0.82rem !important;
+        line-height: 1.48 !important;
+    }
+
+    .gallery-section {
+        padding-left: 14px !important;
+        padding-right: 14px !important;
+    }
+
+    .gallery-item {
+        gap: 14px;
+    }
+
+    .art-frame {
+        aspect-ratio: 1 / 1;
+        padding: 12px;
+    }
+
+    .art-num-tag {
+        font-size: 0.6rem;
+    }
+
+    .art-meta-desc h4 {
+        font-size: 1rem;
+        line-height: 1.25;
+    }
+
+    .art-meta-desc span {
+        font-size: 0.76rem;
+        line-height: 1.35;
     }
 }
