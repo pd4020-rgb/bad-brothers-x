@@ -442,3 +442,31 @@ To prevent the channel from looking empty before the main traffic hits, a Welcom
 1. Await 24-hour YouTube verification for clickable external links in Shorts comments.
 2. Continually chop the main Official MV into 15-second Shorts, appending the analog sketch transition to the front of each.
 3. Use the "Related Video" feature on Shorts to funnel traffic directly to the main MV.
+
+## Day 2 Launch Execution Record (2026-06-18)
+
+### 1. Narrative Expansion: "Happy Heart" & "Your Song"
+The BBX universe expanded from the original *Life is Fun: Happy Heart Mint* canvas artwork to introduce a new character: **Happy Heart** (a doll-like Pomeranian).
+- **Music Integration:** Introduced the new track "Your Song" (a sweeter, acoustic melody) with JUNGKING personally composing the melody and lyrics to tell the story of the everyday life between Cactus CHARACTER X and Happy Heart.
+- **Visual Strategy:** Stepping out of the canvas / the universe expanding. Emphasized "Endless sketches and AI visual experiments" to differentiate from one-click AI content.
+
+### 2. Instagram Reels vs. YouTube Shorts Copy Strategy
+Separated the copywriting strategy based on platform behavior:
+
+**YouTube Shorts Version (SEO & Backstory focus):**
+- **Title:** When CHARACTER X Met Happy Heart 🐶 "Your Song" #shorts
+- **Description:** Focuses heavily on the backstory. Quotes lyrics: *"Every morning I’m running to you / Holding coffee in my hands for you / That’s how we start another day together..."* Includes direct links to the official MV and the website.
+- **Pinned Comment:** *"This is my story for you. This is a song for you."* 🌵🐶 How do you like our new track, "Your Song"? Watch the original MV here: [link]
+
+**Instagram Reels Version (Punchy & Aesthetic focus):**
+- Dropped the title. Maximized hashtags (`#contemporaryart #virtualartist #surrealism`, etc.).
+- Replaced clickable description links with the standard "Tap the link in bio to experience the full universe."
+
+### 3. Cover Art Album Post Strategy
+For static Instagram feed posts (like Album Cover Art), the text is heavily condensed to feel like a high-end gallery release:
+> **"Your Song" (feat. Happy Heart) — Official Cover Art 🎨⚡️**
+> The *Life is Fun* universe expands.
+> The fateful meeting of Cactus CHARACTER X and "Happy Heart".
+> A new melody. A new story.
+> 🌐 Tap the link in bio to experience the full MV.
+> #yoursong #albumcover #pomeranian ...
